@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "label": "Home",
+    "description": "Main landing page"
+  },
+  "hero": {
+    "badge": "Digital platform",
+    "title": "A complete platform for your digital business",
+    "subtitle": "Design, development, marketing and consulting in one place to grow your brand.",
+    "cta": "View services"
+  },
+  "features": {
+    "title": "Everything you need",
+    "items": [
+      { "title": "Web development", "text": "Fast, modern and scalable sites and apps." },
+      { "title": "Graphic design", "text": "Visual identity that connects with your audience." },
+      { "title": "Digital marketing", "text": "Strategies to attract and retain customers." },
+      { "title": "Consulting", "text": "Expert guidance to make better decisions." },
+      { "title": "Ongoing support", "text": "We're with you at every stage of your project." },
+      { "title": "Measurable results", "text": "Clear reports to track real progress." }
+    ]
+  },
+  "process": {
+    "title": "How it works",
+    "steps": [
+      { "title": "Tell us your idea", "text": "We talk about your goals and needs." },
+      { "title": "We design a plan", "text": "We craft a proposal tailored to you." },
+      { "title": "We bring it to life", "text": "We develop and deliver your project." },
+      { "title": "We stay with you", "text": "We provide follow-up and ongoing support." }
+    ]
+  },
+  "cta": {
+    "title": "Ready to grow your business?",
+    "subtitle": "Request your project today and let's start working together.",
+    "button": "Request now"
+  },
+  "sections": {
+    "title": "Explore more",
+    "home": "Home",
+    "about": "About us",
+    "portfolio": "Services",
+    "order": "Orders",
+    "contact": "Contact",
+    "account": "My account"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "label": "Servicios",
+    "description": "Catálogo de servicios y precios"
+  },
+  "hero": {
+    "badge": "Catálogo de servicios",
+    "title": "Nuestros servicios",
+    "subtitle": "Soluciones a tu medida para llevar tu negocio al siguiente nivel.",
+    "stats": [
+      { "value": "50+", "label": "Proyectos" },
+      { "value": "100%", "label": "Clientes satisfechos" },
+      { "value": "3+", "label": "Años de experiencia" }
+    ]
+  },
+  "services": {
+    "items": [
+      {
+        "name": "Desarrollo web",
+        "priceRange": "$1,200 – $3,500",
+        "description": "Sitios web y aplicaciones a medida, rápidos y escalables."
+      },
+      {
+        "name": "Diseño gráfico",
+        "priceRange": "$450 – $1,200",
+        "description": "Identidad visual, branding y materiales gráficos profesionales."
+      },
+      {
+        "name": "Marketing digital",
+        "priceRange": "$650 – $2,000",
+        "description": "Campañas y estrategias para crecer tu presencia digital."
+      },
+      {
+        "name": "Consultoría",
+        "priceRange": "$320 – $800/mes",
+        "description": "Acompañamiento estratégico continuo para tu negocio."
+      }
+    ],
+    "cta": "Solicitar"
+  }
+}

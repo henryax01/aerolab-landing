@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "label": "Mi cuenta",
+    "description": "Inicio de sesión, registro y panel de usuario"
+  },
+  "tabs": {
+    "login": "Iniciar sesión",
+    "register": "Crear cuenta"
+  },
+  "login": {
+    "title": "Bienvenido de nuevo",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Entrar",
+    "error": "Credenciales incorrectas.",
+    "forgotPassword": "¿Olvidaste tu contraseña?"
+  },
+  "forgotPassword": {
+    "title": "Recupera tu contraseña",
+    "subtitle": "Escribe tu correo y te enviaremos un enlace para restablecerla.",
+    "email": "Correo electrónico",
+    "submit": "Enviar enlace",
+    "backToLogin": "Volver a iniciar sesión"
+  },
+  "resetPassword": {
+    "title": "Crea una nueva contraseña",
+    "password": "Nueva contraseña",
+    "confirmPassword": "Confirma la contraseña",
+    "mismatch": "Las contraseñas no coinciden.",
+    "submit": "Guardar contraseña"
+  },
+  "verification": {
+    "pendingTitle": "Confirma tu correo electrónico",
+    "pendingSubtitle": "Revisa tu bandeja de entrada y haz clic en el enlace de verificación que te enviamos.",
+    "resend": "Reenviar correo de verificación"
+  },
+  "register": {
+    "title": "Crea tu cuenta",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Registrarme",
+    "error": "No se pudo crear la cuenta."
+  },
+  "session": {
+    "greeting": "Hola, {{name}}",
+    "role": "Rol",
+    "logout": "Cerrar sesión"
+  },
+  "orders": {
+    "title": "Mis pedidos",
+    "empty": "Todavía no tienes pedidos.",
+    "service": "Servicio",
+    "quantity": "Cantidad",
+    "total": "Total",
+    "status": "Estado",
+    "date": "Fecha",
+    "filterByStatus": "Filtrar por estado",
+    "allStatuses": "Todos los estados"
+  },
+  "admin": {
+    "title": "Panel de administración",
+    "subtitle": "Gestiona los pedidos de todos los clientes.",
+    "customer": "Cliente",
+    "service": "Servicio",
+    "total": "Total",
+    "status": "Estado",
+    "tracking": "Número de seguimiento",
+    "update": "Actualizar",
+    "updated": "Pedido actualizado correctamente.",
+    "export": "Exportar a CSV",
+    "searchPlaceholder": "Buscar por cliente, correo o servicio…",
+    "totalResults": "{{count}} pedido encontrado",
+    "totalResults_other": "{{count}} pedidos encontrados"
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "pageOf": "Página {{page}} de {{totalPages}}"
+  },
+  "coupons": {
+    "title": "Cupones de descuento",
+    "subtitle": "Crea y administra los códigos de descuento disponibles para los pedidos.",
+    "code": "Código",
+    "type": "Tipo",
+    "value": "Valor",
+    "status": "Estado",
+    "typePercentage": "Porcentaje",
+    "typeFixed": "Monto fijo",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "create": "Crear cupón",
+    "codePlaceholder": "Ej. PROMO10",
+    "valuePercentagePlaceholder": "Ej. 10 (%)",
+    "valueFixedPlaceholder": "Ej. 50 ($)",
+    "activate": "Activar",
+    "deactivate": "Desactivar",
+    "delete": "Eliminar",
+    "confirmDelete": "¿Seguro que deseas eliminar este cupón?",
+    "empty": "Todavía no hay cupones creados.",
+    "created": "Cupón creado correctamente.",
+    "updated": "Cupón actualizado correctamente.",
+    "deleted": "Cupón eliminado correctamente."
+  },
+  "twoFactor": {
+    "verify": {
+      "title": "Verificación en dos pasos",
+      "subtitle": "Ingresa el código de tu app de autenticación o uno de tus códigos de respaldo.",
+      "code": "Código de verificación",
+      "submit": "Verificar",
+      "back": "Volver a iniciar sesión"
+    },
+    "settings": {
+      "title": "Verificación en dos pasos",
+      "enabledBadge": "Activada",
+      "disabledBadge": "Desactivada",
+      "enabledSubtitle": "Tu cuenta está protegida con un código adicional al iniciar sesión.",
+      "disabledSubtitle": "Agrega una capa extra de seguridad pidiendo un código de tu app de autenticación al iniciar sesión.",
+      "enable": "Activar verificación en dos pasos",
+      "disable": "Desactivar verificación en dos pasos",
+      "cancel": "Cancelar",
+      "setupTitle": "Escanea el código QR",
+      "setupInstructions": "Usa una app como Google Authenticator o Authy para escanear este código, o ingresa la clave manualmente.",
+      "manualEntry": "Clave manual",
+      "confirmCode": "Código de confirmación",
+      "confirmSubmit": "Confirmar y activar",
+      "backupCodesTitle": "Guarda tus códigos de respaldo",
+      "backupCodesSubtitle": "Úsalos si pierdes acceso a tu app de autenticación. Cada código solo funciona una vez.",
+      "downloadCodes": "Descargar códigos",
+      "done": "Listo",
+      "disableInstructions": "Ingresa un código de tu app de autenticación o uno de respaldo para confirmar que deseas desactivarla.",
+      "confirmDisable": "Desactivar"
+    }
+  }
+}

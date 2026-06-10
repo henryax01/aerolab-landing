@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "label": "Inicio",
+    "description": "Página principal de presentación"
+  },
+  "hero": {
+    "badge": "Plataforma digital",
+    "title": "Plataforma completa para tu negocio digital",
+    "subtitle": "Diseño, desarrollo, marketing y consultoría en un solo lugar para hacer crecer tu marca.",
+    "cta": "Ver servicios"
+  },
+  "features": {
+    "title": "Todo lo que necesitas",
+    "items": [
+      { "title": "Desarrollo web", "text": "Sitios y aplicaciones rápidas, modernas y escalables." },
+      { "title": "Diseño gráfico", "text": "Identidad visual que conecta con tu audiencia." },
+      { "title": "Marketing digital", "text": "Estrategias para atraer y fidelizar clientes." },
+      { "title": "Consultoría", "text": "Acompañamiento experto para tomar mejores decisiones." },
+      { "title": "Soporte continuo", "text": "Estamos contigo en cada etapa de tu proyecto." },
+      { "title": "Resultados medibles", "text": "Reportes claros para ver el progreso real." }
+    ]
+  },
+  "process": {
+    "title": "Cómo funciona",
+    "steps": [
+      { "title": "Cuéntanos tu idea", "text": "Hablamos sobre tus objetivos y necesidades." },
+      { "title": "Diseñamos un plan", "text": "Creamos una propuesta a tu medida." },
+      { "title": "Lo hacemos realidad", "text": "Desarrollamos y entregamos tu proyecto." },
+      { "title": "Te acompañamos", "text": "Damos seguimiento y soporte continuo." }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para impulsar tu negocio?",
+    "subtitle": "Solicita tu proyecto hoy mismo y empecemos a trabajar juntos.",
+    "button": "Solicitar ahora"
+  },
+  "sections": {
+    "title": "Explora más",
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "portfolio": "Servicios",
+    "order": "Pedidos",
+    "contact": "Contacto",
+    "account": "Mi cuenta"
+  }
+}

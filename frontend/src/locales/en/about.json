@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "label": "About",
+    "description": "Who we are and what drives us"
+  },
+  "hero": {
+    "badge": "Our story",
+    "title": "About us",
+    "subtitle": "A team passionate about helping businesses grow in the digital world."
+  },
+  "story": {
+    "title": "Our story",
+    "paragraphs": [
+      "We started with the idea of simplifying how companies build their digital presence, combining design, technology and strategy in a single team.",
+      "Over the years we've helped entrepreneurs and companies of all sizes launch projects, improve their image and connect better with their customers.",
+      "We believe in close collaboration, clear communication and measurable results: that's why every project is treated as if it were our own."
+    ]
+  },
+  "values": {
+    "title": "What defines us",
+    "items": [
+      { "title": "Commitment", "text": "We get deeply involved in every project." },
+      { "title": "Quality", "text": "We take care of every detail of the final result." },
+      { "title": "Closeness", "text": "We speak clearly and support the whole process." }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "label": "Nosotros",
+    "description": "Quiénes somos y qué nos mueve"
+  },
+  "hero": {
+    "badge": "Nuestra historia",
+    "title": "Sobre nosotros",
+    "subtitle": "Un equipo apasionado por ayudar a negocios a crecer en el mundo digital."
+  },
+  "story": {
+    "title": "Nuestra historia",
+    "paragraphs": [
+      "Nacimos con la idea de simplificar la manera en que las empresas construyen su presencia digital, combinando diseño, tecnología y estrategia en un solo equipo.",
+      "A lo largo de los años hemos acompañado a emprendedores y empresas de distintos tamaños a lanzar proyectos, mejorar su imagen y conectar mejor con sus clientes.",
+      "Creemos en el trabajo cercano, la comunicación clara y los resultados medibles: por eso cada proyecto se trata como si fuera nuestro."
+    ]
+  },
+  "values": {
+    "title": "Lo que nos define",
+    "items": [
+      { "title": "Compromiso", "text": "Nos involucramos a fondo en cada proyecto." },
+      { "title": "Calidad", "text": "Cuidamos cada detalle del resultado final." },
+      { "title": "Cercanía", "text": "Hablamos claro y acompañamos todo el proceso." }
+    ]
+  }
+}

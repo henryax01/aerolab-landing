@@ -1,0 +1,53 @@
+{
+  "section": {
+    "badge": "Interactive experience",
+    "title": "Explore in 3D",
+    "subtitle": "An interactive experience: move your cursor over the shapes and let our guide show you around.",
+    "loading": "Loading 3D experience..."
+  },
+  "bot": {
+    "name": "Ada, your guide",
+    "greeting": "Hi! I'm here to help you explore 👋",
+    "restart": "Start over",
+    "nodes": {
+      "intro": {
+        "text": "Welcome to our interactive corner! Move your mouse over the shapes to see them react. What would you like to discover?",
+        "options": [
+          { "label": "What do these shapes represent?", "next": "shapes" },
+          { "label": "I want to see your services", "next": "services" },
+          { "label": "How do I place an order?", "next": "order" }
+        ]
+      },
+      "shapes": {
+        "text": "Each shape represents one of our specialties: web development, marketing, design and consulting. Get closer and play with them!",
+        "options": [
+          { "label": "I want to see your services", "next": "services" },
+          { "label": "Back to start", "next": "intro" }
+        ]
+      },
+      "services": {
+        "text": "We have four service lines with clear pricing: web development, graphic design, digital marketing and consulting.",
+        "options": [
+          { "label": "View all services", "next": "services", "link": "/portfolio" },
+          { "label": "Tell me about orders instead", "next": "order" },
+          { "label": "Back to start", "next": "intro" }
+        ]
+      },
+      "order": {
+        "text": "Placing an order is simple: pick a service, fill in your details, and pay securely with your card. All in one place.",
+        "options": [
+          { "label": "Go to orders", "next": "order", "link": "/order" },
+          { "label": "I'd rather contact them first", "next": "contact" },
+          { "label": "Back to start", "next": "intro" }
+        ]
+      },
+      "contact": {
+        "text": "Happy to help! You can write to us through the contact form or call us directly. We reply quickly 😊",
+        "options": [
+          { "label": "Go to contact", "next": "contact", "link": "/contact" },
+          { "label": "Back to start", "next": "intro" }
+        ]
+      }
+    }
+  }
+}

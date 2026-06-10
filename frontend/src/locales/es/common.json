@@ -1,0 +1,63 @@
+{
+  "brand": "Aerolab",
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "portfolio": "Servicios",
+    "order": "Pedidos",
+    "contact": "Contacto",
+    "account": "Mi cuenta"
+  },
+  "actions": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "back": "Volver",
+    "request": "Solicitar"
+  },
+  "nav_aria": {
+    "mainNav": "Navegación principal",
+    "mobileNav": "Navegación móvil",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación"
+  },
+  "search": {
+    "label": "Buscar en el sitio",
+    "placeholder": "Buscar páginas y servicios…",
+    "clear": "Limpiar búsqueda",
+    "resultsLabel": "Resultados de búsqueda",
+    "noResults": "No se encontraron resultados para «{{query}}»."
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "toggleLabel": "Notificaciones, {{count}} sin leer",
+    "toggleLabelEmpty": "Notificaciones",
+    "empty": "No tienes notificaciones.",
+    "markAllRead": "Marcar todo como leído",
+    "orderStatusMessage": "Tu pedido de {{product}} ahora está {{status}}."
+  },
+  "theme": {
+    "light": "Tema claro",
+    "dark": "Tema oscuro",
+    "toggle": "Cambiar tema"
+  },
+  "lang": {
+    "es": "Español",
+    "en": "Inglés",
+    "toggle": "Cambiar idioma"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "tagline": "Plataforma completa para tu negocio digital."
+  },
+  "status": {
+    "pending": "Pendiente",
+    "confirmed": "Confirmado",
+    "shipped": "Enviado",
+    "delivered": "Entregado",
+    "cancelled": "Cancelado"
+  }
+}

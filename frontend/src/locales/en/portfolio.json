@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "label": "Services",
+    "description": "Service catalog and pricing"
+  },
+  "hero": {
+    "badge": "Service catalog",
+    "title": "Our services",
+    "subtitle": "Tailored solutions to take your business to the next level.",
+    "stats": [
+      { "value": "50+", "label": "Projects" },
+      { "value": "100%", "label": "Satisfied clients" },
+      { "value": "3+", "label": "Years of experience" }
+    ]
+  },
+  "services": {
+    "items": [
+      {
+        "name": "Web development",
+        "priceRange": "$1,200 – $3,500",
+        "description": "Custom, fast and scalable websites and applications."
+      },
+      {
+        "name": "Graphic design",
+        "priceRange": "$450 – $1,200",
+        "description": "Visual identity, branding and professional graphic materials."
+      },
+      {
+        "name": "Digital marketing",
+        "priceRange": "$650 – $2,000",
+        "description": "Campaigns and strategies to grow your digital presence."
+      },
+      {
+        "name": "Consulting",
+        "priceRange": "$320 – $800/mo",
+        "description": "Ongoing strategic guidance for your business."
+      }
+    ],
+    "cta": "Request"
+  }
+}

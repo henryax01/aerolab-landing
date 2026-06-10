@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mi Proyecto - Pedidos</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/tailwind.css">
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <h1 class="logo">MiProyecto</h1>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre</a>
+        <a href="portfolio.html">Portafolio</a>
+        <a href="order.html">Pedidos</a>
+        <a href="contact.html">Contacto</a>
+        <a href="account.html">Cuenta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container order-hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Pedidos</span>
+        <h2>Solicita el servicio que necesitas</h2>
+        <p>Elige el servicio, completa tus datos y nosotros nos encargaremos del resto. Presupuestos sin costo.</p>
+      </div>
+    </section>
+
+    <section class="container order-services">
+      <h3>Nuestros servicios disponibles</h3>
+      <div class="services-preview">
+        <div class="service-item">
+          <div class="service-icon">🌐</div>
+          <h4>Desarrollo web</h4>
+          <p class="service-price">$1,200</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">🎨</div>
+          <h4>Diseño gráfico</h4>
+          <p class="service-price">$450</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">📱</div>
+          <h4>Marketing digital</h4>
+          <p class="service-price">$650</p>
+        </div>
+        <div class="service-item">
+          <div class="service-icon">💡</div>
+          <h4>Consultoría</h4>
+          <p class="service-price">$320</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container order-form-section">
+      <div class="order-form-wrapper">
+        <div class="order-summary-box">
+          <h3>Tu orden</h3>
+          <div class="summary-item">
+            <span>Servicio:</span>
+            <strong id="summaryService">-</strong>
+          </div>
+          <div class="summary-item">
+            <span>Cantidad:</span>
+            <strong id="summaryQty">-</strong>
+          </div>
+          <div class="summary-item">
+            <span>Precio unitario:</span>
+            <strong id="summaryPrice">-</strong>
+          </div>
+          <div class="summary-divider"></div>
+          <div class="summary-total">
+            <span>TOTAL:</span>
+            <strong id="summaryTotal">$0</strong>
+          </div>
+        </div>
+
+        <!-- FORMULARIO DE PEDIDO -->
+        <div class="order-card order-form-card" id="orderFormSection">
+          <h3>Completa tu información</h3>
+          <form id="orderForm">
+            <label>Nombre completo
+              <input name="name" placeholder="Tu nombre" required />
+            </label>
+            <label>Correo electrónico
+              <input type="email" name="email" placeholder="email@ejemplo.com" required />
+            </label>
+            <label>Servicio o producto
+              <select name="product" id="productSelect" required>
+                <option value="">Selecciona un servicio</option>
+                <option value="Desarrollo web" data-price="1200">Desarrollo web</option>
+                <option value="Diseño gráfico" data-price="450">Diseño gráfico</option>
+                <option value="Marketing digital" data-price="650">Marketing digital</option>
+                <option value="Consultoría" data-price="320">Consultoría</option>
+              </select>
+            </label>
+            <label>Cantidad de unidades
+              <input type="number" name="quantity" id="orderQuantity" min="1" value="1" required />
+            </label>
+            <label>Dirección o ubicación
+              <input name="address" placeholder="Ej: Calle principal 123" required />
+            </label>
+            <label>Detalles adicionales
+              <textarea name="notes" placeholder="Cuéntanos más sobre lo que necesitas"></textarea>
+            </label>
+            <input type="hidden" name="price" id="orderPrice" value="0" />
+            <button type="submit" class="btn-submit" id="submitOrderBtn">💳 Confirmar y proceder al pago</button>
+          </form>
+          <p class="auth-message" id="orderMessage" aria-live="polite"></p>
+        </div>
+
+        <!-- FORMULARIO DE PAGO CON STRIPE -->
+        <div class="order-card order-form-card" id="paymentSection" style="display: none;">
+          <h3>💳 Completa tu pago</h3>
+          <div class="payment-summary">
+            <p><strong>Servicio:</strong> <span id="paymentProduct">-</span></p>
+            <p><strong>Cantidad:</strong> <span id="paymentQuantity">1</span></p>
+            <p><strong>Total a pagar:</strong> <span id="paymentAmount">$0</span></p>
+          </div>
+          <form id="paymentForm">
+            <label>Información de la tarjeta
+              <div id="card-element"></div>
+            </label>
+            <div id="card-errors" class="stripe-error"></div>
+            <button type="submit" class="btn-submit" id="payBtn">💳 Procesar pago</button>
+            <button type="button" class="btn btn-secondary" id="cancelPaymentBtn" style="margin-top: 0.8rem;">Cancelar</button>
+          </form>
+          <p class="auth-message" id="paymentMessage" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <small>© 2026 MiProyecto</small>
+  </footer>
+
+  <script src="src/js/stripe-payments.js"></script>
+  <script src="src/js/main.js"></script>
+</body>
+</html>

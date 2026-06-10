@@ -1,0 +1,53 @@
+{
+  "section": {
+    "badge": "Experiencia interactiva",
+    "title": "Explora en 3D",
+    "subtitle": "Una experiencia interactiva: mueve el cursor sobre las figuras y deja que nuestra guía te muestre el camino.",
+    "loading": "Cargando experiencia 3D..."
+  },
+  "bot": {
+    "name": "Ada, tu guía",
+    "greeting": "¡Hola! Estoy aquí para ayudarte a explorar 👋",
+    "restart": "Empezar de nuevo",
+    "nodes": {
+      "intro": {
+        "text": "¡Bienvenido a nuestro rincón interactivo! Mueve el mouse sobre las figuras para verlas reaccionar. ¿Qué te gustaría descubrir?",
+        "options": [
+          { "label": "¿Qué representan estas figuras?", "next": "shapes" },
+          { "label": "Quiero ver sus servicios", "next": "services" },
+          { "label": "¿Cómo hago un pedido?", "next": "order" }
+        ]
+      },
+      "shapes": {
+        "text": "Cada figura representa una de nuestras especialidades: desarrollo web, marketing, diseño y consultoría. ¡Acércate y juega con ellas!",
+        "options": [
+          { "label": "Quiero ver sus servicios", "next": "services" },
+          { "label": "Volver al inicio", "next": "intro" }
+        ]
+      },
+      "services": {
+        "text": "Tenemos cuatro líneas de servicio con precios claros: desarrollo web, diseño gráfico, marketing digital y consultoría.",
+        "options": [
+          { "label": "Ver todos los servicios", "next": "services", "link": "/portfolio" },
+          { "label": "Mejor cuéntame de pedidos", "next": "order" },
+          { "label": "Volver al inicio", "next": "intro" }
+        ]
+      },
+      "order": {
+        "text": "Hacer un pedido es simple: eliges un servicio, completas tus datos y pagas de forma segura con tarjeta. Todo en un solo lugar.",
+        "options": [
+          { "label": "Ir a pedidos", "next": "order", "link": "/order" },
+          { "label": "Prefiero contactarlos primero", "next": "contact" },
+          { "label": "Volver al inicio", "next": "intro" }
+        ]
+      },
+      "contact": {
+        "text": "¡Con gusto! Puedes escribirnos por el formulario de contacto o llamarnos directamente. Respondemos rápido 😊",
+        "options": [
+          { "label": "Ir a contacto", "next": "contact", "link": "/contact" },
+          { "label": "Volver al inicio", "next": "intro" }
+        ]
+      }
+    }
+  }
+}

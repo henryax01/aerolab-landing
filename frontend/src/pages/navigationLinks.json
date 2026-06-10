@@ -1,0 +1,8 @@
+[
+  { "path": "/", "order": 1 },
+  { "path": "/about", "order": 2 },
+  { "path": "/portfolio", "order": 3 },
+  { "path": "/order", "order": 4 },
+  { "path": "/contact", "order": 5 },
+  { "path": "/account", "order": 6 }
+]

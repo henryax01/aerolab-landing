@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mi Proyecto - Contacto</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/tailwind.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <h1 class="logo">MiProyecto</h1>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre</a>
+        <a href="portfolio.html">Portafolio</a>
+        <a href="order.html">Pedidos</a>
+        <a href="contact.html">Contacto</a>
+        <a href="account.html">Cuenta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container contact-hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Contacto</span>
+        <h2>Hablemos de tu próximo proyecto</h2>
+        <p>Estamos listos para responder tus dudas, cotizar servicios o ayudarte a arrancar con tu idea.</p>
+        <div class="hero-actions">
+          <a class="btn" href="tel:+123456789">Llámanos</a>
+          <a class="btn secondary" href="mailto:contacto@miempresa.com">Escríbenos</a>
+        </div>
+      </div>
+      <div class="hero-illus contact-panel">
+        <div class="hero-card contact-card">
+          <h3>Contacto rápido</h3>
+          <p>Elige tu método preferido y recibe respuesta en menos de 24 horas.</p>
+          <div class="contact-info-list">
+            <div class="info-item">
+              <strong>Email</strong>
+              <a href="mailto:contacto@miempresa.com">contacto@miempresa.com</a>
+            </div>
+            <div class="info-item">
+              <strong>Teléfono</strong>
+              <a href="tel:+123456789">+1 234 567 89</a>
+            </div>
+            <div class="info-item">
+              <strong>Horario</strong>
+              <span>Lun - Vie, 9:00 - 18:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container contact-layout">
+      <div class="contact-grid">
+        <div class="contact-card contact-summary">
+          <h3>¿Qué necesitas?</h3>
+          <p>Completa el formulario y cuéntanos brevemente tu proyecto o pregunta. Nuestro equipo revisará tu mensaje y te responderá con una propuesta clara.</p>
+          <div class="contact-highlights">
+            <div class="highlight-item">
+              <strong>Respuestas rápidas</strong>
+              <p>Atención directa y personalizada para cada consulta.</p>
+            </div>
+            <div class="highlight-item">
+              <strong>Propuestas claras</strong>
+              <p>Cotizaciones transparentes sin sorpresas.</p>
+            </div>
+            <div class="highlight-item">
+              <strong>Crecimiento real</strong>
+              <p>Apoyo para que tu marca y ventas crezcan con estrategia.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-card contact-form-card">
+          <form id="contactForm">
+            <h3>Enviar mensaje</h3>
+            <label>Nombre
+              <input name="name" placeholder="Tu nombre" required />
+            </label>
+            <label>Email
+              <input type="email" name="email" placeholder="email@ejemplo.com" required />
+            </label>
+            <label>Mensaje
+              <textarea name="message" placeholder="Cuéntanos qué necesitas" required></textarea>
+            </label>
+            <button type="submit">Enviar mensaje</button>
+          </form>
+          <div id="formMessage" class="form-message" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <small>© 2026 MiProyecto</small>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>

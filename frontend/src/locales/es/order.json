@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "label": "Pedidos",
+    "description": "Formulario para solicitar un servicio"
+  },
+  "hero": {
+    "badge": "Solicitar servicio",
+    "title": "Solicita tu proyecto",
+    "subtitle": "Cuéntanos qué necesitas y te ayudamos a hacerlo realidad."
+  },
+  "form": {
+    "title": "Datos del pedido",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "product": "Servicio",
+    "quantity": "Cantidad",
+    "address": "Dirección",
+    "notes": "Notas adicionales",
+    "couponCode": "Código de cupón",
+    "couponPlaceholder": "Ej. PROMO10",
+    "applyCoupon": "Aplicar",
+    "removeCoupon": "Quitar",
+    "couponApplied": "Cupón {{code}} aplicado.",
+    "submit": "Continuar al pago",
+    "products": {
+      "Desarrollo web": "Desarrollo web — $1,200",
+      "Diseño gráfico": "Diseño gráfico — $450",
+      "Marketing digital": "Marketing digital — $650",
+      "Consultoría": "Consultoría — $320"
+    }
+  },
+  "summary": {
+    "title": "Resumen del pedido",
+    "service": "Servicio",
+    "quantity": "Cantidad",
+    "unitPrice": "Precio unitario",
+    "subtotal": "Subtotal",
+    "discount": "Descuento",
+    "total": "Total"
+  },
+  "payment": {
+    "title": "Pago seguro",
+    "subtitle": "Completa el pago para confirmar tu pedido.",
+    "cardLabel": "Datos de la tarjeta",
+    "pay": "Pagar ahora",
+    "cancel": "Cancelar pago",
+    "processing": "Procesando pago...",
+    "success": "¡Pago realizado con éxito! Hemos recibido tu pedido.",
+    "error": "Ocurrió un error al procesar el pago."
+  },
+  "messages": {
+    "created": "Tu pedido se ha creado correctamente.",
+    "error": "No se pudo crear el pedido. Inténtalo de nuevo."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "label": "Orders",
+    "description": "Form to request a service"
+  },
+  "hero": {
+    "badge": "Request service",
+    "title": "Request your project",
+    "subtitle": "Tell us what you need and we'll help you make it happen."
+  },
+  "form": {
+    "title": "Order details",
+    "name": "Full name",
+    "email": "Email address",
+    "product": "Service",
+    "quantity": "Quantity",
+    "address": "Address",
+    "notes": "Additional notes",
+    "couponCode": "Coupon code",
+    "couponPlaceholder": "E.g. PROMO10",
+    "applyCoupon": "Apply",
+    "removeCoupon": "Remove",
+    "couponApplied": "Coupon {{code}} applied.",
+    "submit": "Continue to payment",
+    "products": {
+      "Desarrollo web": "Web development — $1,200",
+      "Diseño gráfico": "Graphic design — $450",
+      "Marketing digital": "Digital marketing — $650",
+      "Consultoría": "Consulting — $320"
+    }
+  },
+  "summary": {
+    "title": "Order summary",
+    "service": "Service",
+    "quantity": "Quantity",
+    "unitPrice": "Unit price",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "total": "Total"
+  },
+  "payment": {
+    "title": "Secure payment",
+    "subtitle": "Complete the payment to confirm your order.",
+    "cardLabel": "Card details",
+    "pay": "Pay now",
+    "cancel": "Cancel payment",
+    "processing": "Processing payment...",
+    "success": "Payment successful! We've received your order.",
+    "error": "An error occurred while processing the payment."
+  },
+  "messages": {
+    "created": "Your order was created successfully.",
+    "error": "The order could not be created. Please try again."
+  }
+}

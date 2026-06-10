@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "label": "Contacto",
+    "description": "Formulario y datos de contacto"
+  },
+  "hero": {
+    "badge": "Ponte en contacto",
+    "title": "Hablemos",
+    "subtitle": "Estamos aquí para responder tus preguntas y ayudarte a comenzar.",
+    "callButton": "Llamar ahora",
+    "emailButton": "Enviar correo"
+  },
+  "info": {
+    "title": "Información de contacto",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "hours": "Horario de atención",
+    "hoursValue": "Lunes a viernes, 9:00 – 18:00"
+  },
+  "form": {
+    "title": "Envíanos un mensaje",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje"
+  },
+  "messages": {
+    "success": "¡Gracias! Tu mensaje fue enviado correctamente.",
+    "error": "No se pudo enviar el mensaje. Inténtalo de nuevo."
+  }
+}

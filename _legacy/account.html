@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mi Proyecto - Cuenta</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/tailwind.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <h1 class="logo">MiProyecto</h1>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre</a>
+        <a href="portfolio.html">Portafolio</a>
+        <a href="order.html">Pedidos</a>
+        <a href="contact.html">Contacto</a>
+        <a href="account.html">Cuenta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow">Cuenta</span>
+        <h2>Accede a tu área de usuario</h2>
+        <p>Inicia sesión o regístrate para ver tus pedidos o administrar la plataforma.</p>
+      </div>
+    </section>
+
+    <section class="container auth-section">
+      <div id="authWelcome" class="user-welcome hidden">
+        <div class="welcome-header">
+          <div class="welcome-icon">👤</div>
+          <div class="welcome-text">
+            <h3>¡Bienvenido, <span id="userName">Usuario</span>!</h3>
+            <p>Aquí puedes ver tu información, pedidos y más.</p>
+          </div>
+        </div>
+        <button id="logoutBtn" class="btn btn-logout">Cerrar sesión</button>
+      </div>
+
+      <div id="authForms" class="auth-forms-container">
+        <div class="auth-card">
+          <div class="tabs">
+            <button id="tabLogin" class="tab active" type="button">Ingresar</button>
+            <button id="tabRegister" class="tab" type="button">Registrarse</button>
+          </div>
+
+          <form id="loginForm" class="auth-form">
+            <h3>Accede a tu cuenta</h3>
+            <label>Correo electrónico
+              <input type="email" name="email" placeholder="email@ejemplo.com" required />
+            </label>
+            <label>Contraseña
+              <input type="password" name="password" placeholder="••••••••" required />
+            </label>
+            <button type="submit" class="btn">Entrar</button>
+            <p class="auth-message" id="loginMessage" aria-live="polite"></p>
+          </form>
+
+          <form id="registerForm" class="auth-form hidden">
+            <h3>Crear una nueva cuenta</h3>
+            <label>Nombre completo
+              <input name="name" placeholder="Tu nombre" required />
+            </label>
+            <label>Correo electrónico
+              <input type="email" name="email" placeholder="email@ejemplo.com" required />
+            </label>
+            <label>Contraseña (mínimo 6 caracteres)
+              <input type="password" name="password" placeholder="••••••••" required minlength="6" />
+            </label>
+            <button type="submit" class="btn">Crear cuenta</button>
+            <p class="auth-message" id="registerMessage" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="myOrders" class="container user-orders-section hidden">
+      <div class="section-header">
+        <h3>Mis pedidos</h3>
+        <a href="order.html" class="btn secondary">Nuevo pedido</a>
+      </div>
+      <div id="myOrdersList" class="orders-grid"></div>
+    </section>
+
+    <section id="admin" class="container admin-section hidden">
+      <h3>Panel de administración</h3>
+      <div class="admin-header-text">
+        <p>Bienvenido al panel administrativo. Aquí puedes ver todos los pedidos y estadísticas del negocio.</p>
+      </div>
+      <div class="admin-summary">
+        <div class="summary-card">
+          <div class="summary-card-icon">📦</div>
+          <div class="summary-card-content">
+            <span id="totalOrders" class="summary-number">0</span>
+            <small>Pedidos totales</small>
+          </div>
+        </div>
+        <div class="summary-card">
+          <div class="summary-card-icon">💰</div>
+          <div class="summary-card-content">
+            <span id="totalRevenue" class="summary-number">$0</span>
+            <small>Ingresos estimados</small>
+          </div>
+        </div>
+      </div>
+      <div class="orders-section-header">
+        <h4>Todos los pedidos</h4>
+      </div>
+      <div class="orders-table-wrapper">
+        <table class="orders-table">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Cliente</th>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody id="adminOrdersBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <small>© 2026 MiProyecto</small>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>

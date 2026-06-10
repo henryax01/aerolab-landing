@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "label": "Contact",
+    "description": "Contact form and details"
+  },
+  "hero": {
+    "badge": "Get in touch",
+    "title": "Let's talk",
+    "subtitle": "We're here to answer your questions and help you get started.",
+    "callButton": "Call now",
+    "emailButton": "Send email"
+  },
+  "info": {
+    "title": "Contact information",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Business hours",
+    "hoursValue": "Monday to Friday, 9:00 AM – 6:00 PM"
+  },
+  "form": {
+    "title": "Send us a message",
+    "name": "Name",
+    "email": "Email address",
+    "message": "Message",
+    "submit": "Send message"
+  },
+  "messages": {
+    "success": "Thanks! Your message was sent successfully.",
+    "error": "The message could not be sent. Please try again."
+  }
+}

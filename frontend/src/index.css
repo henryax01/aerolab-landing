@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Dark mode activado por clase .dark en <html> (ver hooks/useTheme.jsx) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-light-background: #f5f5f5;
+  --color-light-surface: #ffffff;
+  --color-light-surface-secondary: #e5e7eb;
+  --color-light-text-primary: #111827;
+  --color-light-text-secondary: #6b7280;
+  --color-light-accent: #2563eb;
+  --color-light-error: #dc2626;
+  --color-light-success: #16a34a;
+  --color-light-border: #d1d5db;
+
+  --color-dark-background: #0a0a0a;
+  --color-dark-surface: #1a1a1a;
+  --color-dark-surface-secondary: #2a2a2a;
+  --color-dark-text-primary: #ffffff;
+  --color-dark-text-secondary: #b0b0b0;
+  --color-dark-accent: #3b82f6;
+  --color-dark-error: #f87171;
+  --color-dark-success: #4ade80;
+  --color-dark-border: #333333;
+
+  --font-sans: 'Inter', system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+}

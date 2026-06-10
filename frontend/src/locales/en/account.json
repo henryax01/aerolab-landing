@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "label": "My account",
+    "description": "Login, registration and user dashboard"
+  },
+  "tabs": {
+    "login": "Log in",
+    "register": "Create account"
+  },
+  "login": {
+    "title": "Welcome back",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Sign in",
+    "error": "Incorrect credentials.",
+    "forgotPassword": "Forgot your password?"
+  },
+  "forgotPassword": {
+    "title": "Recover your password",
+    "subtitle": "Enter your email and we'll send you a link to reset it.",
+    "email": "Email address",
+    "submit": "Send reset link",
+    "backToLogin": "Back to sign in"
+  },
+  "resetPassword": {
+    "title": "Create a new password",
+    "password": "New password",
+    "confirmPassword": "Confirm password",
+    "mismatch": "Passwords do not match.",
+    "submit": "Save password"
+  },
+  "verification": {
+    "pendingTitle": "Confirm your email address",
+    "pendingSubtitle": "Check your inbox and click the verification link we sent you.",
+    "resend": "Resend verification email"
+  },
+  "register": {
+    "title": "Create your account",
+    "name": "Full name",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Sign up",
+    "error": "The account could not be created."
+  },
+  "session": {
+    "greeting": "Hi, {{name}}",
+    "role": "Role",
+    "logout": "Log out"
+  },
+  "orders": {
+    "title": "My orders",
+    "empty": "You don't have any orders yet.",
+    "service": "Service",
+    "quantity": "Quantity",
+    "total": "Total",
+    "status": "Status",
+    "date": "Date",
+    "filterByStatus": "Filter by status",
+    "allStatuses": "All statuses"
+  },
+  "admin": {
+    "title": "Admin panel",
+    "subtitle": "Manage every customer's orders.",
+    "customer": "Customer",
+    "service": "Service",
+    "total": "Total",
+    "status": "Status",
+    "tracking": "Tracking number",
+    "update": "Update",
+    "updated": "Order updated successfully.",
+    "export": "Export to CSV",
+    "searchPlaceholder": "Search by customer, email or service…",
+    "totalResults": "{{count}} order found",
+    "totalResults_other": "{{count}} orders found"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {{page}} of {{totalPages}}"
+  },
+  "coupons": {
+    "title": "Discount coupons",
+    "subtitle": "Create and manage the discount codes available for orders.",
+    "code": "Code",
+    "type": "Type",
+    "value": "Value",
+    "status": "Status",
+    "typePercentage": "Percentage",
+    "typeFixed": "Fixed amount",
+    "active": "Active",
+    "inactive": "Inactive",
+    "create": "Create coupon",
+    "codePlaceholder": "E.g. PROMO10",
+    "valuePercentagePlaceholder": "E.g. 10 (%)",
+    "valueFixedPlaceholder": "E.g. 50 ($)",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this coupon?",
+    "empty": "No coupons have been created yet.",
+    "created": "Coupon created successfully.",
+    "updated": "Coupon updated successfully.",
+    "deleted": "Coupon deleted successfully."
+  },
+  "twoFactor": {
+    "verify": {
+      "title": "Two-factor verification",
+      "subtitle": "Enter the code from your authenticator app or one of your backup codes.",
+      "code": "Verification code",
+      "submit": "Verify",
+      "back": "Back to sign in"
+    },
+    "settings": {
+      "title": "Two-factor authentication",
+      "enabledBadge": "Enabled",
+      "disabledBadge": "Disabled",
+      "enabledSubtitle": "Your account is protected with an extra code at sign in.",
+      "disabledSubtitle": "Add an extra layer of security by requiring a code from your authenticator app at sign in.",
+      "enable": "Enable two-factor authentication",
+      "disable": "Disable two-factor authentication",
+      "cancel": "Cancel",
+      "setupTitle": "Scan the QR code",
+      "setupInstructions": "Use an app like Google Authenticator or Authy to scan this code, or enter the key manually.",
+      "manualEntry": "Manual key",
+      "confirmCode": "Confirmation code",
+      "confirmSubmit": "Confirm and enable",
+      "backupCodesTitle": "Save your backup codes",
+      "backupCodesSubtitle": "Use them if you lose access to your authenticator app. Each code only works once.",
+      "downloadCodes": "Download codes",
+      "done": "Done",
+      "disableInstructions": "Enter a code from your authenticator app or a backup code to confirm you want to disable it.",
+      "confirmDisable": "Disable"
+    }
+  }
+}

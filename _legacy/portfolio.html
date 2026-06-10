@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mi Proyecto - Portafolio</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/tailwind.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <h1 class="logo">MiProyecto</h1>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre</a>
+        <a href="portfolio.html">Portafolio</a>
+        <a href="order.html">Pedidos</a>
+        <a href="contact.html">Contacto</a>
+        <a href="account.html">Cuenta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container portfolio-hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Portafolio</span>
+        <h2>Servicios que potencian tu negocio</h2>
+        <p>Soluciones completas diseñadas para crecer. Desde presencia digital hasta estrategia de ventas.</p>
+        <div class="hero-actions">
+          <a class="btn" href="order.html">Ver precios y pedir</a>
+          <a class="btn secondary" href="contact.html">Consultar oferta</a>
+        </div>
+      </div>
+      <div class="hero-illus portfolio-stats">
+        <div class="stat-item">
+          <span class="stat-number">50+</span>
+          <p>Proyectos completados</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <p>Clientes satisfechos</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">3+</span>
+          <p>Años de experiencia</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container portfolio-section">
+      <h3>Nuestros servicios principales</h3>
+      <div class="portfolio-grid">
+        <article class="portfolio-card">
+          <div class="card-header">
+            <div class="card-icon">🌐</div>
+            <h4>Desarrollo web</h4>
+          </div>
+          <p class="card-description">Sitios web modernos, responsivos y optimizados para SEO. Desde landing pages hasta aplicaciones web completas.</p>
+          <ul class="card-features">
+            <li>Diseño responsivo</li>
+            <li>SEO optimizado</li>
+            <li>Integración de APIs</li>
+            <li>Performance rápido</li>
+          </ul>
+          <div class="card-footer">
+            <p class="price-tag">$1,200 - $3,500</p>
+            <a class="btn secondary" href="order.html?product=Desarrollo web">Solicitar</a>
+          </div>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="card-header">
+            <div class="card-icon">🎨</div>
+            <h4>Diseño gráfico</h4>
+          </div>
+          <p class="card-description">Identidad visual profesional que destaca tu marca. Logos, materiales impresos y diseño para redes sociales.</p>
+          <ul class="card-features">
+            <li>Diseño de logo</li>
+            <li>Paleta de colores</li>
+            <li>Redes sociales</li>
+            <li>Materiales corporativos</li>
+          </ul>
+          <div class="card-footer">
+            <p class="price-tag">$450 - $1,200</p>
+            <a class="btn secondary" href="order.html?product=Diseño gráfico">Solicitar</a>
+          </div>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="card-header">
+            <div class="card-icon">📱</div>
+            <h4>Marketing digital</h4>
+          </div>
+          <p class="card-description">Estrategias de marketing que generan resultados. Gestión de redes, publicidad digital y contenido viral.</p>
+          <ul class="card-features">
+            <li>Gestión de redes</li>
+            <li>Publicidad digital</li>
+            <li>Análisis de datos</li>
+            <li>Contenido estratégico</li>
+          </ul>
+          <div class="card-footer">
+            <p class="price-tag">$650 - $2,000</p>
+            <a class="btn secondary" href="order.html?product=Marketing digital">Solicitar</a>
+          </div>
+        </article>
+
+        <article class="portfolio-card">
+          <div class="card-header">
+            <div class="card-icon">💡</div>
+            <h4>Consultoría</h4>
+          </div>
+          <p class="card-description">Asesoría especializada para impulsar tu negocio. Desde estrategia hasta implementación de soluciones.</p>
+          <ul class="card-features">
+            <li>Auditoría digital</li>
+            <li>Plan de crecimiento</li>
+            <li>Capacitación de equipo</li>
+            <li>Soporte continuo</li>
+          </ul>
+          <div class="card-footer">
+            <p class="price-tag">$320 - $800/mes</p>
+            <a class="btn secondary" href="order.html?product=Consultoría">Solicitar</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container portfolio-section portfolio-cta">
+      <div class="cta-content">
+        <h3>¿Cuál es el siguiente paso?</h3>
+        <p>Cada proyecto es único. Cuéntanos qué necesitas y te ofreceremos una solución personalizada sin compromisos.</p>
+        <div class="cta-actions">
+          <a class="btn" href="contact.html">Hablar con un especialista</a>
+          <a class="btn secondary" href="order.html">Ver todos los precios</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <small>© 2026 MiProyecto</small>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>
