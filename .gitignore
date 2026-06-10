@@ -7,3 +7,4 @@ __pycache__/
 *.pyc
 *.log
 .pytest_cache/
+cursos-vanellix.md
