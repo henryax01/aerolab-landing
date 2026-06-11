@@ -26,7 +26,30 @@ Plataforma completa para negocio digital, construida con **FastAPI (Python) + Re
 └── cursos-vanellix.md        # Documento de referencia de la arquitectura
 ```
 
-## 🚀 Inicio rápido
+## 🐳 Inicio rápido con Docker (recomendado)
+
+Requiere [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado y abierto.
+
+```bash
+docker compose up -d --build
+```
+
+Esto levanta 3 contenedores:
+- **mongo** — base de datos MongoDB en `localhost:27017`
+- **backend** — API FastAPI en `http://localhost:8000` (con auto-reload)
+- **frontend** — React/Vite en `http://localhost:5173` (con hot-reload)
+
+Comandos útiles:
+```bash
+docker compose logs -f          # ver logs de todos los servicios
+docker compose logs -f backend  # ver logs solo del backend
+docker compose down             # detener y eliminar los contenedores
+docker compose down -v          # además borra los datos de MongoDB
+```
+
+Los cambios que hagas en `backend/` y `frontend/` se reflejan automáticamente (volúmenes montados + reload).
+
+## 🚀 Inicio rápido (sin Docker)
 
 ### 1. Backend (FastAPI)
 ```bash
@@ -48,7 +71,7 @@ Abre `http://localhost:5173` — el proxy de Vite reenvía `/api` a `http://127.
 
 ## 🔐 Credenciales por defecto
 
-- **Email**: `admin@miempresa.com`
+- **Email**: `admin@aerolab.com`
 - **Contraseña**: `admin123`
 
 (Se siembra automáticamente al iniciar el backend si no existe.)
