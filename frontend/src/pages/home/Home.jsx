@@ -7,6 +7,7 @@ import {
   FaComments,
   FaHeadset,
   FaChartLine,
+  FaStar,
 } from 'react-icons/fa';
 import ExperienceSection from './components/ExperienceSection.jsx';
 import ScrollReveal from '../../components/common/ScrollReveal.jsx';
@@ -42,6 +43,7 @@ export default function Home() {
 
   const features = t('features.items', { returnObjects: true }) || [];
   const steps = t('process.steps', { returnObjects: true }) || [];
+  const testimonials = t('testimonials.items', { returnObjects: true }) || [];
 
   return (
     <div className="bg-light-background text-light-text-primary dark:bg-dark-background dark:text-dark-text-primary">
@@ -112,6 +114,34 @@ export default function Home() {
                   </div>
                   <h3 className="mt-3 text-lg font-semibold">{step.title}</h3>
                   <p className="mt-2 text-sm text-light-text-secondary dark:text-dark-text-secondary">{step.text}</p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-light-surface py-16 dark:bg-dark-surface">
+        <div className="mx-auto max-w-6xl px-4">
+          <ScrollReveal>
+            <h2 className="text-center text-3xl font-black tracking-tight">{t('testimonials.title')}</h2>
+          </ScrollReveal>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {testimonials.map((testimonial, index) => (
+              <ScrollReveal key={testimonial.name} delay={index * 80}>
+                <div className="flex h-full flex-col rounded-lg border border-light-border bg-light-background p-6 dark:border-dark-border dark:bg-dark-background">
+                  <div className="flex gap-1 text-light-accent dark:text-dark-accent">
+                    {Array.from({ length: testimonial.rating }).map((_, starIndex) => (
+                      <FaStar key={starIndex} aria-hidden="true" />
+                    ))}
+                  </div>
+                  <p className="mt-3 flex-1 text-sm text-light-text-secondary dark:text-dark-text-secondary">
+                    “{testimonial.text}”
+                  </p>
+                  <div className="mt-4">
+                    <p className="font-semibold">{testimonial.name}</p>
+                    <p className="text-xs text-light-text-secondary dark:text-dark-text-secondary">{testimonial.role}</p>
+                  </div>
                 </div>
               </ScrollReveal>
             ))}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "label": "Terms and Conditions",
+    "description": "Terms and conditions for Aerolab's software development, cybersecurity and artificial intelligence services.",
+    "keywords": "terms and conditions, terms of service, Aerolab"
+  },
+  "title": "Terms and Conditions",
+  "updated": "Last updated: June 2026",
+  "intro": "These Terms and Conditions govern the use of this website and the services offered by Aerolab. By using the site or requesting a service, you accept these terms.",
+  "sections": [
+    {
+      "heading": "1. Services offered",
+      "text": "Aerolab offers software development, web and mobile application development, cybersecurity, artificial intelligence and technology consulting services. The scope, timelines and pricing of each service are defined in the quote or proposal sent to the client."
+    },
+    {
+      "heading": "2. Orders and payments",
+      "text": "Orders placed through the site are processed via an external payment provider. The prices shown are estimates and may vary based on the specific requirements of the project, which are confirmed before work begins."
+    },
+    {
+      "heading": "3. User accounts",
+      "text": "Access to certain features requires creating an account. You are responsible for keeping your credentials confidential and for any activity carried out from your account."
+    },
+    {
+      "heading": "4. Intellectual property",
+      "text": "Unless otherwise agreed, the code and deliverables developed for a client are transferred to them once the corresponding payment is completed. Aerolab's internal reusable tools, libraries or components remain its property."
+    },
+    {
+      "heading": "5. Cancellations and refunds",
+      "text": "Cancellation requests are evaluated on a case-by-case basis depending on project progress. Work already performed and costs incurred are non-refundable."
+    },
+    {
+      "heading": "6. Limitation of liability",
+      "text": "Aerolab is not liable for indirect damages arising from the use of the services or the website. Services are provided with reasonable care and skill in line with standard industry practices."
+    },
+    {
+      "heading": "7. Changes to these terms",
+      "text": "We may update these terms from time to time. Changes take effect as soon as they are published on this page."
+    },
+    {
+      "heading": "8. Contact",
+      "text": "If you have questions about these terms, you can reach us through the contact page."
+    }
+  ]
+}

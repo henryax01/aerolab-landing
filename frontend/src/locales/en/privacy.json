@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "label": "Privacy Policy",
+    "description": "How Aerolab collects, uses and protects your personal data.",
+    "keywords": "privacy policy, data protection, Aerolab"
+  },
+  "title": "Privacy Policy",
+  "updated": "Last updated: June 2026",
+  "intro": "At Aerolab we respect your privacy. This policy explains what information we collect, how we use it, and what rights you have over it.",
+  "sections": [
+    {
+      "heading": "1. Information we collect",
+      "text": "We collect the data you provide directly, such as name, email, address and contact details when creating an account, requesting a service, or contacting us through the contact form or chat."
+    },
+    {
+      "heading": "2. How we use your information",
+      "text": "We use your data to manage your account, process orders and payments, respond to inquiries, send notifications related to your orders, and improve our services."
+    },
+    {
+      "heading": "3. Payments",
+      "text": "Payments are processed through a specialized external provider. We do not store your full card details on our servers."
+    },
+    {
+      "heading": "4. Data retention",
+      "text": "We retain your data for as long as you keep an active account or as needed to comply with legal, accounting or order management obligations."
+    },
+    {
+      "heading": "5. Security",
+      "text": "We apply reasonable technical and organizational measures to protect your information, including password encryption and access control to our systems."
+    },
+    {
+      "heading": "6. Your rights",
+      "text": "You can request access, correction or deletion of your personal data by contacting us through the contact page."
+    },
+    {
+      "heading": "7. Cookies",
+      "text": "We use local browser storage to remember your preferences, such as language and visual theme."
+    },
+    {
+      "heading": "8. Changes to this policy",
+      "text": "We may update this policy from time to time. Changes take effect as soon as they are published on this page."
+    }
+  ]
+}

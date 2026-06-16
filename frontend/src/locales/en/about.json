@@ -4,24 +4,39 @@
     "description": "Who we are and what drives us"
   },
   "hero": {
-    "badge": "Our story",
-    "title": "About us",
-    "subtitle": "A team passionate about helping businesses grow in the digital world."
-  },
-  "story": {
-    "title": "Our story",
-    "paragraphs": [
-      "We started with the idea of simplifying how companies build their digital presence, combining design, technology and strategy in a single team.",
-      "Over the years we've helped entrepreneurs and companies of all sizes launch projects, improve their image and connect better with their customers.",
-      "We believe in close collaboration, clear communication and measurable results: that's why every project is treated as if it were our own."
+    "badge": "Who we are",
+    "title": "About Aerolab",
+    "subtitle": "A team of software developers, cybersecurity and AI specialists turning ideas into digital products ready for launch.",
+    "stats": [
+      { "value": "+8", "label": "Years of experience" },
+      { "value": "+150", "label": "Projects delivered" },
+      { "value": "+60", "label": "Active clients" },
+      { "value": "98%", "label": "Satisfaction" }
     ]
   },
+  "story": {
+    "title": "Technology, cybersecurity and AI under one roof",
+    "badge": "What we do",
+    "highlight": { "value": "+8", "label": "Years of experience" },
+    "paragraphs": [
+      "At Aerolab we combine software development, cybersecurity and AI-powered automation to build solid, modern digital products.",
+      "We care about every step of the process — architecture, code and deployment — to deliver results that are fast, secure and easy to maintain."
+    ]
+  },
+  "mission": {
+    "title": "Mission",
+    "text": "Build high-impact digital products by integrating cutting-edge technology — software development, cybersecurity and AI — to drive our clients' growth."
+  },
+  "vision": {
+    "title": "Vision",
+    "text": "To become the go-to digital mission control for companies looking to innovate, recognized for technical quality, creativity and a close relationship with every client."
+  },
   "values": {
-    "title": "What defines us",
+    "title": "Our values",
     "items": [
-      { "title": "Commitment", "text": "We get deeply involved in every project." },
-      { "title": "Quality", "text": "We take care of every detail of the final result." },
-      { "title": "Closeness", "text": "We speak clearly and support the whole process." }
+      { "title": "Innovation", "text": "We explore new technologies to keep you ahead of the curve." },
+      { "title": "Precision", "text": "We take care of every detail as if it were mission-critical." },
+      { "title": "Closeness", "text": "We speak clearly and support you through every stage of the project." }
     ]
   }
 }

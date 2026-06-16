@@ -24,9 +24,23 @@
     "submit": "Continuar al pago",
     "products": {
       "Desarrollo web": "Desarrollo web — $1,200",
-      "Diseño gráfico": "Diseño gráfico — $450",
-      "Marketing digital": "Marketing digital — $650",
-      "Consultoría": "Consultoría — $320"
+      "Tienda online": "Tienda online — $1,800",
+      "Aplicación móvil": "Aplicación móvil — $2,500",
+      "Landing page": "Landing page — $400",
+      "Mantenimiento web": "Mantenimiento web — $150",
+      "Integración de APIs": "Integración de APIs — $600",
+      "Migración de sitio web": "Migración de sitio web — $500",
+
+      "Auditoría de seguridad web": "Auditoría de seguridad web — $500",
+
+      "Chatbots con IA": "Chatbots con IA — $800",
+      "Automatización de procesos": "Automatización de procesos — $700",
+      "Análisis de datos con IA": "Análisis de datos con IA — $900",
+      "Integración de modelos de lenguaje": "Integración de modelos de lenguaje — $1,000",
+
+      "Migración a la nube": "Migración a la nube — $800",
+      "Consultoría tecnológica": "Consultoría tecnológica — $400",
+      "Soporte técnico": "Soporte técnico — $200"
     }
   },
   "summary": {

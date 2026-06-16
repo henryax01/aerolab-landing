@@ -9,6 +9,11 @@ const LINKS = [
   { to: '/contact', label: 'Contacto' },
 ];
 
+const LEGAL_LINKS = [
+  { to: '/terms', key: 'terms' },
+  { to: '/privacy', key: 'privacy' },
+];
+
 export default function Footer({ brand }) {
   const { t } = useTranslation('common');
   const year = new Date().getFullYear();
@@ -54,10 +59,21 @@ export default function Footer({ brand }) {
           </nav>
         </div>
 
-        <div className="mt-8 flex flex-col items-start justify-between gap-2 border-t border-slate-800 pt-6 md:flex-row md:items-center">
+        <div className="mt-8 flex flex-col items-start justify-between gap-4 border-t border-slate-800 pt-6 md:flex-row md:items-center">
           <p className="font-mono text-[11px] text-slate-600">
             © {year} {brand}. {t('footer.rights')}
           </p>
+          <nav className="flex flex-wrap gap-x-5 gap-y-2">
+            {LEGAL_LINKS.map((link) => (
+              <Link
+                key={link.to}
+                to={link.to}
+                className="text-[11px] tracking-wider text-slate-600 transition-colors duration-200 hover:text-cyan-400"
+              >
+                {t(`footer.${link.key}`)}
+              </Link>
+            ))}
+          </nav>
           <p className="font-mono text-[10px] tracking-widest uppercase text-slate-700">
             v1.0.0 // Build estable
           </p>

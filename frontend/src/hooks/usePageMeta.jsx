@@ -33,6 +33,7 @@ export default function usePageMeta(ns, path) {
   useEffect(() => {
     const label = tPage('meta.label', { defaultValue: '' });
     const description = tPage('meta.description', { defaultValue: '' });
+    const keywords = tPage('meta.keywords', { defaultValue: '' });
     const brand = t('brand');
     const title = label ? `${label} · ${brand}` : brand;
     const url = `${SITE_URL}${path === '/' ? '' : path}`;
@@ -41,6 +42,7 @@ export default function usePageMeta(ns, path) {
     document.documentElement.lang = i18n.language;
 
     setMetaTag('name', 'description', description);
+    setMetaTag('name', 'keywords', keywords);
     setMetaTag('property', 'og:title', title);
     setMetaTag('property', 'og:description', description);
     setMetaTag('property', 'og:url', url);

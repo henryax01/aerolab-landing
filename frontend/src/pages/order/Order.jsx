@@ -24,9 +24,23 @@ export const pageMetadata = {
 
 const PRODUCTS = [
   { name: 'Desarrollo web', price: 1200 },
-  { name: 'Diseño gráfico', price: 450 },
-  { name: 'Marketing digital', price: 650 },
-  { name: 'Consultoría', price: 320 },
+  { name: 'Tienda online', price: 1800 },
+  { name: 'Aplicación móvil', price: 2500 },
+  { name: 'Landing page', price: 400 },
+  { name: 'Mantenimiento web', price: 150 },
+  { name: 'Integración de APIs', price: 600 },
+  { name: 'Migración de sitio web', price: 500 },
+
+  { name: 'Auditoría de seguridad web', price: 500 },
+
+  { name: 'Chatbots con IA', price: 800 },
+  { name: 'Automatización de procesos', price: 700 },
+  { name: 'Análisis de datos con IA', price: 900 },
+  { name: 'Integración de modelos de lenguaje', price: 1000 },
+
+  { name: 'Migración a la nube', price: 800 },
+  { name: 'Consultoría tecnológica', price: 400 },
+  { name: 'Soporte técnico', price: 200 },
 ];
 
 const inputClass =

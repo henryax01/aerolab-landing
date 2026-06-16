@@ -1,23 +1,24 @@
 {
   "meta": {
     "label": "Inicio",
-    "description": "Página principal de presentación"
+    "description": "Aerolab — agencia digital de diseño web, desarrollo de software, marketing digital e inteligencia artificial. Solicita tu proyecto hoy.",
+    "keywords": "agencia digital, diseño web, desarrollo web, marketing digital, diseño gráfico, inteligencia artificial, chatbot, SEO, tienda online, branding, aplicaciones móviles, consultoría digital"
   },
   "hero": {
-    "badge": "Plataforma digital",
-    "title": "Plataforma completa para tu negocio digital",
-    "subtitle": "Diseño, desarrollo, marketing y consultoría en un solo lugar para hacer crecer tu marca.",
+    "badge": "Agencia digital",
+    "title": "Diseño, desarrollo e IA para tu negocio",
+    "subtitle": "Desarrollo web, diseño gráfico, marketing digital e inteligencia artificial en un solo equipo para llevar tu negocio al siguiente nivel.",
     "cta": "Ver servicios"
   },
   "features": {
     "title": "Todo lo que necesitas",
     "items": [
-      { "title": "Desarrollo web", "text": "Sitios y aplicaciones rápidas, modernas y escalables." },
-      { "title": "Diseño gráfico", "text": "Identidad visual que conecta con tu audiencia." },
-      { "title": "Marketing digital", "text": "Estrategias para atraer y fidelizar clientes." },
-      { "title": "Consultoría", "text": "Acompañamiento experto para tomar mejores decisiones." },
-      { "title": "Soporte continuo", "text": "Estamos contigo en cada etapa de tu proyecto." },
-      { "title": "Resultados medibles", "text": "Reportes claros para ver el progreso real." }
+      { "title": "Desarrollo web", "text": "Sitios, tiendas online y apps rápidas, modernas y escalables." },
+      { "title": "Diseño y branding", "text": "Identidad visual, UI/UX y materiales que conectan con tu audiencia." },
+      { "title": "Marketing digital", "text": "SEO, redes sociales, Google Ads y estrategias para crecer online." },
+      { "title": "Inteligencia artificial", "text": "Chatbots, automatización y análisis de datos a medida." },
+      { "title": "Consultoría y soporte", "text": "Acompañamiento experto en cada etapa de tu proyecto." },
+      { "title": "Resultados medibles", "text": "Reportes claros para ver el impacto real de cada acción." }
     ]
   },
   "process": {
@@ -27,6 +28,29 @@
       { "title": "Diseñamos un plan", "text": "Creamos una propuesta a tu medida." },
       { "title": "Lo hacemos realidad", "text": "Desarrollamos y entregamos tu proyecto." },
       { "title": "Te acompañamos", "text": "Damos seguimiento y soporte continuo." }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes",
+    "items": [
+      {
+        "name": "Lucía Fernández",
+        "role": "Fundadora, Tienda Mariposa",
+        "text": "Migraron nuestra tienda online a una plataforma mucho más rápida y nos integraron pagos sin problemas. El soporte post-entrega fue clave.",
+        "rating": 5
+      },
+      {
+        "name": "Marcos Iglesias",
+        "role": "CTO, Nimbus Software",
+        "text": "La auditoría de seguridad encontró vulnerabilidades que ni sabíamos que teníamos. El informe fue claro y las correcciones, rápidas.",
+        "rating": 5
+      },
+      {
+        "name": "Sofía Ramírez",
+        "role": "Gerente de operaciones, Grupo Delta",
+        "text": "El chatbot con IA que desarrollaron redujo nuestro tiempo de respuesta a clientes en más de la mitad. Excelente trabajo.",
+        "rating": 5
+      }
     ]
   },
   "cta": {

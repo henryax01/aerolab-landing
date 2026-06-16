@@ -51,7 +51,9 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados.",
-    "tagline": "Plataforma completa para tu negocio digital."
+    "tagline": "Plataforma completa para tu negocio digital.",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad"
   },
   "status": {
     "pending": "Pendiente",

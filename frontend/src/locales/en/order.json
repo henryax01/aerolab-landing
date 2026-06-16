@@ -24,9 +24,23 @@
     "submit": "Continue to payment",
     "products": {
       "Desarrollo web": "Web development — $1,200",
-      "Diseño gráfico": "Graphic design — $450",
-      "Marketing digital": "Digital marketing — $650",
-      "Consultoría": "Consulting — $320"
+      "Tienda online": "Online store — $1,800",
+      "Aplicación móvil": "Mobile app — $2,500",
+      "Landing page": "Landing page — $400",
+      "Mantenimiento web": "Website maintenance — $150",
+      "Integración de APIs": "API integration — $600",
+      "Migración de sitio web": "Website migration — $500",
+
+      "Auditoría de seguridad web": "Web security audit — $500",
+
+      "Chatbots con IA": "AI chatbots — $800",
+      "Automatización de procesos": "Process automation — $700",
+      "Análisis de datos con IA": "AI data analysis — $900",
+      "Integración de modelos de lenguaje": "LLM integration — $1,000",
+
+      "Migración a la nube": "Cloud migration — $800",
+      "Consultoría tecnológica": "Tech consulting — $400",
+      "Soporte técnico": "Technical support — $200"
     }
   },
   "summary": {

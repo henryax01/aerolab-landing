@@ -1,41 +1,57 @@
 {
   "meta": {
     "label": "Servicios",
-    "description": "Catálogo de servicios y precios"
+    "description": "Desarrollo de software, aplicaciones web y móviles, ciberseguridad, chatbots e integración de inteligencia artificial. Solicita tu cotización.",
+    "keywords": "desarrollo de software, desarrollo web, desarrollo de aplicaciones móviles, programación Java Python, tienda online, integración de APIs, ciberseguridad, auditoría de seguridad informática, chatbots con inteligencia artificial, automatización de procesos, análisis de datos con IA, integración de modelos de lenguaje, migración a la nube, consultoría tecnológica, soporte técnico"
   },
   "hero": {
     "badge": "Catálogo de servicios",
     "title": "Nuestros servicios",
-    "subtitle": "Soluciones a tu medida para llevar tu negocio al siguiente nivel.",
+    "subtitle": "Desarrollo de software, aplicaciones web y móviles, ciberseguridad e inteligencia artificial: soluciones a tu medida para llevar tu negocio al siguiente nivel.",
     "stats": [
-      { "value": "50+", "label": "Proyectos" },
+      { "value": "15+", "label": "Servicios" },
       { "value": "100%", "label": "Clientes satisfechos" },
-      { "value": "3+", "label": "Años de experiencia" }
+      { "value": "8+", "label": "Años de experiencia" }
     ]
+  },
+  "filters": {
+    "searchLabel": "Buscar servicio",
+    "searchPlaceholder": "Buscar por nombre o palabra clave...",
+    "categoryLabel": "Categoría",
+    "noResults": "No se encontraron servicios con esos filtros."
+  },
+  "categories": {
+    "all": "Todos",
+    "web": "Desarrollo web",
+    "security": "Ciberseguridad",
+    "ai": "Inteligencia artificial",
+    "consulting": "Consultoría y soporte"
   },
   "services": {
     "items": [
-      {
-        "name": "Desarrollo web",
-        "priceRange": "$1,200 – $3,500",
-        "description": "Sitios web y aplicaciones a medida, rápidos y escalables."
-      },
-      {
-        "name": "Diseño gráfico",
-        "priceRange": "$450 – $1,200",
-        "description": "Identidad visual, branding y materiales gráficos profesionales."
-      },
-      {
-        "name": "Marketing digital",
-        "priceRange": "$650 – $2,000",
-        "description": "Campañas y estrategias para crecer tu presencia digital."
-      },
-      {
-        "name": "Consultoría",
-        "priceRange": "$320 – $800/mes",
-        "description": "Acompañamiento estratégico continuo para tu negocio."
-      }
+      { "name": "Desarrollo web", "category": "web", "priceRange": "$1,200 – $3,500", "description": "Sitios web y aplicaciones a medida, rápidos y escalables." },
+      { "name": "Tienda online", "category": "web", "priceRange": "$1,800 – $4,500", "description": "Plataformas de venta online con pagos integrados y gestión de inventario." },
+      { "name": "Aplicación móvil", "category": "web", "priceRange": "$2,500 – $6,000", "description": "Apps nativas o híbridas para iOS y Android." },
+      { "name": "Landing page", "category": "web", "priceRange": "$400 – $900", "description": "Página de aterrizaje optimizada para conversión." },
+      { "name": "Mantenimiento web", "category": "web", "priceRange": "$150 – $400/mes", "description": "Actualizaciones, copias de seguridad y soporte técnico continuo." },
+      { "name": "Migración de sitio web", "category": "web", "priceRange": "$500 – $1,500", "description": "Traslado seguro de tu sitio a un nuevo hosting o plataforma." },
+      { "name": "Integración de APIs", "category": "web", "priceRange": "$600 – $2,000", "description": "Conexión con pasarelas de pago, CRMs y servicios externos." },
+
+      { "name": "Auditoría de seguridad web", "category": "security", "priceRange": "$500 – $1,500", "description": "Detección y corrección de vulnerabilidades en tu sitio o app." },
+
+      { "name": "Chatbots con IA", "category": "ai", "priceRange": "$800 – $2,500", "description": "Asistentes virtuales inteligentes para atención al cliente 24/7." },
+      { "name": "Automatización de procesos", "category": "ai", "priceRange": "$700 – $2,200", "description": "Flujos automatizados que ahorran tiempo y reducen errores." },
+      { "name": "Análisis de datos con IA", "category": "ai", "priceRange": "$900 – $2,800", "description": "Modelos para extraer insights y predicciones de tus datos." },
+      { "name": "Integración de modelos de lenguaje", "category": "ai", "priceRange": "$1,000 – $3,000", "description": "Implementación de IA generativa en tus productos o procesos." },
+
+      { "name": "Migración a la nube", "category": "consulting", "priceRange": "$800 – $2,500", "description": "Traslado seguro de infraestructura a la nube." },
+      { "name": "Consultoría tecnológica", "category": "consulting", "priceRange": "$400 – $1,200/mes", "description": "Asesoría en arquitectura, herramientas y procesos tecnológicos." },
+      { "name": "Soporte técnico", "category": "consulting", "priceRange": "$200 – $600/mes", "description": "Atención y resolución de incidencias técnicas." }
     ],
     "cta": "Solicitar"
+  },
+  "pagination": {
+    "previous": "Anterior",
+    "next": "Siguiente"
   }
 }

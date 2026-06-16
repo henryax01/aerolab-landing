@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "label": "Términos y Condiciones",
+    "description": "Términos y condiciones de uso de los servicios de desarrollo de software, ciberseguridad e inteligencia artificial de Aerolab.",
+    "keywords": "términos y condiciones, términos de servicio, Aerolab"
+  },
+  "title": "Términos y Condiciones",
+  "updated": "Última actualización: junio de 2026",
+  "intro": "Estos Términos y Condiciones regulan el uso de este sitio web y la contratación de los servicios ofrecidos por Aerolab. Al utilizar el sitio o solicitar un servicio, aceptas estos términos.",
+  "sections": [
+    {
+      "heading": "1. Servicios ofrecidos",
+      "text": "Aerolab ofrece servicios de desarrollo de software, desarrollo web y de aplicaciones móviles, ciberseguridad, inteligencia artificial y consultoría tecnológica. El alcance, los plazos y los precios de cada servicio se definen en la cotización o propuesta enviada al cliente."
+    },
+    {
+      "heading": "2. Pedidos y pagos",
+      "text": "Los pedidos realizados a través del sitio se procesan mediante un proveedor de pagos externo. Los precios mostrados son estimados y pueden variar según los requerimientos específicos del proyecto, los cuales se confirman antes de iniciar el trabajo."
+    },
+    {
+      "heading": "3. Cuentas de usuario",
+      "text": "Para acceder a ciertas funcionalidades es necesario crear una cuenta. Eres responsable de mantener la confidencialidad de tus credenciales y de toda actividad realizada desde tu cuenta."
+    },
+    {
+      "heading": "4. Propiedad intelectual",
+      "text": "Salvo acuerdo en contrario, el código y los entregables desarrollados para un cliente se transfieren a este una vez completado el pago correspondiente. Las herramientas, librerías o componentes internos reutilizables de Aerolab permanecen bajo su propiedad."
+    },
+    {
+      "heading": "5. Cancelaciones y reembolsos",
+      "text": "Las solicitudes de cancelación se evalúan caso por caso según el avance del proyecto. El trabajo ya realizado y los costos incurridos no son reembolsables."
+    },
+    {
+      "heading": "6. Limitación de responsabilidad",
+      "text": "Aerolab no se hace responsable por daños indirectos derivados del uso de los servicios o del sitio web. Los servicios se prestan con el nivel de cuidado y habilidad razonable conforme a las prácticas habituales del sector."
+    },
+    {
+      "heading": "7. Cambios en los términos",
+      "text": "Podemos actualizar estos términos ocasionalmente. Los cambios entrarán en vigor desde su publicación en esta página."
+    },
+    {
+      "heading": "8. Contacto",
+      "text": "Si tienes dudas sobre estos términos, puedes contactarnos a través de la página de contacto."
+    }
+  ]
+}

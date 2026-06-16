@@ -1,41 +1,57 @@
 {
   "meta": {
     "label": "Services",
-    "description": "Service catalog and pricing"
+    "description": "Custom software development, web and mobile applications, cybersecurity, AI chatbots and language model integration. Get your free quote.",
+    "keywords": "custom software development, web development, mobile app development, Java Python programming, online store, API integration, cybersecurity, security audit, AI chatbots, process automation, AI data analysis, LLM integration, cloud migration, tech consulting, technical support"
   },
   "hero": {
     "badge": "Service catalog",
     "title": "Our services",
-    "subtitle": "Tailored solutions to take your business to the next level.",
+    "subtitle": "Custom software development, web and mobile applications, cybersecurity and artificial intelligence: tailored solutions to take your business to the next level.",
     "stats": [
-      { "value": "50+", "label": "Projects" },
+      { "value": "15+", "label": "Services" },
       { "value": "100%", "label": "Satisfied clients" },
-      { "value": "3+", "label": "Years of experience" }
+      { "value": "8+", "label": "Years of experience" }
     ]
+  },
+  "filters": {
+    "searchLabel": "Search services",
+    "searchPlaceholder": "Search by name or keyword...",
+    "categoryLabel": "Category",
+    "noResults": "No services match these filters."
+  },
+  "categories": {
+    "all": "All",
+    "web": "Web development",
+    "security": "Cybersecurity",
+    "ai": "Artificial intelligence",
+    "consulting": "Consulting & support"
   },
   "services": {
     "items": [
-      {
-        "name": "Web development",
-        "priceRange": "$1,200 – $3,500",
-        "description": "Custom, fast and scalable websites and applications."
-      },
-      {
-        "name": "Graphic design",
-        "priceRange": "$450 – $1,200",
-        "description": "Visual identity, branding and professional graphic materials."
-      },
-      {
-        "name": "Digital marketing",
-        "priceRange": "$650 – $2,000",
-        "description": "Campaigns and strategies to grow your digital presence."
-      },
-      {
-        "name": "Consulting",
-        "priceRange": "$320 – $800/mo",
-        "description": "Ongoing strategic guidance for your business."
-      }
+      { "name": "Web development", "category": "web", "priceRange": "$1,200 – $3,500", "description": "Custom, fast and scalable websites and applications." },
+      { "name": "Online store", "category": "web", "priceRange": "$1,800 – $4,500", "description": "E-commerce platforms with integrated payments and inventory management." },
+      { "name": "Mobile app", "category": "web", "priceRange": "$2,500 – $6,000", "description": "Native or hybrid apps for iOS and Android." },
+      { "name": "Landing page", "category": "web", "priceRange": "$400 – $900", "description": "Conversion-optimized landing pages." },
+      { "name": "Website maintenance", "category": "web", "priceRange": "$150 – $400/mo", "description": "Updates, backups and ongoing technical support." },
+      { "name": "Website migration", "category": "web", "priceRange": "$500 – $1,500", "description": "Safe transfer of your site to a new host or platform." },
+      { "name": "API integration", "category": "web", "priceRange": "$600 – $2,000", "description": "Connect payment gateways, CRMs and external services." },
+
+      { "name": "Web security audit", "category": "security", "priceRange": "$500 – $1,500", "description": "Find and fix vulnerabilities in your site or app." },
+
+      { "name": "AI chatbots", "category": "ai", "priceRange": "$800 – $2,500", "description": "Smart virtual assistants for 24/7 customer support." },
+      { "name": "Process automation", "category": "ai", "priceRange": "$700 – $2,200", "description": "Automated workflows that save time and reduce errors." },
+      { "name": "AI data analysis", "category": "ai", "priceRange": "$900 – $2,800", "description": "Models to extract insights and predictions from your data." },
+      { "name": "LLM integration", "category": "ai", "priceRange": "$1,000 – $3,000", "description": "Implement generative AI in your products or processes." },
+
+      { "name": "Cloud migration", "category": "consulting", "priceRange": "$800 – $2,500", "description": "Safe transfer of infrastructure to the cloud." },
+      { "name": "Tech consulting", "category": "consulting", "priceRange": "$400 – $1,200/mo", "description": "Advice on architecture, tools and tech processes." },
+      { "name": "Technical support", "category": "consulting", "priceRange": "$200 – $600/mo", "description": "Assistance and resolution of technical issues." }
     ],
     "cta": "Request"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
   }
 }

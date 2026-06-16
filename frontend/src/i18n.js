@@ -9,6 +9,9 @@ import esOrder from './locales/es/order.json';
 import esContact from './locales/es/contact.json';
 import esAccount from './locales/es/account.json';
 import esExperience from './locales/es/experience.json';
+import esTerms from './locales/es/terms.json';
+import esPrivacy from './locales/es/privacy.json';
+import esNotfound from './locales/es/notfound.json';
 
 import enCommon from './locales/en/common.json';
 import enHome from './locales/en/home.json';
@@ -18,13 +21,16 @@ import enOrder from './locales/en/order.json';
 import enContact from './locales/en/contact.json';
 import enAccount from './locales/en/account.json';
 import enExperience from './locales/en/experience.json';
+import enTerms from './locales/en/terms.json';
+import enPrivacy from './locales/en/privacy.json';
+import enNotfound from './locales/en/notfound.json';
 
 const STORAGE_KEY = 'lp_lang';
 
 i18n.use(initReactI18next).init({
   lng: localStorage.getItem(STORAGE_KEY) || 'es',
   fallbackLng: 'es',
-  ns: ['common', 'home', 'about', 'portfolio', 'order', 'contact', 'account', 'experience'],
+  ns: ['common', 'home', 'about', 'portfolio', 'order', 'contact', 'account', 'experience', 'terms', 'privacy', 'notfound'],
   defaultNS: 'common',
   resources: {
     es: {
@@ -36,6 +42,9 @@ i18n.use(initReactI18next).init({
       contact: esContact,
       account: esAccount,
       experience: esExperience,
+      terms: esTerms,
+      privacy: esPrivacy,
+      notfound: esNotfound,
     },
     en: {
       common: enCommon,
@@ -46,6 +55,9 @@ i18n.use(initReactI18next).init({
       contact: enContact,
       account: enAccount,
       experience: enExperience,
+      terms: enTerms,
+      privacy: enPrivacy,
+      notfound: enNotfound,
     },
   },
   interpolation: { escapeValue: false },

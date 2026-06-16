@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "label": "Política de Privacidad",
+    "description": "Cómo Aerolab recopila, usa y protege tus datos personales.",
+    "keywords": "política de privacidad, protección de datos, Aerolab"
+  },
+  "title": "Política de Privacidad",
+  "updated": "Última actualización: junio de 2026",
+  "intro": "En Aerolab respetamos tu privacidad. Esta política explica qué información recopilamos, cómo la usamos y qué derechos tienes sobre ella.",
+  "sections": [
+    {
+      "heading": "1. Información que recopilamos",
+      "text": "Recopilamos los datos que nos proporcionas directamente, como nombre, correo electrónico, dirección y datos de contacto al crear una cuenta, solicitar un servicio o escribirnos mediante el formulario de contacto o el chat."
+    },
+    {
+      "heading": "2. Uso de la información",
+      "text": "Utilizamos tus datos para gestionar tu cuenta, procesar pedidos y pagos, responder consultas, enviar notificaciones relacionadas con tus pedidos y mejorar nuestros servicios."
+    },
+    {
+      "heading": "3. Pagos",
+      "text": "Los pagos se procesan a través de un proveedor externo especializado. No almacenamos los datos completos de tu tarjeta en nuestros servidores."
+    },
+    {
+      "heading": "4. Conservación de datos",
+      "text": "Conservamos tus datos mientras mantengas una cuenta activa o sea necesario para cumplir con obligaciones legales, contables o de gestión de pedidos."
+    },
+    {
+      "heading": "5. Seguridad",
+      "text": "Aplicamos medidas técnicas y organizativas razonables para proteger tu información, incluyendo cifrado de contraseñas y control de acceso a los sistemas."
+    },
+    {
+      "heading": "6. Tus derechos",
+      "text": "Puedes solicitar acceso, corrección o eliminación de tus datos personales contactándonos a través de la página de contacto."
+    },
+    {
+      "heading": "7. Cookies",
+      "text": "Usamos almacenamiento local del navegador para recordar tus preferencias, como el idioma y el tema visual del sitio."
+    },
+    {
+      "heading": "8. Cambios en esta política",
+      "text": "Podemos actualizar esta política ocasionalmente. Los cambios entrarán en vigor desde su publicación en esta página."
+    }
+  ]
+}

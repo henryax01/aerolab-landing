@@ -51,7 +51,9 @@
   },
   "footer": {
     "rights": "All rights reserved.",
-    "tagline": "A complete platform for your digital business."
+    "tagline": "A complete platform for your digital business.",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy"
   },
   "status": {
     "pending": "Pending",

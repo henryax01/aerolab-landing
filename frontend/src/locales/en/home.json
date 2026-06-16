@@ -1,23 +1,24 @@
 {
   "meta": {
     "label": "Home",
-    "description": "Main landing page"
+    "description": "Aerolab — digital agency specializing in web design, software development, digital marketing and artificial intelligence. Request your project today.",
+    "keywords": "digital agency, web design, web development, digital marketing, graphic design, artificial intelligence, chatbot, SEO, online store, branding, mobile apps, digital consulting"
   },
   "hero": {
-    "badge": "Digital platform",
-    "title": "A complete platform for your digital business",
-    "subtitle": "Design, development, marketing and consulting in one place to grow your brand.",
+    "badge": "Digital agency",
+    "title": "Design, development and AI for your business",
+    "subtitle": "Web development, graphic design, digital marketing and artificial intelligence under one roof to take your business to the next level.",
     "cta": "View services"
   },
   "features": {
     "title": "Everything you need",
     "items": [
-      { "title": "Web development", "text": "Fast, modern and scalable sites and apps." },
-      { "title": "Graphic design", "text": "Visual identity that connects with your audience." },
-      { "title": "Digital marketing", "text": "Strategies to attract and retain customers." },
-      { "title": "Consulting", "text": "Expert guidance to make better decisions." },
-      { "title": "Ongoing support", "text": "We're with you at every stage of your project." },
-      { "title": "Measurable results", "text": "Clear reports to track real progress." }
+      { "title": "Web development", "text": "Websites, online stores and fast, modern, scalable apps." },
+      { "title": "Design & branding", "text": "Visual identity, UI/UX and materials that connect with your audience." },
+      { "title": "Digital marketing", "text": "SEO, social media, Google Ads and strategies to grow online." },
+      { "title": "Artificial intelligence", "text": "Custom chatbots, automation and data analysis." },
+      { "title": "Consulting & support", "text": "Expert guidance at every stage of your project." },
+      { "title": "Measurable results", "text": "Clear reports to see the real impact of every action." }
     ]
   },
   "process": {
@@ -27,6 +28,29 @@
       { "title": "We design a plan", "text": "We craft a proposal tailored to you." },
       { "title": "We bring it to life", "text": "We develop and deliver your project." },
       { "title": "We stay with you", "text": "We provide follow-up and ongoing support." }
+    ]
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "items": [
+      {
+        "name": "Lucia Fernandez",
+        "role": "Founder, Mariposa Shop",
+        "text": "They migrated our online store to a much faster platform and integrated payments smoothly. The post-launch support was key.",
+        "rating": 5
+      },
+      {
+        "name": "Marcos Iglesias",
+        "role": "CTO, Nimbus Software",
+        "text": "The security audit found vulnerabilities we didn't even know we had. The report was clear and the fixes were quick.",
+        "rating": 5
+      },
+      {
+        "name": "Sofia Ramirez",
+        "role": "Operations Manager, Grupo Delta",
+        "text": "The AI chatbot they built cut our customer response time by more than half. Excellent work.",
+        "rating": 5
+      }
     ]
   },
   "cta": {

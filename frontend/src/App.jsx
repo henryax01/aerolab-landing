@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import useAuth from './hooks/useAuth.jsx';
 import useTheme from './hooks/useTheme.jsx';
@@ -26,7 +26,6 @@ export default function App() {
             {routablePages.map((page) => (
               <Route key={page.path} path={page.path} element={<page.Component />} />
             ))}
-            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
 
