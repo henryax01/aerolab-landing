@@ -1,31 +1,57 @@
 {
   "meta": {
     "label": "Contact",
-    "description": "Contact form and details"
+    "description": "Write to us, call us or schedule a call. We reply within 24 hours.",
+    "keywords": "contact, quote, estimate, Aerolab"
   },
   "hero": {
     "badge": "Get in touch",
     "title": "Let's talk",
-    "subtitle": "We're here to answer your questions and help you get started.",
+    "subtitle": "We're here to answer your questions and help you get started. No commitment required.",
     "callButton": "Call now",
-    "emailButton": "Send email"
+    "emailButton": "Send email",
+    "scheduleButton": "Schedule a call"
   },
   "info": {
     "title": "Contact information",
     "phone": "Phone",
-    "email": "Email",
-    "hours": "Business hours",
-    "hoursValue": "Monday to Friday, 9:00 AM – 6:00 PM"
+    "email": "Email address",
+    "hours": "Office hours",
+    "hoursValue": "Monday to Friday, 9:00 AM – 6:00 PM",
+    "responseTime": "We reply within 24 hours",
+    "faqLink": "Have questions? See FAQ →",
+    "social": "Follow us"
   },
   "form": {
     "title": "Send us a message",
-    "name": "Name",
+    "name": "Full name",
+    "namePlaceholder": "Your full name",
     "email": "Email address",
+    "emailPlaceholder": "you@email.com",
+    "company": "Company / Business",
+    "companyPlaceholder": "Your company name (optional)",
+    "subject": "Subject",
+    "subjectPlaceholder": "What would you like to discuss?",
+    "service": "Service of interest",
+    "services": {
+      "default": "Select a category (optional)",
+      "web": "Web development",
+      "design": "Design & branding",
+      "marketing": "Digital marketing",
+      "ai": "Artificial intelligence",
+      "consulting": "Consulting & support",
+      "other": "Other"
+    },
     "message": "Message",
-    "submit": "Send message"
+    "messagePlaceholder": "Tell us about your project, what you need and any relevant details...",
+    "submit": "Send message",
+    "disclaimer": "No commitment. We reply within 24 hours."
   },
   "messages": {
-    "success": "Thanks! Your message was sent successfully.",
-    "error": "The message could not be sent. Please try again."
+    "successTitle": "Message sent!",
+    "successSubtitle": "Thanks for reaching out. We'll get back to you within 24 hours.",
+    "successBack": "Send another message",
+    "success": "Thank you! Your message was sent successfully.",
+    "error": "Could not send the message. Please try again."
   }
 }

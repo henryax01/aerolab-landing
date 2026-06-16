@@ -1,30 +1,56 @@
 {
   "meta": {
     "label": "Contacto",
-    "description": "Formulario y datos de contacto"
+    "description": "Escríbenos, llámanos o agenda una llamada. Respondemos en menos de 24 horas.",
+    "keywords": "contacto, contactar, presupuesto, cotización, Aerolab"
   },
   "hero": {
     "badge": "Ponte en contacto",
     "title": "Hablemos",
-    "subtitle": "Estamos aquí para responder tus preguntas y ayudarte a comenzar.",
+    "subtitle": "Estamos aquí para responder tus preguntas y ayudarte a empezar. Sin compromiso.",
     "callButton": "Llamar ahora",
-    "emailButton": "Enviar correo"
+    "emailButton": "Enviar correo",
+    "scheduleButton": "Agendar llamada"
   },
   "info": {
     "title": "Información de contacto",
     "phone": "Teléfono",
     "email": "Correo electrónico",
     "hours": "Horario de atención",
-    "hoursValue": "Lunes a viernes, 9:00 – 18:00"
+    "hoursValue": "Lunes a viernes, 9:00 – 18:00",
+    "responseTime": "Respondemos en menos de 24h",
+    "faqLink": "¿Tienes dudas? Ver preguntas frecuentes →",
+    "social": "Síguenos"
   },
   "form": {
     "title": "Envíanos un mensaje",
-    "name": "Nombre",
+    "name": "Nombre completo",
+    "namePlaceholder": "Tu nombre completo",
     "email": "Correo electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "company": "Empresa / Negocio",
+    "companyPlaceholder": "Nombre de tu empresa (opcional)",
+    "subject": "Asunto",
+    "subjectPlaceholder": "¿Sobre qué quieres hablar?",
+    "service": "Servicio de interés",
+    "services": {
+      "default": "Selecciona una categoría (opcional)",
+      "web": "Desarrollo web",
+      "design": "Diseño y branding",
+      "marketing": "Marketing digital",
+      "ai": "Inteligencia artificial",
+      "consulting": "Consultoría y soporte",
+      "other": "Otro"
+    },
     "message": "Mensaje",
-    "submit": "Enviar mensaje"
+    "messagePlaceholder": "Cuéntanos sobre tu proyecto, qué necesitas y cualquier detalle relevante...",
+    "submit": "Enviar mensaje",
+    "disclaimer": "Sin compromiso. Respondemos en menos de 24 horas."
   },
   "messages": {
+    "successTitle": "¡Mensaje enviado!",
+    "successSubtitle": "Gracias por escribirnos. Te contactaremos en menos de 24 horas.",
+    "successBack": "Enviar otro mensaje",
     "success": "¡Gracias! Tu mensaje fue enviado correctamente.",
     "error": "No se pudo enviar el mensaje. Inténtalo de nuevo."
   }
