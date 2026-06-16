@@ -1,26 +1,35 @@
 {
   "meta": {
     "label": "About",
-    "description": "Who we are and what drives us"
+    "description": "Who we are, our team and what drives us"
   },
   "hero": {
     "badge": "Who we are",
     "title": "About Aerolab",
     "subtitle": "A team of software developers, cybersecurity and AI specialists turning ideas into digital products ready for launch.",
     "stats": [
-      { "value": "+8", "label": "Years of experience" },
+      { "value": "+8",   "label": "Years of experience" },
       { "value": "+150", "label": "Projects delivered" },
-      { "value": "+60", "label": "Active clients" },
-      { "value": "98%", "label": "Satisfaction" }
+      { "value": "+60",  "label": "Active clients" },
+      { "value": "98%",  "label": "Satisfaction" }
     ]
   },
   "story": {
-    "title": "Technology, cybersecurity and AI under one roof",
     "badge": "What we do",
+    "title": "Technology, cybersecurity and AI under one roof",
     "highlight": { "value": "+8", "label": "Years of experience" },
     "paragraphs": [
       "At Aerolab we combine software development, cybersecurity and AI-powered automation to build solid, modern digital products.",
       "We care about every step of the process — architecture, code and deployment — to deliver results that are fast, secure and easy to maintain."
+    ]
+  },
+  "timeline": {
+    "title": "Our story",
+    "items": [
+      { "year": "2016", "title": "Founded",              "text": "Aerolab was born with a vision: accessible technology for every business." },
+      { "year": "2018", "title": "First 50 clients",     "text": "We hit our first major milestone and grew the team." },
+      { "year": "2021", "title": "Regional expansion",   "text": "We started working with clients across 5 Latin American countries." },
+      { "year": "2024", "title": "AI integrated",        "text": "We embedded artificial intelligence into all our services." }
     ]
   },
   "mission": {
@@ -31,12 +40,69 @@
     "title": "Vision",
     "text": "To become the go-to digital mission control for companies looking to innovate, recognized for technical quality, creativity and a close relationship with every client."
   },
+  "why": {
+    "title": "Why choose us?",
+    "items": [
+      { "title": "Proven experience",        "text": "+8 years delivering successful projects across multiple industries." },
+      { "title": "Full transparency",        "text": "We keep you informed at every stage. No surprises, no hidden costs." },
+      { "title": "Measurable results",       "text": "Every delivery comes with clear impact metrics." },
+      { "title": "Ongoing support",          "text": "We don't disappear after delivery. We support you post-launch." },
+      { "title": "Cross-functional team",    "text": "Developers, designers and AI specialists all under one roof." },
+      { "title": "Cutting-edge technology",  "text": "We always use the best tools and practices available." }
+    ]
+  },
+  "team": {
+    "title": "Our team",
+    "subtitle": "The people behind every project",
+    "members": [
+      { "name": "Alex Rodríguez",  "role": "CEO & Founder",       "bio": "Software architect with +10 years building high-impact digital products." },
+      { "name": "María López",     "role": "Design Director",     "bio": "UX/UI designer focused on creating experiences that connect and convert." },
+      { "name": "Carlos Méndez",   "role": "Lead Developer",      "bio": "Full-stack specialist in React, FastAPI and scalable cloud architectures." }
+    ]
+  },
+  "stack": {
+    "title": "Technologies we use"
+  },
+  "testimonial": {
+    "quote": "Aerolab transformed our digital presence in record time. The team is professional, creative and always available when we need them.",
+    "name": "María Fernández",
+    "company": "CEO, Mariposa Shop"
+  },
+  "clients": {
+    "title": "Companies that trust us"
+  },
+  "certifications": {
+    "title": "Certifications & partners"
+  },
+  "culture": {
+    "title": "Our DNA",
+    "items": [
+      { "title": "Constant innovation",  "text": "We never stop learning. Every project is a chance to improve and grow." },
+      { "title": "Real collaboration",   "text": "Your team and ours work as one to reach the goals." },
+      { "title": "Technical excellence", "text": "We don't deliver until we're 100% confident in the quality." }
+    ]
+  },
   "values": {
     "title": "Our values",
     "items": [
       { "title": "Innovation", "text": "We explore new technologies to keep you ahead of the curve." },
-      { "title": "Precision", "text": "We take care of every detail as if it were mission-critical." },
-      { "title": "Closeness", "text": "We speak clearly and support you through every stage of the project." }
+      { "title": "Precision",  "text": "We take care of every detail as if it were mission-critical." },
+      { "title": "Closeness",  "text": "We speak clearly and support you through every stage of the project." }
     ]
-  }
+  },
+  "location": {
+    "title": "Where we are",
+    "city": "Mexico City, Mexico",
+    "remote": "We work 100% remotely with clients across Latin America",
+    "hours": "Monday to Friday, 9:00 AM – 6:00 PM",
+    "contactLink": "Go to contact →"
+  },
+  "cta": {
+    "title": "Ready to work together?",
+    "subtitle": "Tell us your idea and let's build something great.",
+    "servicesButton": "View services",
+    "contactButton": "Contact us now"
+  },
+  "casesCta": "Want to see real results?",
+  "casesCtaButton": "View case studies →"
 }

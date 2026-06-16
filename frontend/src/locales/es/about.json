@@ -1,26 +1,35 @@
 {
   "meta": {
     "label": "Nosotros",
-    "description": "Quiénes somos y qué nos mueve"
+    "description": "Quiénes somos, nuestro equipo y qué nos mueve"
   },
   "hero": {
     "badge": "Quiénes somos",
     "title": "Sobre Aerolab",
     "subtitle": "Un equipo de desarrollo de software, ciberseguridad e inteligencia artificial que convierte ideas en productos digitales listos para despegar.",
     "stats": [
-      { "value": "+8", "label": "Años de experiencia" },
+      { "value": "+8",   "label": "Años de experiencia" },
       { "value": "+150", "label": "Proyectos entregados" },
-      { "value": "+60", "label": "Clientes activos" },
-      { "value": "98%", "label": "Satisfacción" }
+      { "value": "+60",  "label": "Clientes activos" },
+      { "value": "98%",  "label": "Satisfacción" }
     ]
   },
   "story": {
-    "title": "Tecnología, ciberseguridad e IA en un mismo equipo",
     "badge": "Lo que hacemos",
+    "title": "Tecnología, ciberseguridad e IA en un mismo equipo",
     "highlight": { "value": "+8", "label": "Años de experiencia" },
     "paragraphs": [
       "En Aerolab combinamos desarrollo de software, ciberseguridad y automatización con inteligencia artificial para crear productos digitales sólidos y modernos.",
       "Cuidamos cada detalle del proceso —arquitectura, código y despliegue— para entregar resultados rápidos, seguros y fáciles de mantener."
+    ]
+  },
+  "timeline": {
+    "title": "Nuestra historia",
+    "items": [
+      { "year": "2016", "title": "Fundación",              "text": "Nació Aerolab con una visión: tecnología accesible para todos los negocios." },
+      { "year": "2018", "title": "Primeros 50 clientes",   "text": "Alcanzamos nuestro primer gran hito y ampliamos el equipo." },
+      { "year": "2021", "title": "Expansión regional",     "text": "Comenzamos a trabajar con clientes en 5 países de Latinoamérica." },
+      { "year": "2024", "title": "IA integrada",           "text": "Incorporamos inteligencia artificial en todos nuestros servicios." }
     ]
   },
   "mission": {
@@ -31,12 +40,69 @@
     "title": "Visión",
     "text": "Convertirnos en el centro de operaciones digital de referencia para empresas que buscan innovar, reconocidos por la calidad técnica, la creatividad y la cercanía con cada cliente."
   },
+  "why": {
+    "title": "¿Por qué elegirnos?",
+    "items": [
+      { "title": "Experiencia comprobada",      "text": "+8 años entregando proyectos exitosos en múltiples industrias." },
+      { "title": "Transparencia total",         "text": "Te informamos en cada etapa. Sin sorpresas ni costos ocultos." },
+      { "title": "Resultados medibles",         "text": "Cada entrega viene con métricas claras de impacto real." },
+      { "title": "Soporte continuo",            "text": "No desaparecemos al entregar. Te acompañamos después del lanzamiento." },
+      { "title": "Equipo multidisciplinario",   "text": "Desarrolladores, diseñadores y especialistas en IA bajo un mismo techo." },
+      { "title": "Tecnología de punta",         "text": "Siempre usamos las mejores herramientas y prácticas del mercado." }
+    ]
+  },
+  "team": {
+    "title": "Nuestro equipo",
+    "subtitle": "Las personas detrás de cada proyecto",
+    "members": [
+      { "name": "Alex Rodríguez",  "role": "CEO & Fundador",       "bio": "Arquitecto de software con +10 años construyendo productos digitales de alto impacto." },
+      { "name": "María López",     "role": "Directora de Diseño",  "bio": "UX/UI designer enfocada en crear experiencias que conectan con las personas y convierten." },
+      { "name": "Carlos Méndez",   "role": "Lead Developer",       "bio": "Full-stack especializado en React, FastAPI y arquitecturas cloud escalables." }
+    ]
+  },
+  "stack": {
+    "title": "Tecnologías que usamos"
+  },
+  "testimonial": {
+    "quote": "Aerolab transformó nuestra presencia digital en tiempo récord. El equipo es profesional, creativo y siempre disponible cuando los necesitamos.",
+    "name": "María Fernández",
+    "company": "CEO, Tienda Mariposa"
+  },
+  "clients": {
+    "title": "Empresas que confían en nosotros"
+  },
+  "certifications": {
+    "title": "Certificaciones y partners"
+  },
+  "culture": {
+    "title": "Nuestro ADN",
+    "items": [
+      { "title": "Innovación constante",  "text": "Nunca dejamos de aprender. Cada proyecto es una oportunidad de mejorar y crecer." },
+      { "title": "Colaboración real",     "text": "Tu equipo y el nuestro trabajan como uno solo para alcanzar los objetivos." },
+      { "title": "Excelencia técnica",    "text": "No entregamos hasta estar 100% seguros de la calidad del resultado." }
+    ]
+  },
   "values": {
     "title": "Nuestros valores",
     "items": [
       { "title": "Innovación", "text": "Exploramos nuevas tecnologías para mantenerte a la vanguardia." },
-      { "title": "Precisión", "text": "Cuidamos cada detalle como si fuera una misión crítica." },
-      { "title": "Cercanía", "text": "Hablamos claro y te acompañamos en cada etapa del proyecto." }
+      { "title": "Precisión",  "text": "Cuidamos cada detalle como si fuera una misión crítica." },
+      { "title": "Cercanía",   "text": "Hablamos claro y te acompañamos en cada etapa del proyecto." }
     ]
-  }
+  },
+  "location": {
+    "title": "Dónde estamos",
+    "city": "Ciudad de México, México",
+    "remote": "Trabajamos 100% remoto con clientes de toda Latinoamérica",
+    "hours": "Lunes a viernes, 9:00 – 18:00",
+    "contactLink": "Ir a contacto →"
+  },
+  "cta": {
+    "title": "¿Listo para trabajar juntos?",
+    "subtitle": "Cuéntanos tu idea y construyamos algo increíble.",
+    "servicesButton": "Ver servicios",
+    "contactButton": "Contactar ahora"
+  },
+  "casesCta": "¿Quieres ver resultados reales?",
+  "casesCtaButton": "Ver casos de éxito →"
 }
