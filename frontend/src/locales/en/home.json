@@ -64,6 +64,15 @@
     "subtitle": "Request your project today and let's start working together.",
     "button": "Request now"
   },
+  "explore": {
+    "title": "Explore more",
+    "cases": "Case studies",
+    "casesSub": "Real projects with measurable results",
+    "blog": "Blog",
+    "blogSub": "Articles on design, AI and marketing",
+    "budget": "Calculator",
+    "budgetSub": "Estimate your project cost instantly"
+  },
   "sections": {
     "title": "Explore more",
     "home": "Home",

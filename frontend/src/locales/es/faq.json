@@ -9,6 +9,8 @@
     "title": "Preguntas frecuentes",
     "subtitle": "Resolvemos tus dudas antes de que tengas que preguntar."
   },
+  "stillHaveQuestions": "¿Todavía tienes dudas?",
+  "contactCta": "Contactar",
   "items": [
     {
       "q": "¿Cuánto cuesta un proyecto?",

@@ -87,6 +87,8 @@
     ],
     "cta": "Solicitar"
   },
+  "budgetCta": "¿Quieres saber cuánto costaría tu proyecto?",
+  "budgetCtaButton": "→ Calculadora de presupuesto",
   "pagination": {
     "previous": "Anterior",
     "next": "Siguiente"

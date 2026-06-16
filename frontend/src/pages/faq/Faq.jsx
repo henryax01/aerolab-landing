@@ -78,13 +78,13 @@ export default function Faq() {
       <section className="bg-light-surface py-16 text-center dark:bg-dark-surface">
         <ScrollReveal>
           <p className="text-lg font-semibold text-light-text-primary dark:text-dark-text-primary">
-            ¿Todavía tienes dudas?
+            {t('stillHaveQuestions')}
           </p>
           <Link
             to="/contact"
             className="mt-4 inline-block rounded-lg bg-light-accent px-8 py-3 font-semibold text-white shadow-lg shadow-light-accent/20 transition-all duration-200 hover:-translate-y-0.5 hover:opacity-90 dark:bg-dark-accent dark:shadow-dark-accent/20"
           >
-            Contactar
+            {t('contactCta')}
           </Link>
         </ScrollReveal>
       </section>

@@ -87,6 +87,8 @@
     ],
     "cta": "Request"
   },
+  "budgetCta": "Want to know how much your project would cost?",
+  "budgetCtaButton": "→ Budget calculator",
   "pagination": {
     "previous": "Previous",
     "next": "Next"

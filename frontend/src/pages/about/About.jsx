@@ -129,6 +129,18 @@ export default function About() {
         </div>
       </section>
 
+      <section className="py-12">
+        <ScrollReveal className="mx-auto max-w-4xl px-4 text-center">
+          <p className="text-lg font-semibold">{t('casesCta', { defaultValue: '¿Quieres ver resultados reales?' })}</p>
+          <Link
+            to="/cases"
+            className="mt-4 inline-block rounded-lg border border-light-accent px-6 py-2.5 text-sm font-semibold text-light-accent transition-all duration-200 hover:bg-light-accent hover:text-white dark:border-dark-accent dark:text-dark-accent dark:hover:bg-dark-accent dark:hover:text-white"
+          >
+            {t('casesCtaButton', { defaultValue: 'Ver casos de éxito →' })}
+          </Link>
+        </ScrollReveal>
+      </section>
+
       <section className="bg-light-surface py-20 dark:bg-dark-surface">
         <div className="mx-auto max-w-6xl px-4">
           <ScrollReveal>

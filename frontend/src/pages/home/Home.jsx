@@ -189,6 +189,32 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-16">
+        <div className="mx-auto max-w-6xl px-4">
+          <ScrollReveal className="text-center">
+            <h2 className="text-2xl font-black tracking-tight">{t('explore.title', { defaultValue: 'Explora más' })}</h2>
+          </ScrollReveal>
+          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+            {[
+              { to: '/cases',   emoji: '🏆', title: t('explore.cases',   { defaultValue: 'Casos de éxito' }),    sub: t('explore.casesSub',   { defaultValue: 'Proyectos reales con resultados medibles' }) },
+              { to: '/blog',    emoji: '📝', title: t('explore.blog',    { defaultValue: 'Blog' }),               sub: t('explore.blogSub',    { defaultValue: 'Artículos sobre diseño, IA y marketing' }) },
+              { to: '/budget',  emoji: '🧮', title: t('explore.budget',  { defaultValue: 'Calculadora' }),        sub: t('explore.budgetSub',  { defaultValue: 'Estima el costo de tu proyecto' }) },
+            ].map(({ to, emoji, title, sub }) => (
+              <ScrollReveal key={to}>
+                <Link
+                  to={to}
+                  className="flex flex-col items-center rounded-xl border border-light-border bg-light-surface p-6 text-center transition-all duration-200 hover:-translate-y-1 hover:border-light-accent hover:shadow-lg dark:border-dark-border dark:bg-dark-surface dark:hover:border-dark-accent"
+                >
+                  <span className="text-3xl">{emoji}</span>
+                  <p className="mt-3 font-bold">{title}</p>
+                  <p className="mt-1 text-sm text-light-text-secondary dark:text-dark-text-secondary">{sub}</p>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <ExperienceSection />
     </div>
   );

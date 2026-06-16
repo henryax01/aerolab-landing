@@ -64,6 +64,15 @@
     "subtitle": "Solicita tu proyecto hoy mismo y empecemos a trabajar juntos.",
     "button": "Solicitar ahora"
   },
+  "explore": {
+    "title": "Explora más",
+    "cases": "Casos de éxito",
+    "casesSub": "Proyectos reales con resultados medibles",
+    "blog": "Blog",
+    "blogSub": "Artículos sobre diseño, IA y marketing",
+    "budget": "Calculadora",
+    "budgetSub": "Estima el costo de tu proyecto al instante"
+  },
   "sections": {
     "title": "Explora más",
     "home": "Inicio",

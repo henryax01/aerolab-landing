@@ -246,6 +246,18 @@ export default function Portfolio() {
             previousLabel={t('pagination.previous')}
             nextLabel={t('pagination.next')}
           />
+
+          <div className="mt-10 rounded-xl border border-light-accent/30 bg-light-accent/5 p-6 text-center dark:border-dark-accent/30 dark:bg-dark-accent/5">
+            <p className="font-semibold text-light-text-primary dark:text-dark-text-primary">
+              {t('budgetCta', { defaultValue: '¿Quieres saber cuánto costaría tu proyecto?' })}
+            </p>
+            <Link
+              to="/budget"
+              className="mt-3 inline-block rounded-lg bg-light-accent px-6 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:-translate-y-0.5 hover:opacity-90 dark:bg-dark-accent"
+            >
+              {t('budgetCtaButton', { defaultValue: '→ Calculadora de presupuesto' })}
+            </Link>
+          </div>
         </div>
       </section>
     </div>
