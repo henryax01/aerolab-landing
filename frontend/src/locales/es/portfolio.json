@@ -18,7 +18,20 @@
     "searchLabel": "Buscar servicio",
     "searchPlaceholder": "Buscar por nombre o palabra clave...",
     "categoryLabel": "Categoría",
-    "noResults": "No se encontraron servicios con esos filtros."
+    "noResults": "No se encontraron servicios con esos filtros.",
+    "resultCount": "Mostrando {{shown}} de {{total}} servicios",
+    "sort": "Ordenar",
+    "sortOptions": {
+      "default": "Relevancia",
+      "priceAsc": "Precio: menor a mayor",
+      "priceDesc": "Precio: mayor a menor",
+      "nameAz": "Nombre: A–Z"
+    },
+    "clearSearch": "Limpiar búsqueda",
+    "noResultsTitle": "Sin resultados",
+    "noResultsText": "Prueba con otra búsqueda o cambia la categoría.",
+    "viewGrid": "Cuadrícula",
+    "viewList": "Lista"
   },
   "categories": {
     "all":        "Todos",
@@ -85,7 +98,19 @@
       { "name": "Migración a la nube",               "category": "consulting", "priceRange": "$800 – $2,500",      "description": "Traslado seguro de infraestructura a AWS, Azure o Google Cloud." },
       { "name": "Plan de crecimiento digital",       "category": "consulting", "priceRange": "$500 – $1,500",      "description": "Roadmap personalizado de canales, herramientas y métricas para escalar online." }
     ],
-    "cta": "Solicitar"
+    "cta": "Solicitar",
+    "popular": "Popular",
+    "consultCta": "Consultar"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "viewAll": "Ver todas las preguntas →",
+    "items": [
+      { "q": "¿Cuánto tiempo tarda un proyecto?", "a": "Depende del alcance. Una landing page puede estar lista en 3–7 días; un proyecto web complejo tarda 4–8 semanas." },
+      { "q": "¿Cómo funciona el proceso de pago?", "a": "Trabajamos con un 50% inicial para comenzar y el 50% restante al entregar el proyecto terminado." },
+      { "q": "¿Incluyen soporte después de la entrega?", "a": "Sí. Todos los proyectos incluyen 30 días de soporte gratuito post-entrega para correcciones y ajustes." },
+      { "q": "¿Puedo combinar varios servicios?", "a": "Por supuesto. Contáctanos o usa la calculadora de presupuesto para armar un paquete personalizado." }
+    ]
   },
   "budgetCta": "¿Quieres saber cuánto costaría tu proyecto?",
   "budgetCtaButton": "→ Calculadora de presupuesto",

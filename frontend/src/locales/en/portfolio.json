@@ -18,7 +18,20 @@
     "searchLabel": "Search services",
     "searchPlaceholder": "Search by name or keyword...",
     "categoryLabel": "Category",
-    "noResults": "No services match these filters."
+    "noResults": "No services match these filters.",
+    "resultCount": "Showing {{shown}} of {{total}} services",
+    "sort": "Sort",
+    "sortOptions": {
+      "default": "Relevance",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "nameAz": "Name: A–Z"
+    },
+    "clearSearch": "Clear search",
+    "noResultsTitle": "No results",
+    "noResultsText": "Try a different search or change the category.",
+    "viewGrid": "Grid",
+    "viewList": "List"
   },
   "categories": {
     "all":        "All",
@@ -85,7 +98,19 @@
       { "name": "Cloud migration",                   "category": "consulting", "priceRange": "$800 – $2,500",      "description": "Safe transfer of infrastructure to AWS, Azure or Google Cloud." },
       { "name": "Digital growth plan",               "category": "consulting", "priceRange": "$500 – $1,500",      "description": "Personalised roadmap of channels, tools and metrics to scale online." }
     ],
-    "cta": "Request"
+    "cta": "Request",
+    "popular": "Popular",
+    "consultCta": "Enquire"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "viewAll": "See all questions →",
+    "items": [
+      { "q": "How long does a project take?", "a": "It depends on the scope. A landing page can be ready in 3–7 days; a complex web project takes 4–8 weeks." },
+      { "q": "How does payment work?", "a": "We work with a 50% upfront payment to get started and the remaining 50% on final delivery." },
+      { "q": "Do you provide post-delivery support?", "a": "Yes. All projects include 30 days of free post-delivery support for fixes and adjustments." },
+      { "q": "Can I combine multiple services?", "a": "Absolutely. Contact us or use our budget calculator to put together a custom package." }
+    ]
   },
   "budgetCta": "Want to know how much your project would cost?",
   "budgetCtaButton": "→ Budget calculator",
