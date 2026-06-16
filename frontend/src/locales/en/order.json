@@ -1,56 +1,122 @@
 {
   "meta": {
     "label": "Orders",
-    "description": "Form to request a service"
+    "description": "Request a digital service. Web development, design, marketing, AI and consulting."
   },
   "hero": {
     "badge": "Request service",
     "title": "Request your project",
-    "subtitle": "Tell us what you need and we'll help you make it happen."
+    "subtitle": "Tell us what you need and we'll help you make it happen.",
+    "steps": ["Details", "Payment", "Done"]
   },
   "form": {
     "title": "Order details",
     "name": "Full name",
+    "namePlaceholder": "Your full name",
     "email": "Email address",
+    "emailPlaceholder": "you@email.com",
     "product": "Service",
     "quantity": "Quantity",
-    "address": "Address",
+    "quantityPlaceholder": "1",
+    "address": "Company or website",
+    "addressPlaceholder": "Your company or current URL (optional)",
     "notes": "Additional notes",
+    "notesPlaceholder": "Requirements, deadlines, references, questions...",
     "couponCode": "Coupon code",
     "couponPlaceholder": "E.g. PROMO10",
     "applyCoupon": "Apply",
     "removeCoupon": "Remove",
     "couponApplied": "Coupon {{code}} applied.",
     "submit": "Continue to payment",
+    "errors": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address",
+      "quantity": "Quantity must be at least 1"
+    },
     "products": {
-      "Desarrollo web": "Web development — $1,200",
-      "Tienda online": "Online store — $1,800",
-      "Aplicación móvil": "Mobile app — $2,500",
-      "Landing page": "Landing page — $400",
-      "Mantenimiento web": "Website maintenance — $150",
-      "Integración de APIs": "API integration — $600",
-      "Migración de sitio web": "Website migration — $500",
-
-      "Auditoría de seguridad web": "Web security audit — $500",
-
-      "Chatbots con IA": "AI chatbots — $800",
-      "Automatización de procesos": "Process automation — $700",
-      "Análisis de datos con IA": "AI data analysis — $900",
-      "Integración de modelos de lenguaje": "LLM integration — $1,000",
-
-      "Migración a la nube": "Cloud migration — $800",
-      "Consultoría tecnológica": "Tech consulting — $400",
-      "Soporte técnico": "Technical support — $200"
+      "Desarrollo web": "Web development",
+      "Tienda online": "Online store",
+      "Aplicación móvil": "Mobile app",
+      "Landing page": "Landing page",
+      "Mantenimiento web": "Website maintenance",
+      "Migración de sitio web": "Website migration",
+      "Integración de APIs": "API integration",
+      "Auditoría de seguridad web": "Web security audit",
+      "Optimización de rendimiento web": "Web performance optimisation",
+      "Desarrollo de plugins": "Plugin development",
+      "Progressive Web App": "Progressive Web App",
+      "Portal web corporativo": "Corporate web portal",
+      "Diseño gráfico": "Graphic design",
+      "Diseño UI/UX": "UI/UX design",
+      "Diseño de logotipo": "Logo design",
+      "Manual de marca": "Brand guidelines",
+      "Diseño de presentaciones": "Presentation design",
+      "Ilustración digital": "Digital illustration",
+      "Diseño de empaques": "Packaging design",
+      "Prototipado interactivo": "Interactive prototyping",
+      "Rebranding": "Rebranding",
+      "Diseño editorial": "Editorial design",
+      "Marketing digital": "Digital marketing",
+      "Gestión de redes sociales": "Social media management",
+      "Publicidad en Google Ads": "Google Ads",
+      "Publicidad en redes sociales": "Social media advertising",
+      "SEO y posicionamiento web": "SEO",
+      "Email marketing": "Email marketing",
+      "Marketing de contenidos": "Content marketing",
+      "Producción de video": "Video production",
+      "Fotografía de producto": "Product photography",
+      "Estrategia de marca digital": "Digital brand strategy",
+      "Chatbots con IA": "AI chatbots",
+      "Automatización de procesos": "Process automation",
+      "Análisis de datos con IA": "AI data analysis",
+      "Integración de modelos de lenguaje": "LLM integration",
+      "Generación de contenido con IA": "AI content generation",
+      "Automatización de marketing con IA": "AI marketing automation",
+      "Sistemas de recomendación": "Recommendation systems",
+      "Reconocimiento de imágenes": "Image recognition",
+      "Automatización de reportes": "Report automation",
+      "Asistente de voz personalizado": "Custom voice assistant",
+      "Consultoría estratégica": "Strategic consulting",
+      "Consultoría tecnológica": "Tech consulting",
+      "Auditoría digital": "Digital audit",
+      "Soporte técnico": "Technical support",
+      "Capacitación de equipos": "Team training",
+      "Experiencias 3D interactivas": "Interactive 3D experiences",
+      "Migración a la nube": "Cloud migration",
+      "Plan de crecimiento digital": "Digital growth plan"
     }
   },
   "summary": {
     "title": "Order summary",
     "service": "Service",
+    "category": "Category",
+    "priceRange": "Price range",
+    "estimatedDelivery": "Estimated delivery",
     "quantity": "Quantity",
     "unitPrice": "Unit price",
     "subtotal": "Subtotal",
     "discount": "Discount",
     "total": "Total"
+  },
+  "categories": {
+    "web": "Web development",
+    "design": "Design & branding",
+    "marketing": "Digital marketing",
+    "ai": "Artificial intelligence",
+    "consulting": "Consulting & support"
+  },
+  "delivery": {
+    "web": "7 – 21 days",
+    "design": "3 – 14 days",
+    "marketing": "5 – 10 days",
+    "ai": "14 – 30 days",
+    "consulting": "3 – 7 days"
+  },
+  "trust": {
+    "secure": "Secure payment",
+    "ssl": "SSL / HTTPS",
+    "noCommitment": "No commitment",
+    "satisfaction": "Satisfaction guaranteed"
   },
   "payment": {
     "title": "Secure payment",
@@ -60,7 +126,15 @@
     "cancel": "Cancel payment",
     "processing": "Processing payment...",
     "success": "Payment successful! We've received your order.",
+    "successTitle": "Order complete!",
+    "successSubtitle": "We've processed your payment. We'll get in touch soon to kick off your project.",
+    "viewOrders": "View my orders →",
+    "newOrder": "Place another order",
     "error": "An error occurred while processing the payment."
+  },
+  "related": {
+    "title": "You might also like",
+    "from": "From"
   },
   "messages": {
     "created": "Your order was created successfully.",

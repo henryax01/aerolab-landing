@@ -1,56 +1,122 @@
 {
   "meta": {
     "label": "Pedidos",
-    "description": "Formulario para solicitar un servicio"
+    "description": "Solicita un servicio digital. Desarrollo web, diseño, marketing, IA y consultoría."
   },
   "hero": {
     "badge": "Solicitar servicio",
     "title": "Solicita tu proyecto",
-    "subtitle": "Cuéntanos qué necesitas y te ayudamos a hacerlo realidad."
+    "subtitle": "Cuéntanos qué necesitas y te ayudamos a hacerlo realidad.",
+    "steps": ["Detalles", "Pago", "Listo"]
   },
   "form": {
     "title": "Datos del pedido",
     "name": "Nombre completo",
+    "namePlaceholder": "Tu nombre completo",
     "email": "Correo electrónico",
+    "emailPlaceholder": "tu@email.com",
     "product": "Servicio",
     "quantity": "Cantidad",
-    "address": "Dirección",
+    "quantityPlaceholder": "1",
+    "address": "Empresa o sitio web",
+    "addressPlaceholder": "Tu empresa o URL actual (opcional)",
     "notes": "Notas adicionales",
+    "notesPlaceholder": "Requisitos, plazos, referencias, preguntas...",
     "couponCode": "Código de cupón",
     "couponPlaceholder": "Ej. PROMO10",
     "applyCoupon": "Aplicar",
     "removeCoupon": "Quitar",
     "couponApplied": "Cupón {{code}} aplicado.",
     "submit": "Continuar al pago",
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "email": "Ingresa un correo electrónico válido",
+      "quantity": "La cantidad debe ser al menos 1"
+    },
     "products": {
-      "Desarrollo web": "Desarrollo web — $1,200",
-      "Tienda online": "Tienda online — $1,800",
-      "Aplicación móvil": "Aplicación móvil — $2,500",
-      "Landing page": "Landing page — $400",
-      "Mantenimiento web": "Mantenimiento web — $150",
-      "Integración de APIs": "Integración de APIs — $600",
-      "Migración de sitio web": "Migración de sitio web — $500",
-
-      "Auditoría de seguridad web": "Auditoría de seguridad web — $500",
-
-      "Chatbots con IA": "Chatbots con IA — $800",
-      "Automatización de procesos": "Automatización de procesos — $700",
-      "Análisis de datos con IA": "Análisis de datos con IA — $900",
-      "Integración de modelos de lenguaje": "Integración de modelos de lenguaje — $1,000",
-
-      "Migración a la nube": "Migración a la nube — $800",
-      "Consultoría tecnológica": "Consultoría tecnológica — $400",
-      "Soporte técnico": "Soporte técnico — $200"
+      "Desarrollo web": "Desarrollo web",
+      "Tienda online": "Tienda online",
+      "Aplicación móvil": "Aplicación móvil",
+      "Landing page": "Landing page",
+      "Mantenimiento web": "Mantenimiento web",
+      "Migración de sitio web": "Migración de sitio web",
+      "Integración de APIs": "Integración de APIs",
+      "Auditoría de seguridad web": "Auditoría de seguridad web",
+      "Optimización de rendimiento web": "Optimización de rendimiento web",
+      "Desarrollo de plugins": "Desarrollo de plugins",
+      "Progressive Web App": "Progressive Web App",
+      "Portal web corporativo": "Portal web corporativo",
+      "Diseño gráfico": "Diseño gráfico",
+      "Diseño UI/UX": "Diseño UI/UX",
+      "Diseño de logotipo": "Diseño de logotipo",
+      "Manual de marca": "Manual de marca",
+      "Diseño de presentaciones": "Diseño de presentaciones",
+      "Ilustración digital": "Ilustración digital",
+      "Diseño de empaques": "Diseño de empaques",
+      "Prototipado interactivo": "Prototipado interactivo",
+      "Rebranding": "Rebranding",
+      "Diseño editorial": "Diseño editorial",
+      "Marketing digital": "Marketing digital",
+      "Gestión de redes sociales": "Gestión de redes sociales",
+      "Publicidad en Google Ads": "Publicidad en Google Ads",
+      "Publicidad en redes sociales": "Publicidad en redes sociales",
+      "SEO y posicionamiento web": "SEO y posicionamiento web",
+      "Email marketing": "Email marketing",
+      "Marketing de contenidos": "Marketing de contenidos",
+      "Producción de video": "Producción de video",
+      "Fotografía de producto": "Fotografía de producto",
+      "Estrategia de marca digital": "Estrategia de marca digital",
+      "Chatbots con IA": "Chatbots con IA",
+      "Automatización de procesos": "Automatización de procesos",
+      "Análisis de datos con IA": "Análisis de datos con IA",
+      "Integración de modelos de lenguaje": "Integración de modelos de lenguaje",
+      "Generación de contenido con IA": "Generación de contenido con IA",
+      "Automatización de marketing con IA": "Automatización de marketing con IA",
+      "Sistemas de recomendación": "Sistemas de recomendación",
+      "Reconocimiento de imágenes": "Reconocimiento de imágenes",
+      "Automatización de reportes": "Automatización de reportes",
+      "Asistente de voz personalizado": "Asistente de voz personalizado",
+      "Consultoría estratégica": "Consultoría estratégica",
+      "Consultoría tecnológica": "Consultoría tecnológica",
+      "Auditoría digital": "Auditoría digital",
+      "Soporte técnico": "Soporte técnico",
+      "Capacitación de equipos": "Capacitación de equipos",
+      "Experiencias 3D interactivas": "Experiencias 3D interactivas",
+      "Migración a la nube": "Migración a la nube",
+      "Plan de crecimiento digital": "Plan de crecimiento digital"
     }
   },
   "summary": {
     "title": "Resumen del pedido",
     "service": "Servicio",
+    "category": "Categoría",
+    "priceRange": "Rango de precio",
+    "estimatedDelivery": "Entrega estimada",
     "quantity": "Cantidad",
     "unitPrice": "Precio unitario",
     "subtotal": "Subtotal",
     "discount": "Descuento",
     "total": "Total"
+  },
+  "categories": {
+    "web": "Desarrollo web",
+    "design": "Diseño y branding",
+    "marketing": "Marketing digital",
+    "ai": "Inteligencia artificial",
+    "consulting": "Consultoría y soporte"
+  },
+  "delivery": {
+    "web": "7 – 21 días",
+    "design": "3 – 14 días",
+    "marketing": "5 – 10 días",
+    "ai": "14 – 30 días",
+    "consulting": "3 – 7 días"
+  },
+  "trust": {
+    "secure": "Pago seguro",
+    "ssl": "SSL / HTTPS",
+    "noCommitment": "Sin compromiso",
+    "satisfaction": "Satisfacción garantizada"
   },
   "payment": {
     "title": "Pago seguro",
@@ -60,7 +126,15 @@
     "cancel": "Cancelar pago",
     "processing": "Procesando pago...",
     "success": "¡Pago realizado con éxito! Hemos recibido tu pedido.",
+    "successTitle": "¡Pedido completado!",
+    "successSubtitle": "Hemos procesado tu pago. Te contactaremos pronto para comenzar tu proyecto.",
+    "viewOrders": "Ver mis pedidos →",
+    "newOrder": "Hacer otro pedido",
     "error": "Ocurrió un error al procesar el pago."
+  },
+  "related": {
+    "title": "También te puede interesar",
+    "from": "Desde"
   },
   "messages": {
     "created": "Tu pedido se ha creado correctamente.",
