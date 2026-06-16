@@ -23,24 +23,61 @@ export const pageMetadata = {
 };
 
 const PRODUCTS = [
-  { name: 'Desarrollo web', price: 1200 },
-  { name: 'Tienda online', price: 1800 },
-  { name: 'Aplicación móvil', price: 2500 },
-  { name: 'Landing page', price: 400 },
-  { name: 'Mantenimiento web', price: 150 },
-  { name: 'Integración de APIs', price: 600 },
-  { name: 'Migración de sitio web', price: 500 },
-
-  { name: 'Auditoría de seguridad web', price: 500 },
-
-  { name: 'Chatbots con IA', price: 800 },
-  { name: 'Automatización de procesos', price: 700 },
-  { name: 'Análisis de datos con IA', price: 900 },
+  // Web
+  { name: 'Desarrollo web',                     price: 1200 },
+  { name: 'Tienda online',                      price: 1800 },
+  { name: 'Aplicación móvil',                   price: 2500 },
+  { name: 'Landing page',                       price: 400  },
+  { name: 'Mantenimiento web',                  price: 150  },
+  { name: 'Migración de sitio web',             price: 500  },
+  { name: 'Integración de APIs',                price: 600  },
+  { name: 'Auditoría de seguridad web',         price: 500  },
+  { name: 'Optimización de rendimiento web',    price: 300  },
+  { name: 'Desarrollo de plugins',              price: 400  },
+  { name: 'Progressive Web App',                price: 800  },
+  { name: 'Portal web corporativo',             price: 2000 },
+  // Design
+  { name: 'Diseño gráfico',                     price: 300  },
+  { name: 'Diseño UI/UX',                       price: 800  },
+  { name: 'Diseño de logotipo',                 price: 200  },
+  { name: 'Manual de marca',                    price: 500  },
+  { name: 'Diseño de presentaciones',           price: 200  },
+  { name: 'Ilustración digital',                price: 300  },
+  { name: 'Diseño de empaques',                 price: 400  },
+  { name: 'Prototipado interactivo',            price: 500  },
+  { name: 'Rebranding',                         price: 1000 },
+  { name: 'Diseño editorial',                   price: 400  },
+  // Marketing
+  { name: 'Marketing digital',                  price: 600  },
+  { name: 'Gestión de redes sociales',          price: 400  },
+  { name: 'Publicidad en Google Ads',           price: 300  },
+  { name: 'Publicidad en redes sociales',       price: 300  },
+  { name: 'SEO y posicionamiento web',          price: 400  },
+  { name: 'Email marketing',                    price: 200  },
+  { name: 'Marketing de contenidos',            price: 400  },
+  { name: 'Producción de video',                price: 800  },
+  { name: 'Fotografía de producto',             price: 300  },
+  { name: 'Estrategia de marca digital',        price: 600  },
+  // AI
+  { name: 'Chatbots con IA',                    price: 800  },
+  { name: 'Automatización de procesos',         price: 700  },
+  { name: 'Análisis de datos con IA',           price: 900  },
   { name: 'Integración de modelos de lenguaje', price: 1000 },
-
-  { name: 'Migración a la nube', price: 800 },
-  { name: 'Consultoría tecnológica', price: 400 },
-  { name: 'Soporte técnico', price: 200 },
+  { name: 'Generación de contenido con IA',     price: 500  },
+  { name: 'Automatización de marketing con IA', price: 700  },
+  { name: 'Sistemas de recomendación',          price: 1200 },
+  { name: 'Reconocimiento de imágenes',         price: 1000 },
+  { name: 'Automatización de reportes',         price: 600  },
+  { name: 'Asistente de voz personalizado',     price: 1500 },
+  // Consulting
+  { name: 'Consultoría estratégica',            price: 500  },
+  { name: 'Consultoría tecnológica',            price: 400  },
+  { name: 'Auditoría digital',                  price: 800  },
+  { name: 'Soporte técnico',                    price: 200  },
+  { name: 'Capacitación de equipos',            price: 300  },
+  { name: 'Experiencias 3D interactivas',       price: 1500 },
+  { name: 'Migración a la nube',                price: 800  },
+  { name: 'Plan de crecimiento digital',        price: 500  },
 ];
 
 const inputClass =

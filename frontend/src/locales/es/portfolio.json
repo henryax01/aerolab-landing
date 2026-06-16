@@ -1,17 +1,17 @@
 {
   "meta": {
     "label": "Servicios",
-    "description": "Desarrollo de software, aplicaciones web y móviles, ciberseguridad, chatbots e integración de inteligencia artificial. Solicita tu cotización.",
-    "keywords": "desarrollo de software, desarrollo web, desarrollo de aplicaciones móviles, programación Java Python, tienda online, integración de APIs, ciberseguridad, auditoría de seguridad informática, chatbots con inteligencia artificial, automatización de procesos, análisis de datos con IA, integración de modelos de lenguaje, migración a la nube, consultoría tecnológica, soporte técnico"
+    "description": "Más de 50 servicios digitales: desarrollo web, diseño, marketing digital e inteligencia artificial. Solicita tu cotización personalizada.",
+    "keywords": "diseño web, desarrollo de aplicaciones, landing page, tienda online, diseño gráfico, UI/UX, branding, logo, marketing digital, SEO, redes sociales, Google Ads, email marketing, chatbot IA, automatización, análisis de datos, modelos de lenguaje, consultoría tecnológica, migración a la nube, soporte técnico"
   },
   "hero": {
     "badge": "Catálogo de servicios",
     "title": "Nuestros servicios",
-    "subtitle": "Desarrollo de software, aplicaciones web y móviles, ciberseguridad e inteligencia artificial: soluciones a tu medida para llevar tu negocio al siguiente nivel.",
+    "subtitle": "Más de 50 soluciones en desarrollo web, diseño, marketing digital e inteligencia artificial para llevar tu negocio al siguiente nivel.",
     "stats": [
-      { "value": "15+", "label": "Servicios" },
-      { "value": "100%", "label": "Clientes satisfechos" },
-      { "value": "8+", "label": "Años de experiencia" }
+      { "value": "+50", "label": "Servicios disponibles" },
+      { "value": "5",   "label": "Categorías" },
+      { "value": "8+",  "label": "Años de experiencia" }
     ]
   },
   "filters": {
@@ -21,32 +21,69 @@
     "noResults": "No se encontraron servicios con esos filtros."
   },
   "categories": {
-    "all": "Todos",
-    "web": "Desarrollo web",
-    "security": "Ciberseguridad",
-    "ai": "Inteligencia artificial",
+    "all":        "Todos",
+    "web":        "Desarrollo web",
+    "design":     "Diseño y branding",
+    "marketing":  "Marketing digital",
+    "ai":         "Inteligencia artificial",
     "consulting": "Consultoría y soporte"
   },
   "services": {
     "items": [
-      { "name": "Desarrollo web", "category": "web", "priceRange": "$1,200 – $3,500", "description": "Sitios web y aplicaciones a medida, rápidos y escalables." },
-      { "name": "Tienda online", "category": "web", "priceRange": "$1,800 – $4,500", "description": "Plataformas de venta online con pagos integrados y gestión de inventario." },
-      { "name": "Aplicación móvil", "category": "web", "priceRange": "$2,500 – $6,000", "description": "Apps nativas o híbridas para iOS y Android." },
-      { "name": "Landing page", "category": "web", "priceRange": "$400 – $900", "description": "Página de aterrizaje optimizada para conversión." },
-      { "name": "Mantenimiento web", "category": "web", "priceRange": "$150 – $400/mes", "description": "Actualizaciones, copias de seguridad y soporte técnico continuo." },
-      { "name": "Migración de sitio web", "category": "web", "priceRange": "$500 – $1,500", "description": "Traslado seguro de tu sitio a un nuevo hosting o plataforma." },
-      { "name": "Integración de APIs", "category": "web", "priceRange": "$600 – $2,000", "description": "Conexión con pasarelas de pago, CRMs y servicios externos." },
+      { "name": "Desarrollo web",                    "category": "web",        "priceRange": "$1,200 – $3,500",    "description": "Sitios web y aplicaciones a medida, rápidos y escalables." },
+      { "name": "Tienda online",                     "category": "web",        "priceRange": "$1,800 – $4,500",    "description": "Plataformas de e-commerce con pagos integrados y gestión de inventario." },
+      { "name": "Aplicación móvil",                  "category": "web",        "priceRange": "$2,500 – $6,000",    "description": "Apps nativas o híbridas para iOS y Android." },
+      { "name": "Landing page",                      "category": "web",        "priceRange": "$400 – $900",        "description": "Página de aterrizaje optimizada para conversión." },
+      { "name": "Mantenimiento web",                 "category": "web",        "priceRange": "$150 – $400/mes",    "description": "Actualizaciones, copias de seguridad y soporte técnico continuo." },
+      { "name": "Migración de sitio web",            "category": "web",        "priceRange": "$500 – $1,500",      "description": "Traslado seguro de tu sitio a un nuevo hosting o plataforma." },
+      { "name": "Integración de APIs",               "category": "web",        "priceRange": "$600 – $2,000",      "description": "Conexión con pasarelas de pago, CRMs y servicios externos." },
+      { "name": "Auditoría de seguridad web",        "category": "web",        "priceRange": "$500 – $1,500",      "description": "Detección y corrección de vulnerabilidades en tu sitio o app." },
+      { "name": "Optimización de rendimiento web",   "category": "web",        "priceRange": "$300 – $900",        "description": "Velocidad y Core Web Vitals para mejorar SEO y experiencia." },
+      { "name": "Desarrollo de plugins",             "category": "web",        "priceRange": "$400 – $1,200",      "description": "Extensiones personalizadas para WordPress, Shopify y otras plataformas." },
+      { "name": "Progressive Web App",               "category": "web",        "priceRange": "$800 – $2,200",      "description": "Aplicación web instalable con experiencia similar a una app nativa." },
+      { "name": "Portal web corporativo",            "category": "web",        "priceRange": "$2,000 – $5,000",    "description": "Intranet o portal empresarial con autenticación y gestión de contenidos." },
 
-      { "name": "Auditoría de seguridad web", "category": "security", "priceRange": "$500 – $1,500", "description": "Detección y corrección de vulnerabilidades en tu sitio o app." },
+      { "name": "Diseño gráfico",                    "category": "design",     "priceRange": "$300 – $900",        "description": "Piezas visuales para redes sociales, impresión y medios digitales." },
+      { "name": "Diseño UI/UX",                      "category": "design",     "priceRange": "$800 – $2,500",      "description": "Interfaces intuitivas y centradas en la experiencia del usuario." },
+      { "name": "Diseño de logotipo",                "category": "design",     "priceRange": "$200 – $600",        "description": "Logotipo profesional con variantes y formatos para todos los usos." },
+      { "name": "Manual de marca",                   "category": "design",     "priceRange": "$500 – $1,500",      "description": "Guía de uso de colores, tipografías, iconos y aplicaciones de marca." },
+      { "name": "Diseño de presentaciones",          "category": "design",     "priceRange": "$200 – $600",        "description": "Presentaciones corporativas en PowerPoint o Google Slides." },
+      { "name": "Ilustración digital",               "category": "design",     "priceRange": "$300 – $900",        "description": "Ilustraciones personalizadas para web, apps y materiales impresos." },
+      { "name": "Diseño de empaques",                "category": "design",     "priceRange": "$400 – $1,200",      "description": "Empaque y etiqueta de producto listo para imprimir." },
+      { "name": "Prototipado interactivo",           "category": "design",     "priceRange": "$500 – $1,500",      "description": "Prototipos navegables en Figma para validar tu producto antes de desarrollar." },
+      { "name": "Rebranding",                        "category": "design",     "priceRange": "$1,000 – $3,000",    "description": "Renovación completa de identidad visual con estrategia de transición." },
+      { "name": "Diseño editorial",                  "category": "design",     "priceRange": "$400 – $1,200",      "description": "Maquetación de catálogos, revistas, ebooks y materiales impresos." },
 
-      { "name": "Chatbots con IA", "category": "ai", "priceRange": "$800 – $2,500", "description": "Asistentes virtuales inteligentes para atención al cliente 24/7." },
-      { "name": "Automatización de procesos", "category": "ai", "priceRange": "$700 – $2,200", "description": "Flujos automatizados que ahorran tiempo y reducen errores." },
-      { "name": "Análisis de datos con IA", "category": "ai", "priceRange": "$900 – $2,800", "description": "Modelos para extraer insights y predicciones de tus datos." },
-      { "name": "Integración de modelos de lenguaje", "category": "ai", "priceRange": "$1,000 – $3,000", "description": "Implementación de IA generativa en tus productos o procesos." },
+      { "name": "Marketing digital",                 "category": "marketing",  "priceRange": "$600 – $2,000/mes",  "description": "Estrategia integral de presencia digital para atraer y convertir clientes." },
+      { "name": "Gestión de redes sociales",         "category": "marketing",  "priceRange": "$400 – $1,200/mes",  "description": "Publicación, comunidad y análisis de resultados en redes sociales." },
+      { "name": "Publicidad en Google Ads",          "category": "marketing",  "priceRange": "$300 – $900/mes",    "description": "Campañas de búsqueda, display y shopping para captar clientes." },
+      { "name": "Publicidad en redes sociales",      "category": "marketing",  "priceRange": "$300 – $900/mes",    "description": "Anuncios en Meta, Instagram, TikTok y LinkedIn optimizados por IA." },
+      { "name": "SEO y posicionamiento web",         "category": "marketing",  "priceRange": "$400 – $1,200/mes",  "description": "Optimización on-page, off-page y técnica para subir en Google." },
+      { "name": "Email marketing",                   "category": "marketing",  "priceRange": "$200 – $600/mes",    "description": "Campañas de correo automatizadas con segmentación y análisis." },
+      { "name": "Marketing de contenidos",           "category": "marketing",  "priceRange": "$400 – $1,200/mes",  "description": "Artículos, blogs y recursos que atraen tráfico y generan confianza." },
+      { "name": "Producción de video",               "category": "marketing",  "priceRange": "$800 – $3,000",      "description": "Videos corporativos, reels y animaciones para redes y web." },
+      { "name": "Fotografía de producto",            "category": "marketing",  "priceRange": "$300 – $900",        "description": "Sesión fotográfica profesional para e-commerce y catálogos." },
+      { "name": "Estrategia de marca digital",       "category": "marketing",  "priceRange": "$600 – $2,000",      "description": "Plan de posicionamiento y comunicación de marca en canales digitales." },
 
-      { "name": "Migración a la nube", "category": "consulting", "priceRange": "$800 – $2,500", "description": "Traslado seguro de infraestructura a la nube." },
-      { "name": "Consultoría tecnológica", "category": "consulting", "priceRange": "$400 – $1,200/mes", "description": "Asesoría en arquitectura, herramientas y procesos tecnológicos." },
-      { "name": "Soporte técnico", "category": "consulting", "priceRange": "$200 – $600/mes", "description": "Atención y resolución de incidencias técnicas." }
+      { "name": "Chatbots con IA",                   "category": "ai",         "priceRange": "$800 – $2,500",      "description": "Asistentes virtuales inteligentes para atención al cliente 24/7." },
+      { "name": "Automatización de procesos",        "category": "ai",         "priceRange": "$700 – $2,200",      "description": "Flujos automatizados que ahorran tiempo y reducen errores." },
+      { "name": "Análisis de datos con IA",          "category": "ai",         "priceRange": "$900 – $2,800",      "description": "Modelos para extraer insights y predicciones de tus datos." },
+      { "name": "Integración de modelos de lenguaje","category": "ai",         "priceRange": "$1,000 – $3,000",    "description": "Implementación de IA generativa en tus productos o procesos." },
+      { "name": "Generación de contenido con IA",    "category": "ai",         "priceRange": "$500 – $1,500",      "description": "Automatización de textos, imágenes y videos con inteligencia artificial." },
+      { "name": "Automatización de marketing con IA","category": "ai",         "priceRange": "$700 – $2,000",      "description": "Campañas, segmentación y respuestas automáticas potenciadas con IA." },
+      { "name": "Sistemas de recomendación",         "category": "ai",         "priceRange": "$1,200 – $3,500",    "description": "Motor de recomendaciones personalizado para e-commerce o apps." },
+      { "name": "Reconocimiento de imágenes",        "category": "ai",         "priceRange": "$1,000 – $3,000",    "description": "Modelos de visión artificial para clasificación, detección y análisis visual." },
+      { "name": "Automatización de reportes",        "category": "ai",         "priceRange": "$600 – $1,800",      "description": "Generación automática de informes y dashboards desde tus datos." },
+      { "name": "Asistente de voz personalizado",    "category": "ai",         "priceRange": "$1,500 – $4,000",    "description": "Asistente de voz con IA adaptado a tu marca y flujos de negocio." },
+
+      { "name": "Consultoría estratégica",           "category": "consulting", "priceRange": "$500 – $1,500/mes",  "description": "Diagnóstico y hoja de ruta para la transformación digital de tu empresa." },
+      { "name": "Consultoría tecnológica",           "category": "consulting", "priceRange": "$400 – $1,200/mes",  "description": "Asesoría en arquitectura, herramientas y procesos tecnológicos." },
+      { "name": "Auditoría digital",                 "category": "consulting", "priceRange": "$800 – $2,500",      "description": "Evaluación de presencia digital, canales y herramientas con recomendaciones." },
+      { "name": "Soporte técnico",                   "category": "consulting", "priceRange": "$200 – $600/mes",    "description": "Atención y resolución de incidencias técnicas con SLA garantizado." },
+      { "name": "Capacitación de equipos",           "category": "consulting", "priceRange": "$300 – $900",        "description": "Talleres y formación en herramientas digitales, IA y buenas prácticas." },
+      { "name": "Experiencias 3D interactivas",      "category": "consulting", "priceRange": "$1,500 – $4,000",    "description": "Experiencias inmersivas con Three.js, WebGL y realidad aumentada." },
+      { "name": "Migración a la nube",               "category": "consulting", "priceRange": "$800 – $2,500",      "description": "Traslado seguro de infraestructura a AWS, Azure o Google Cloud." },
+      { "name": "Plan de crecimiento digital",       "category": "consulting", "priceRange": "$500 – $1,500",      "description": "Roadmap personalizado de canales, herramientas y métricas para escalar online." }
     ],
     "cta": "Solicitar"
   },

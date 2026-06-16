@@ -44,6 +44,7 @@ export default function Home() {
   const features = t('features.items', { returnObjects: true }) || [];
   const steps = t('process.steps', { returnObjects: true }) || [];
   const testimonials = t('testimonials.items', { returnObjects: true }) || [];
+  const stats = t('hero.stats', { returnObjects: true }) || [];
 
   return (
     <div className="bg-light-background text-light-text-primary dark:bg-dark-background dark:text-dark-text-primary">
@@ -66,12 +67,17 @@ export default function Home() {
         </div>
         <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-light-border to-transparent dark:via-dark-border" />
         <ScrollReveal delay={120} className="mt-12">
-          <img
-            src="https://loremflickr.com/1200/520/digital,technology,abstract/all?lock=5"
-            alt=""
-            loading="lazy"
-            className="mx-auto w-full max-w-4xl rounded-xl border border-light-border object-cover shadow-sm dark:border-dark-border"
-          />
+          <div className="mx-auto grid max-w-4xl grid-cols-2 gap-4 px-4 sm:grid-cols-4">
+            {stats.map((stat) => (
+              <div
+                key={stat.label}
+                className="rounded-xl border border-light-border bg-light-surface px-4 py-6 text-center dark:border-dark-border dark:bg-dark-surface"
+              >
+                <p className="text-3xl font-black text-light-accent dark:text-dark-accent">{stat.value}</p>
+                <p className="mt-1 text-xs font-medium text-light-text-secondary dark:text-dark-text-secondary">{stat.label}</p>
+              </div>
+            ))}
+          </div>
         </ScrollReveal>
       </section>
 

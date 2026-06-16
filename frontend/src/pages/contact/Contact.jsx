@@ -76,14 +76,25 @@ export default function Contact() {
         <div aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-light-border to-transparent dark:via-dark-border" />
       </section>
 
-      <section className="mx-auto grid max-w-5xl gap-8 px-4 pb-20 lg:grid-cols-2">
+      <section className="mx-auto grid max-w-5xl gap-8 px-4 pt-16 pb-20 lg:grid-cols-2">
         <div className="overflow-hidden rounded-lg border border-light-border bg-light-surface dark:border-dark-border dark:bg-dark-surface">
-          <img
-            src="https://loremflickr.com/640/280/office,workspace"
-            alt=""
-            loading="lazy"
-            className="h-40 w-full object-cover"
-          />
+          <div className="relative h-40 w-full overflow-hidden bg-gradient-to-br from-light-accent/10 via-light-surface to-light-accent/5 dark:from-dark-accent/10 dark:via-dark-surface dark:to-dark-accent/5">
+            <div aria-hidden="true" className="absolute inset-0 flex items-center justify-center opacity-10">
+              <svg viewBox="0 0 400 160" className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="80" cy="80" r="60" fill="none" stroke="currentColor" strokeWidth="1" />
+                <circle cx="80" cy="80" r="40" fill="none" stroke="currentColor" strokeWidth="0.5" />
+                <circle cx="320" cy="80" r="60" fill="none" stroke="currentColor" strokeWidth="1" />
+                <circle cx="320" cy="80" r="40" fill="none" stroke="currentColor" strokeWidth="0.5" />
+                <line x1="0" y1="80" x2="400" y2="80" stroke="currentColor" strokeWidth="0.5" strokeDasharray="8 4" />
+                <line x1="200" y1="0" x2="200" y2="160" stroke="currentColor" strokeWidth="0.5" strokeDasharray="8 4" />
+              </svg>
+            </div>
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full border border-light-accent/30 bg-light-accent/10 dark:border-dark-accent/30 dark:bg-dark-accent/10">
+                <FaEnvelope aria-hidden="true" className="text-2xl text-light-accent dark:text-dark-accent" />
+              </div>
+            </div>
+          </div>
           <div className="p-6">
           <h2 className="text-xl font-bold">{t('info.title')}</h2>
           <ul className="mt-4 space-y-4 text-sm">

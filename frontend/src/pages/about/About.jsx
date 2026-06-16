@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { FaHandshake, FaGem, FaUsers, FaRocket, FaBullseye } from 'react-icons/fa';
+import { FaHandshake, FaGem, FaUsers, FaRocket, FaBullseye, FaCode } from 'react-icons/fa';
 import ScrollReveal from '../../components/common/ScrollReveal.jsx';
 import usePageMeta from '../../hooks/usePageMeta.jsx';
 
@@ -58,12 +58,31 @@ export default function About() {
         <div className="mx-auto grid max-w-5xl items-center gap-12 px-4 lg:grid-cols-[1fr_1.2fr]">
           <ScrollReveal>
             <div className="relative">
-              <img
-                src="https://loremflickr.com/640/520/robot,ai,futuristic/all?lock=42"
-                alt=""
-                loading="lazy"
-                className="w-full rounded-2xl border border-light-border object-cover shadow-lg dark:border-dark-border"
-              />
+              <div className="relative w-full overflow-hidden rounded-2xl border border-light-border bg-gradient-to-br from-light-accent/10 via-light-surface to-light-accent/5 shadow-lg dark:border-dark-border dark:from-dark-accent/10 dark:via-dark-surface dark:to-dark-accent/5" style={{ aspectRatio: '4/3' }}>
+                <div aria-hidden="true" className="absolute inset-0 opacity-[0.07]">
+                  <svg viewBox="0 0 640 480" className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="320" cy="240" r="200" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                    <circle cx="320" cy="240" r="140" fill="none" stroke="currentColor" strokeWidth="1" />
+                    <circle cx="320" cy="240" r="80"  fill="none" stroke="currentColor" strokeWidth="0.8" />
+                    <line x1="0"   y1="240" x2="640" y2="240" stroke="currentColor" strokeWidth="0.6" strokeDasharray="10 5" />
+                    <line x1="320" y1="0"   x2="320" y2="480" stroke="currentColor" strokeWidth="0.6" strokeDasharray="10 5" />
+                    <line x1="0"   y1="0"   x2="640" y2="480" stroke="currentColor" strokeWidth="0.4" strokeDasharray="6 8" />
+                    <line x1="640" y1="0"   x2="0"   y2="480" stroke="currentColor" strokeWidth="0.4" strokeDasharray="6 8" />
+                  </svg>
+                </div>
+                <div className="absolute inset-0 flex flex-col items-center justify-center gap-6">
+                  <div className="flex h-20 w-20 items-center justify-center rounded-2xl border border-light-accent/30 bg-light-accent/10 shadow-lg dark:border-dark-accent/30 dark:bg-dark-accent/10">
+                    <FaRocket aria-hidden="true" className="text-4xl text-light-accent dark:text-dark-accent" />
+                  </div>
+                  <div className="flex gap-4">
+                    {[FaCode, FaBullseye, FaUsers].map((Icon, i) => (
+                      <div key={i} className="flex h-10 w-10 items-center justify-center rounded-lg border border-light-accent/20 bg-light-surface/80 dark:border-dark-accent/20 dark:bg-dark-surface/80">
+                        <Icon aria-hidden="true" className="text-lg text-light-accent/70 dark:text-dark-accent/70" />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
               <div className="absolute -bottom-6 -right-6 hidden rounded-xl border border-light-border bg-light-background p-4 shadow-lg sm:block dark:border-dark-border dark:bg-dark-background">
                 <p className="text-3xl font-black text-light-accent dark:text-dark-accent">{highlight.value}</p>
                 <p className="text-xs text-light-text-secondary dark:text-dark-text-secondary">{highlight.label}</p>

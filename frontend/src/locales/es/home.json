@@ -8,7 +8,13 @@
     "badge": "Agencia digital",
     "title": "Diseño, desarrollo e IA para tu negocio",
     "subtitle": "Desarrollo web, diseño gráfico, marketing digital e inteligencia artificial en un solo equipo para llevar tu negocio al siguiente nivel.",
-    "cta": "Ver servicios"
+    "cta": "Ver servicios",
+    "stats": [
+      { "value": "+50",  "label": "Servicios" },
+      { "value": "+8",   "label": "Años de experiencia" },
+      { "value": "+150", "label": "Proyectos entregados" },
+      { "value": "98%",  "label": "Clientes satisfechos" }
+    ]
   },
   "features": {
     "title": "Todo lo que necesitas",

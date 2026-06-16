@@ -6,7 +6,8 @@
     "portfolio": "Servicios",
     "order": "Pedidos",
     "contact": "Contacto",
-    "account": "Mi cuenta"
+    "account": "Mi cuenta",
+    "menu": "Menú"
   },
   "actions": {
     "login": "Iniciar sesión",
@@ -51,9 +52,11 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados.",
-    "tagline": "Plataforma completa para tu negocio digital.",
+    "tagline": "Diseño, desarrollo e inteligencia artificial para impulsar tu negocio.",
     "terms": "Términos y Condiciones",
-    "privacy": "Política de Privacidad"
+    "privacy": "Política de Privacidad",
+    "status": "Sistemas operativos",
+    "social": "Síguenos"
   },
   "status": {
     "pending": "Pendiente",

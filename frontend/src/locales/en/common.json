@@ -6,7 +6,8 @@
     "portfolio": "Services",
     "order": "Orders",
     "contact": "Contact",
-    "account": "My account"
+    "account": "My account",
+    "menu": "Menu"
   },
   "actions": {
     "login": "Log in",
@@ -51,9 +52,11 @@
   },
   "footer": {
     "rights": "All rights reserved.",
-    "tagline": "A complete platform for your digital business.",
-    "terms": "Terms and Conditions",
-    "privacy": "Privacy Policy"
+    "tagline": "Design, development and artificial intelligence to grow your business.",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "status": "Systems online",
+    "social": "Follow us"
   },
   "status": {
     "pending": "Pending",

@@ -4,8 +4,11 @@ import { Link } from 'react-router-dom';
 import Pagination from '../../components/common/Pagination.jsx';
 import {
   FaLaptopCode, FaShoppingCart, FaMobileAlt, FaRocket, FaServer, FaSyncAlt, FaPlug, FaShieldAlt,
-  FaRobot, FaCogs, FaBrain, FaComments,
-  FaCloudUploadAlt, FaUserTie, FaHeadset, FaSearch,
+  FaTachometerAlt, FaCode, FaWindowMaximize, FaGlobe,
+  FaPalette, FaDesktop, FaPen, FaBookOpen, FaFileAlt, FaImage, FaBox, FaMousePointer, FaRedo, FaNewspaper,
+  FaBullhorn, FaHashtag, FaChartLine, FaUsers, FaSearch, FaEnvelope, FaChartBar, FaVideo, FaCamera, FaGlobeAmericas,
+  FaRobot, FaCogs, FaBrain, FaComments, FaMicrophone, FaNetworkWired, FaStar, FaEye, FaClipboardList, FaCloud,
+  FaUserTie, FaCheckCircle, FaHeadset, FaCubes, FaCloudUploadAlt, FaSeedling,
 } from 'react-icons/fa';
 import ScrollReveal from '../../components/common/ScrollReveal.jsx';
 import usePageMeta from '../../hooks/usePageMeta.jsx';
@@ -24,36 +27,65 @@ export const pageMetadata = {
 };
 
 const SERVICE_KEYS = [
-  'Desarrollo web', 'Tienda online', 'Aplicación móvil', 'Landing page', 'Mantenimiento web',
-  'Migración de sitio web', 'Integración de APIs',
-
-  'Auditoría de seguridad web',
-
+  // web (0-11)
+  'Desarrollo web', 'Tienda online', 'Aplicación móvil', 'Landing page',
+  'Mantenimiento web', 'Migración de sitio web', 'Integración de APIs', 'Auditoría de seguridad web',
+  'Optimización de rendimiento web', 'Desarrollo de plugins', 'Progressive Web App', 'Portal web corporativo',
+  // design (12-21)
+  'Diseño gráfico', 'Diseño UI/UX', 'Diseño de logotipo', 'Manual de marca',
+  'Diseño de presentaciones', 'Ilustración digital', 'Diseño de empaques', 'Prototipado interactivo',
+  'Rebranding', 'Diseño editorial',
+  // marketing (22-31)
+  'Marketing digital', 'Gestión de redes sociales', 'Publicidad en Google Ads', 'Publicidad en redes sociales',
+  'SEO y posicionamiento web', 'Email marketing', 'Marketing de contenidos', 'Producción de video',
+  'Fotografía de producto', 'Estrategia de marca digital',
+  // ai (32-41)
   'Chatbots con IA', 'Automatización de procesos', 'Análisis de datos con IA', 'Integración de modelos de lenguaje',
-
-  'Migración a la nube', 'Consultoría tecnológica', 'Soporte técnico',
+  'Generación de contenido con IA', 'Automatización de marketing con IA', 'Sistemas de recomendación',
+  'Reconocimiento de imágenes', 'Automatización de reportes', 'Asistente de voz personalizado',
+  // consulting (42-49)
+  'Consultoría estratégica', 'Consultoría tecnológica', 'Auditoría digital', 'Soporte técnico',
+  'Capacitación de equipos', 'Experiencias 3D interactivas', 'Migración a la nube', 'Plan de crecimiento digital',
 ];
 
 const SERVICE_ICONS = [
-  FaLaptopCode, FaShoppingCart, FaMobileAlt, FaRocket, FaServer, FaSyncAlt, FaPlug,
-  FaShieldAlt,
-  FaRobot, FaCogs, FaBrain, FaComments,
-  FaCloudUploadAlt, FaUserTie, FaHeadset,
+  // web
+  FaLaptopCode, FaShoppingCart, FaMobileAlt, FaRocket, FaSyncAlt, FaServer, FaPlug, FaShieldAlt,
+  FaTachometerAlt, FaCode, FaWindowMaximize, FaGlobe,
+  // design
+  FaPalette, FaDesktop, FaPen, FaBookOpen, FaFileAlt, FaImage, FaBox, FaMousePointer, FaRedo, FaNewspaper,
+  // marketing
+  FaBullhorn, FaHashtag, FaChartLine, FaUsers, FaSearch, FaEnvelope, FaChartBar, FaVideo, FaCamera, FaGlobeAmericas,
+  // ai
+  FaRobot, FaCogs, FaBrain, FaComments, FaMicrophone, FaNetworkWired, FaStar, FaEye, FaClipboardList, FaCloud,
+  // consulting
+  FaUserTie, FaDesktop, FaCheckCircle, FaHeadset, FaUsers, FaCubes, FaCloudUploadAlt, FaSeedling,
 ];
 
 const SERVICE_IMAGE_TOPICS = [
-  'coding,programming', 'ecommerce,shopping', 'smartphone,mobile', 'website,laptop', 'server,technology',
-  'cloud,data', 'network,connection',
-
-  'security,cyber',
-
-  'chatbot,ai', 'automation,robot', 'data,analytics', 'ai,technology',
-
-  'cloud,server', 'technology,consulting', 'support,helpdesk',
+  // web
+  'coding,programming', 'ecommerce,shopping', 'smartphone,mobile', 'website,laptop',
+  'server,maintenance', 'migration,data', 'api,network', 'security,shield',
+  'speed,performance', 'plugin,software', 'progressive,web', 'corporate,office',
+  // design
+  'design,creative', 'ui,interface', 'logo,brand', 'brand,guidelines',
+  'presentation,slides', 'illustration,art', 'packaging,box', 'prototype,wireframe',
+  'rebrand,identity', 'editorial,print',
+  // marketing
+  'marketing,digital', 'social,media', 'google,advertising', 'advertising,social',
+  'seo,search', 'email,campaign', 'content,blog', 'video,production',
+  'photography,product', 'brand,strategy',
+  // ai
+  'chatbot,ai', 'automation,robot', 'data,analytics', 'language,model',
+  'content,ai', 'marketing,automation', 'recommendation,algorithm', 'image,recognition',
+  'report,data', 'voice,assistant',
+  // consulting
+  'consulting,strategy', 'technology,consulting', 'audit,digital', 'support,helpdesk',
+  'training,team', '3d,interactive', 'cloud,server', 'growth,digital',
 ];
 
 const PAGE_SIZE = 10;
-const CATEGORY_IDS = ['all', 'web', 'security', 'ai', 'consulting'];
+const CATEGORY_IDS = ['all', 'web', 'design', 'marketing', 'ai', 'consulting'];
 
 const filterButtonClass =
   'rounded-full border px-4 py-1.5 text-sm font-semibold transition-colors';
