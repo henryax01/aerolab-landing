@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { FaHandshake, FaGem, FaUsers, FaRocket, FaBullseye, FaCode } from 'react-icons/fa';
 import ScrollReveal from '../../components/common/ScrollReveal.jsx';
 import CountUp from '../../components/common/CountUp.jsx';
