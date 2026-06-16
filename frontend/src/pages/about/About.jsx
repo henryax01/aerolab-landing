@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { FaHandshake, FaGem, FaUsers, FaRocket, FaBullseye, FaCode } from 'react-icons/fa';
 import ScrollReveal from '../../components/common/ScrollReveal.jsx';
+import CountUp from '../../components/common/CountUp.jsx';
 import usePageMeta from '../../hooks/usePageMeta.jsx';
 
 export const pageMetadata = {
@@ -44,7 +45,7 @@ export default function About() {
             {stats.map((stat, index) => (
               <ScrollReveal key={stat.label} delay={index * 80}>
                 <div className="rounded-lg border border-light-border bg-light-surface p-4 transition-all duration-200 hover:-translate-y-1 hover:border-light-accent hover:shadow-lg dark:border-dark-border dark:bg-dark-surface dark:hover:border-dark-accent">
-                  <p className="text-2xl font-extrabold text-light-accent dark:text-dark-accent sm:text-3xl">{stat.value}</p>
+                  <CountUp value={stat.value} className="block text-2xl font-extrabold text-light-accent dark:text-dark-accent sm:text-3xl" />
                   <p className="mt-1 text-xs text-light-text-secondary dark:text-dark-text-secondary sm:text-sm">{stat.label}</p>
                 </div>
               </ScrollReveal>

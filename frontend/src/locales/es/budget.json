@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "label": "Calculadora de presupuesto",
+    "description": "Calcula el costo estimado de tu proyecto digital seleccionando los servicios que necesitas.",
+    "keywords": "calculadora de presupuesto, precio estimado, costo proyecto digital, Aerolab"
+  },
+  "hero": {
+    "badge": "Calculadora",
+    "title": "¿Cuánto cuesta tu proyecto?",
+    "subtitle": "Selecciona los servicios que necesitas y obtén un estimado al instante. Sin compromiso."
+  },
+  "instruction": "Selecciona uno o más servicios",
+  "categories": {
+    "all":        "Todos",
+    "web":        "Desarrollo web",
+    "design":     "Diseño y branding",
+    "marketing":  "Marketing digital",
+    "ai":         "Inteligencia artificial",
+    "consulting": "Consultoría y soporte"
+  },
+  "summary": {
+    "title": "Tu presupuesto estimado",
+    "selected": "{{count}} servicio seleccionado",
+    "selected_plural": "{{count}} servicios seleccionados",
+    "total": "Total estimado",
+    "disclaimer": "Este es un estimado orientativo. El precio final se confirma en la propuesta personalizada.",
+    "cta": "Solicitar cotización",
+    "clear": "Limpiar selección",
+    "empty": "Selecciona servicios para ver el estimado."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "label": "Precios",
+    "description": "Planes y precios de Aerolab para diseño, desarrollo web, marketing digital e inteligencia artificial. Elige el plan que mejor se adapta a tu negocio.",
+    "keywords": "precios, planes, paquetes, diseño web precio, desarrollo web costo, marketing digital precio, Aerolab"
+  },
+  "hero": {
+    "badge": "Planes y precios",
+    "title": "Elige tu plan",
+    "subtitle": "Planes pensados para cada etapa de tu negocio. Sin contratos largos ni sorpresas.",
+    "note": "¿Necesitas algo personalizado? Contáctanos y armamos una propuesta a tu medida."
+  },
+  "plans": [
+    {
+      "name": "Arranque",
+      "price": "Desde $299",
+      "period": "por proyecto",
+      "description": "Perfecto para emprendedores y negocios que dan sus primeros pasos en digital.",
+      "highlight": false,
+      "features": [
+        "Hasta 2 servicios combinados",
+        "Landing page o logotipo + identidad",
+        "2 rondas de revisión",
+        "Soporte por email",
+        "Entrega en 7 días hábiles"
+      ],
+      "cta": "Empezar"
+    },
+    {
+      "name": "Negocio",
+      "price": "Desde $899",
+      "period": "por proyecto",
+      "description": "Para empresas que quieren crecer online con una presencia profesional completa.",
+      "highlight": true,
+      "badge": "Más popular",
+      "features": [
+        "Hasta 5 servicios combinados",
+        "Sitio web + diseño + marketing inicial",
+        "4 rondas de revisión",
+        "Soporte prioritario por chat",
+        "Gestor de proyecto asignado",
+        "Entrega en 15 días hábiles"
+      ],
+      "cta": "Elegir Negocio"
+    },
+    {
+      "name": "Empresa",
+      "price": "A consultar",
+      "period": "proyecto personalizado",
+      "description": "Solución completa para empresas con necesidades específicas y proyectos de largo plazo.",
+      "highlight": false,
+      "features": [
+        "Servicios ilimitados",
+        "Estrategia digital completa",
+        "Revisiones ilimitadas",
+        "Gestor de cuenta dedicado",
+        "Reuniones de seguimiento semanales",
+        "Plazos a medida"
+      ],
+      "cta": "Cotizar"
+    }
+  ],
+  "faq": {
+    "title": "¿Tienes dudas?",
+    "link": "Ver todas las preguntas frecuentes"
+  }
+}

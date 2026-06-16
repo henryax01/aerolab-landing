@@ -50,6 +50,12 @@
     "en": "English",
     "toggle": "Switch language"
   },
+  "cookies": {
+    "text": "We use cookies to improve your experience on this site.",
+    "policy": "Privacy policy",
+    "accept": "Accept",
+    "reject": "Reject"
+  },
   "footer": {
     "rights": "All rights reserved.",
     "tagline": "Design, development and artificial intelligence to grow your business.",

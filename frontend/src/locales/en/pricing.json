@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "label": "Pricing",
+    "description": "Aerolab plans and pricing for web design, development, digital marketing and artificial intelligence. Choose the plan that fits your business.",
+    "keywords": "pricing, plans, packages, web design price, web development cost, digital marketing price, Aerolab"
+  },
+  "hero": {
+    "badge": "Plans & pricing",
+    "title": "Choose your plan",
+    "subtitle": "Plans designed for every stage of your business. No long contracts, no surprises.",
+    "note": "Need something custom? Contact us and we'll build a tailored proposal."
+  },
+  "plans": [
+    {
+      "name": "Starter",
+      "price": "From $299",
+      "period": "per project",
+      "description": "Perfect for entrepreneurs and businesses taking their first steps online.",
+      "highlight": false,
+      "features": [
+        "Up to 2 combined services",
+        "Landing page or logo + identity",
+        "2 revision rounds",
+        "Email support",
+        "Delivery in 7 business days"
+      ],
+      "cta": "Get started"
+    },
+    {
+      "name": "Business",
+      "price": "From $899",
+      "period": "per project",
+      "description": "For companies that want to grow online with a complete professional presence.",
+      "highlight": true,
+      "badge": "Most popular",
+      "features": [
+        "Up to 5 combined services",
+        "Website + design + initial marketing",
+        "4 revision rounds",
+        "Priority chat support",
+        "Dedicated project manager",
+        "Delivery in 15 business days"
+      ],
+      "cta": "Choose Business"
+    },
+    {
+      "name": "Enterprise",
+      "price": "Custom quote",
+      "period": "tailored project",
+      "description": "Full solution for companies with specific needs and long-term projects.",
+      "highlight": false,
+      "features": [
+        "Unlimited services",
+        "Complete digital strategy",
+        "Unlimited revisions",
+        "Dedicated account manager",
+        "Weekly check-in meetings",
+        "Custom timelines"
+      ],
+      "cta": "Get a quote"
+    }
+  ],
+  "faq": {
+    "title": "Have questions?",
+    "link": "See all frequently asked questions"
+  }
+}

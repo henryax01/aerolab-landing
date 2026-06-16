@@ -11,6 +11,7 @@ import {
 } from 'react-icons/fa';
 import ExperienceSection from './components/ExperienceSection.jsx';
 import ScrollReveal from '../../components/common/ScrollReveal.jsx';
+import CountUp from '../../components/common/CountUp.jsx';
 import usePageMeta from '../../hooks/usePageMeta.jsx';
 
 export const pageMetadata = {
@@ -73,7 +74,7 @@ export default function Home() {
                 key={stat.label}
                 className="rounded-xl border border-light-border bg-light-surface px-4 py-6 text-center dark:border-dark-border dark:bg-dark-surface"
               >
-                <p className="text-3xl font-black text-light-accent dark:text-dark-accent">{stat.value}</p>
+                <CountUp value={stat.value} className="block text-3xl font-black text-light-accent dark:text-dark-accent" />
                 <p className="mt-1 text-xs font-medium text-light-text-secondary dark:text-dark-text-secondary">{stat.label}</p>
               </div>
             ))}

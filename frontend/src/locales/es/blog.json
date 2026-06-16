@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "label": "Blog",
+    "description": "Artículos sobre diseño web, desarrollo de software, marketing digital e inteligencia artificial del equipo de Aerolab.",
+    "keywords": "blog, artículos, diseño web, desarrollo software, marketing digital, inteligencia artificial, tips, tutoriales, Aerolab"
+  },
+  "hero": {
+    "badge": "Blog",
+    "title": "Ideas y recursos",
+    "subtitle": "Artículos sobre diseño, desarrollo, marketing e IA para hacer crecer tu negocio."
+  },
+  "readMore": "Leer artículo",
+  "minRead": "min de lectura",
+  "posts": [
+    {
+      "slug": "diseno-profesional-2026",
+      "title": "5 razones para invertir en diseño profesional en 2026",
+      "category": "Diseño",
+      "date": "10 jun 2026",
+      "readTime": "4",
+      "excerpt": "El diseño es la primera impresión que tiene un cliente de tu negocio. En un entorno digital saturado, una identidad visual sólida puede ser la diferencia entre captar un cliente o perderlo en segundos."
+    },
+    {
+      "slug": "chatbots-ia-atencion-cliente",
+      "title": "Cómo los chatbots con IA están transformando la atención al cliente",
+      "category": "Inteligencia artificial",
+      "date": "5 jun 2026",
+      "readTime": "5",
+      "excerpt": "Los asistentes virtuales ya no son solo para grandes empresas. Hoy, cualquier negocio puede implementar un chatbot con IA que responda preguntas, cualifique leads y cierre ventas las 24 horas del día."
+    },
+    {
+      "slug": "seo-2026-lo-que-importa",
+      "title": "SEO en 2026: lo que realmente importa para posicionar tu negocio",
+      "category": "Marketing",
+      "date": "1 jun 2026",
+      "readTime": "6",
+      "excerpt": "El algoritmo de Google evoluciona constantemente, pero hay factores que siempre importan: velocidad, contenido de calidad y experiencia de usuario. Te contamos en qué enfocarte este año."
+    },
+    {
+      "slug": "progressive-web-app-por-que",
+      "title": "Por qué tu empresa necesita una Progressive Web App",
+      "category": "Desarrollo web",
+      "date": "25 may 2026",
+      "readTime": "4",
+      "excerpt": "Las PWA combinan lo mejor de las apps nativas con la accesibilidad de la web. Son instalables, funcionan sin conexión y mejoran el rendimiento sin los costos de desarrollo de una app nativa."
+    },
+    {
+      "slug": "automatizacion-procesos-pymes",
+      "title": "Automatización de procesos: cómo las pymes pueden competir con las grandes empresas",
+      "category": "Inteligencia artificial",
+      "date": "18 may 2026",
+      "readTime": "5",
+      "excerpt": "La automatización ya no es exclusiva de corporaciones. Con las herramientas correctas, una pyme puede automatizar facturación, seguimiento de clientes y reportes en cuestión de días."
+    },
+    {
+      "slug": "tienda-online-aumentar-ventas",
+      "title": "10 cambios rápidos para aumentar las ventas de tu tienda online",
+      "category": "Marketing",
+      "date": "12 may 2026",
+      "readTime": "7",
+      "excerpt": "Pequeños ajustes en el diseño, la velocidad y la descripción de productos pueden tener un impacto enorme en tu tasa de conversión. Aquí van los 10 cambios que más funcionan."
+    }
+  ]
+}

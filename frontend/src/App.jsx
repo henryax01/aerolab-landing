@@ -6,6 +6,8 @@ import { getNavPages, getRoutablePages } from './pages/pagesConfig.js';
 import Header from './components/common/Header.jsx';
 import Footer from './components/common/Footer.jsx';
 import ChatWidget from './components/common/ChatWidget.jsx';
+import ScrollToTop from './components/common/ScrollToTop.jsx';
+import CookieBanner from './components/common/CookieBanner.jsx';
 
 export default function App() {
   const { t } = useTranslation('common');
@@ -31,6 +33,8 @@ export default function App() {
 
         <Footer brand={brand} />
         <ChatWidget />
+        <ScrollToTop />
+        <CookieBanner />
       </div>
     </BrowserRouter>
   );

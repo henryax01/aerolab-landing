@@ -11,6 +11,7 @@ import {
   FaUserTie, FaCheckCircle, FaHeadset, FaCubes, FaCloudUploadAlt, FaSeedling,
 } from 'react-icons/fa';
 import ScrollReveal from '../../components/common/ScrollReveal.jsx';
+import CountUp from '../../components/common/CountUp.jsx';
 import usePageMeta from '../../hooks/usePageMeta.jsx';
 
 export const pageMetadata = {
@@ -152,7 +153,7 @@ export default function Portfolio() {
           {stats.map((stat, index) => (
             <ScrollReveal key={stat.label} delay={index * 80}>
               <div className="rounded-lg border border-light-border bg-light-surface p-6 transition-all duration-200 hover:-translate-y-1 hover:border-light-accent hover:shadow-lg dark:border-dark-border dark:bg-dark-surface dark:hover:border-dark-accent">
-                <p className="text-3xl font-extrabold text-light-accent dark:text-dark-accent">{stat.value}</p>
+                <CountUp value={stat.value} className="block text-3xl font-extrabold text-light-accent dark:text-dark-accent" />
                 <p className="mt-1 text-sm text-light-text-secondary dark:text-dark-text-secondary">{stat.label}</p>
               </div>
             </ScrollReveal>

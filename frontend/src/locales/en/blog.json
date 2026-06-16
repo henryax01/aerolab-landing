@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "label": "Blog",
+    "description": "Articles on web design, software development, digital marketing and artificial intelligence from the Aerolab team.",
+    "keywords": "blog, articles, web design, software development, digital marketing, artificial intelligence, tips, tutorials, Aerolab"
+  },
+  "hero": {
+    "badge": "Blog",
+    "title": "Ideas & resources",
+    "subtitle": "Articles on design, development, marketing and AI to grow your business."
+  },
+  "readMore": "Read article",
+  "minRead": "min read",
+  "posts": [
+    {
+      "slug": "professional-design-2026",
+      "title": "5 reasons to invest in professional design in 2026",
+      "category": "Design",
+      "date": "Jun 10, 2026",
+      "readTime": "4",
+      "excerpt": "Design is a client's first impression of your business. In a saturated digital environment, a solid visual identity can be the difference between winning a customer or losing them in seconds."
+    },
+    {
+      "slug": "ai-chatbots-customer-service",
+      "title": "How AI chatbots are transforming customer service",
+      "category": "Artificial intelligence",
+      "date": "Jun 5, 2026",
+      "readTime": "5",
+      "excerpt": "Virtual assistants are no longer just for large companies. Today, any business can deploy an AI chatbot that answers questions, qualifies leads and closes sales around the clock."
+    },
+    {
+      "slug": "seo-2026-what-matters",
+      "title": "SEO in 2026: what really matters for your business",
+      "category": "Marketing",
+      "date": "Jun 1, 2026",
+      "readTime": "6",
+      "excerpt": "Google's algorithm evolves constantly, but some factors always matter: speed, quality content and user experience. Here's what to focus on this year."
+    },
+    {
+      "slug": "progressive-web-app-why",
+      "title": "Why your business needs a Progressive Web App",
+      "category": "Web development",
+      "date": "May 25, 2026",
+      "readTime": "4",
+      "excerpt": "PWAs combine the best of native apps with the accessibility of the web. They're installable, work offline and improve performance without the cost of native app development."
+    },
+    {
+      "slug": "process-automation-smes",
+      "title": "Process automation: how SMEs can compete with big companies",
+      "category": "Artificial intelligence",
+      "date": "May 18, 2026",
+      "readTime": "5",
+      "excerpt": "Automation is no longer exclusive to corporations. With the right tools, an SME can automate invoicing, customer follow-up and reporting in a matter of days."
+    },
+    {
+      "slug": "online-store-boost-sales",
+      "title": "10 quick changes to boost your online store sales",
+      "category": "Marketing",
+      "date": "May 12, 2026",
+      "readTime": "7",
+      "excerpt": "Small tweaks to design, speed and product descriptions can have a huge impact on your conversion rate. Here are the 10 changes that work best."
+    }
+  ]
+}

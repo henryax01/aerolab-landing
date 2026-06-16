@@ -19,10 +19,16 @@ function TypingIndicator() {
 
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);
+  const [bubble, setBubble] = useState(false);
   const [input, setInput] = useState('');
   const bottomRef = useRef(null);
   const inputRef = useRef(null);
   const { messages, loading, error, sendMessage, clearChat } = useChat();
+
+  useEffect(() => {
+    const t = setTimeout(() => setBubble(true), 5000);
+    return () => clearTimeout(t);
+  }, []);
 
   useEffect(() => {
     if (open) bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -149,12 +155,31 @@ export default function ChatWidget() {
         </div>
       )}
 
+      {bubble && !open && (
+        <div className="fixed bottom-24 right-4 z-50 max-w-[200px] rounded-2xl rounded-br-none border border-light-border bg-light-surface px-4 py-3 shadow-lg dark:border-dark-border dark:bg-dark-surface sm:right-6">
+          <p className="text-xs font-medium text-light-text-primary dark:text-dark-text-primary">
+            ¡Hola! ¿En qué puedo ayudarte? 👋
+          </p>
+          <button
+            type="button"
+            onClick={() => setBubble(false)}
+            className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-light-border text-[10px] text-light-text-secondary hover:bg-light-accent hover:text-white dark:bg-dark-border dark:text-dark-text-secondary"
+            aria-label="Cerrar burbuja"
+          >
+            <FaTimes aria-hidden="true" />
+          </button>
+        </div>
+      )}
+
       <button
         type="button"
-        onClick={() => setOpen((v) => !v)}
+        onClick={() => { setOpen((v) => !v); setBubble(false); }}
         aria-label={open ? 'Cerrar asistente' : 'Abrir asistente IA'}
         className="fixed bottom-6 right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-light-accent text-white shadow-lg transition-all duration-200 hover:scale-110 hover:shadow-xl dark:bg-dark-accent sm:right-6"
       >
+        {!open && (
+          <span aria-hidden="true" className="absolute inset-0 animate-ping rounded-full bg-light-accent opacity-30 dark:bg-dark-accent" />
+        )}
         {open ? <FaTimes className="text-xl" aria-hidden="true" /> : <FaRobot className="text-xl" aria-hidden="true" />}
       </button>
     </>

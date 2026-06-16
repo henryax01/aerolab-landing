@@ -10,6 +10,14 @@ const NAV_LINKS = [
   { to: '/contact',   key: 'nav.contact' },
 ];
 
+const RESOURCE_LINKS = [
+  { to: '/pricing', labelEs: 'Precios',           labelEn: 'Pricing' },
+  { to: '/faq',     labelEs: 'Preguntas frecuentes', labelEn: 'FAQ' },
+  { to: '/blog',    labelEs: 'Blog',              labelEn: 'Blog' },
+  { to: '/cases',   labelEs: 'Casos de éxito',   labelEn: 'Case studies' },
+  { to: '/budget',  labelEs: 'Calculadora',       labelEn: 'Calculator' },
+];
+
 const LEGAL_LINKS = [
   { to: '/terms',   key: 'footer.terms' },
   { to: '/privacy', key: 'footer.privacy' },
@@ -22,15 +30,16 @@ const SOCIAL_LINKS = [
 ];
 
 export default function Footer({ brand }) {
-  const { t } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
   const year = new Date().getFullYear();
+  const lang = i18n.language;
 
   return (
     <footer className="bg-slate-950">
       <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-500/40 to-transparent" />
 
       <div className="mx-auto max-w-6xl px-4 py-12">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
 
           {/* Brand column */}
           <div className="flex flex-col gap-4">
@@ -68,6 +77,24 @@ export default function Footer({ brand }) {
                   className="w-fit text-xs tracking-wider text-slate-500 transition-colors duration-200 hover:text-cyan-400"
                 >
                   {t(link.key)}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
+          {/* Resources column */}
+          <div className="flex flex-col gap-3">
+            <p className="font-mono text-[10px] font-semibold tracking-widest uppercase text-slate-500">
+              {lang === 'en' ? 'Resources' : 'Recursos'}
+            </p>
+            <nav className="flex flex-col gap-2">
+              {RESOURCE_LINKS.map((link) => (
+                <Link
+                  key={link.to}
+                  to={link.to}
+                  className="w-fit text-xs tracking-wider text-slate-500 transition-colors duration-200 hover:text-cyan-400"
+                >
+                  {lang === 'en' ? link.labelEn : link.labelEs}
                 </Link>
               ))}
             </nav>

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "label": "Budget calculator",
+    "description": "Calculate the estimated cost of your digital project by selecting the services you need.",
+    "keywords": "budget calculator, estimated price, digital project cost, Aerolab"
+  },
+  "hero": {
+    "badge": "Calculator",
+    "title": "How much does your project cost?",
+    "subtitle": "Select the services you need and get an instant estimate. No commitment."
+  },
+  "instruction": "Select one or more services",
+  "categories": {
+    "all":        "All",
+    "web":        "Web development",
+    "design":     "Design & branding",
+    "marketing":  "Digital marketing",
+    "ai":         "Artificial intelligence",
+    "consulting": "Consulting & support"
+  },
+  "summary": {
+    "title": "Your estimated budget",
+    "selected": "{{count}} service selected",
+    "selected_plural": "{{count}} services selected",
+    "total": "Estimated total",
+    "disclaimer": "This is a rough estimate. The final price is confirmed in your personalised proposal.",
+    "cta": "Request a quote",
+    "clear": "Clear selection",
+    "empty": "Select services to see the estimate."
+  }
+}

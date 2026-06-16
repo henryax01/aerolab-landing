@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "label": "FAQ",
+    "description": "Answers to your questions about pricing, timelines, workflow and support at Aerolab.",
+    "keywords": "FAQ, frequently asked questions, pricing, timelines, support, Aerolab"
+  },
+  "hero": {
+    "badge": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "We answer your questions before you have to ask."
+  },
+  "items": [
+    {
+      "q": "How much does a project cost?",
+      "a": "The cost depends on the scope and services selected. Our budget calculator shows estimates per service. For an exact price, contact us and we'll send a proposal within 24 hours."
+    },
+    {
+      "q": "How long does it take to complete?",
+      "a": "It depends on the service: a landing page can be ready in 5-7 business days, a full website in 2-4 weeks, and a mobile app or AI project in 4-8 weeks. Exact timelines are agreed in the proposal."
+    },
+    {
+      "q": "Do you work with clients worldwide?",
+      "a": "Yes. We work 100% remotely with clients in any country. We communicate via video call, chat and email, and adapt meeting times to your timezone."
+    },
+    {
+      "q": "What does post-delivery support include?",
+      "a": "All projects include 30 days of free support for minor corrections after delivery. After that, you can subscribe to one of our monthly maintenance plans."
+    },
+    {
+      "q": "Can I track my order?",
+      "a": "Yes. From your account in the 'My account' section you can see your order status in real time. We also send email updates at each project milestone."
+    },
+    {
+      "q": "How many revisions are included?",
+      "a": "The number of revisions depends on the plan. We generally include 2 to 4 feedback rounds to make sure the result is exactly what you need."
+    },
+    {
+      "q": "Do I need a domain to get started?",
+      "a": "Not required. We can help you register and configure a domain, or you can bring your own. If you already have hosting, we work with it too."
+    },
+    {
+      "q": "Can I pay in instalments?",
+      "a": "Yes. For larger projects we offer staged payments: typically a percentage upfront, another at the midpoint, and the rest on final delivery."
+    },
+    {
+      "q": "Do prices include taxes?",
+      "a": "Prices shown are before taxes. The final total, including any applicable taxes based on your country, is detailed in the personalised quote."
+    },
+    {
+      "q": "How do I get started?",
+      "a": "Browse our Services page, request a service via the order form, or message us directly through the chat or contact form. We respond within 24 hours."
+    }
+  ]
+}

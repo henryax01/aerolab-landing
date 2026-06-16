@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "label": "Preguntas frecuentes",
+    "description": "Resolvemos tus dudas sobre precios, plazos, proceso de trabajo y soporte de Aerolab.",
+    "keywords": "preguntas frecuentes, FAQ, dudas, precios, plazos, soporte, Aerolab"
+  },
+  "hero": {
+    "badge": "FAQ",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Resolvemos tus dudas antes de que tengas que preguntar."
+  },
+  "items": [
+    {
+      "q": "¿Cuánto cuesta un proyecto?",
+      "a": "El costo depende del alcance y los servicios elegidos. En nuestra calculadora de presupuesto puedes ver estimados por servicio. Para un precio exacto, contáctanos y te enviamos una propuesta en menos de 24 horas."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en estar listo?",
+      "a": "Depende del servicio: una landing page puede estar lista en 5-7 días hábiles, un sitio web completo en 2-4 semanas, y una app móvil o proyecto de IA en 4-8 semanas. Los plazos exactos se acuerdan en la propuesta."
+    },
+    {
+      "q": "¿Trabajan con clientes de todo el mundo?",
+      "a": "Sí. Trabajamos de forma 100% remota con clientes en cualquier país. Nos comunicamos por videollamada, chat y email, y adaptamos los horarios de reunión a tu zona horaria."
+    },
+    {
+      "q": "¿Qué incluye el soporte post-entrega?",
+      "a": "Todos los proyectos incluyen 30 días de soporte gratuito para correcciones menores tras la entrega. Después puedes contratar uno de nuestros planes de mantenimiento mensual."
+    },
+    {
+      "q": "¿Puedo hacer seguimiento a mi pedido?",
+      "a": "Sí. Desde tu cuenta en la sección 'Mi cuenta' puedes ver el estado de tus pedidos en tiempo real. También te enviamos actualizaciones por email en cada hito del proyecto."
+    },
+    {
+      "q": "¿Cuántas revisiones incluye el proyecto?",
+      "a": "El número de revisiones depende del plan contratado. En general incluimos entre 2 y 4 rondas de feedback para asegurar que el resultado sea exactamente lo que necesitas."
+    },
+    {
+      "q": "¿Necesito tener un dominio para empezar?",
+      "a": "No es obligatorio. Podemos ayudarte a registrar y configurar un dominio, o puedes aportar el tuyo propio. Si ya tienes hosting, también trabajamos con él."
+    },
+    {
+      "q": "¿Puedo pagar en etapas?",
+      "a": "Sí. Para proyectos de mayor envergadura ofrecemos pagos en etapas: generalmente un porcentaje al inicio, otro a mitad del proyecto y el resto en la entrega final."
+    },
+    {
+      "q": "¿Los precios incluyen impuestos?",
+      "a": "Los precios mostrados son antes de impuestos. El total final, incluyendo cualquier impuesto aplicable según tu país, se detalla en la cotización personalizada."
+    },
+    {
+      "q": "¿Cómo empiezo?",
+      "a": "Elige un servicio en la sección de Servicios y solicítalo desde el formulario de pedido, o escríbenos directamente a través del chat o del formulario de contacto. Respondemos en menos de 24 horas."
+    }
+  ]
+}

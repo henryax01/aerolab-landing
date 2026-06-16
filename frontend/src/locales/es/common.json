@@ -50,6 +50,12 @@
     "en": "Inglés",
     "toggle": "Cambiar idioma"
   },
+  "cookies": {
+    "text": "Usamos cookies para mejorar tu experiencia en el sitio.",
+    "policy": "Política de privacidad",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
+  },
   "footer": {
     "rights": "Todos los derechos reservados.",
     "tagline": "Diseño, desarrollo e inteligencia artificial para impulsar tu negocio.",

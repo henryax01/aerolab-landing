@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "label": "Case studies",
+    "description": "Real Aerolab projects: online stores, AI chatbots, brand redesign and more. See the results.",
+    "keywords": "case studies, projects, portfolio, results, clients, Aerolab"
+  },
+  "hero": {
+    "badge": "Case studies",
+    "title": "Projects that deliver results",
+    "subtitle": "Every project is a story of transformation. Here are some of the ones we're most proud of."
+  },
+  "service": "Service",
+  "result": "Result",
+  "cta": "Want similar results?",
+  "ctaButton": "Request a service",
+  "cases": [
+    {
+      "client": "Mariposa Shop",
+      "industry": "E-commerce / Fashion",
+      "service": "Online store + SEO + Email marketing",
+      "result": "+180% in online sales",
+      "metric": "180%",
+      "metricLabel": "more sales",
+      "description": "We migrated the store to a modern platform with integrated payments, optimised load speed and launched an SEO and email marketing strategy that doubled organic traffic in 3 months.",
+      "tags": ["Online store", "SEO", "Email marketing"]
+    },
+    {
+      "client": "Grupo Delta",
+      "industry": "Operations / Logistics",
+      "service": "AI chatbot + Process automation",
+      "result": "-52% customer response time",
+      "metric": "52%",
+      "metricLabel": "less response time",
+      "description": "We deployed a virtual assistant that handles 80% of enquiries without human intervention. Available 24/7, the chatbot manages orders, answers FAQs and escalates complex cases to the human team.",
+      "tags": ["AI Chatbot", "Automation"]
+    },
+    {
+      "client": "Nimbus Software",
+      "industry": "Technology / SaaS",
+      "service": "Web security audit + Rebranding + UI/UX design",
+      "result": "0 critical vulnerabilities + new identity",
+      "metric": "100%",
+      "metricLabel": "security guaranteed",
+      "description": "We ran a full audit that detected and fixed critical vulnerabilities. In parallel, we refreshed the company's visual identity with a new logo, brand guide and redesigned web app.",
+      "tags": ["Web security", "Rebranding", "UI/UX"]
+    },
+    {
+      "client": "Arcos Studio",
+      "industry": "Architecture / Design",
+      "service": "Website + Product photography + Local SEO",
+      "result": "+3x monthly enquiries",
+      "metric": "3x",
+      "metricLabel": "more enquiries",
+      "description": "We designed and built a portfolio website with a project gallery, optimised for local SEO. Combined with a professional photo shoot, the studio tripled incoming enquiries within 60 days.",
+      "tags": ["Web development", "Photography", "SEO"]
+    }
+  ]
+}

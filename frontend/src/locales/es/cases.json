@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "label": "Casos de éxito",
+    "description": "Proyectos reales de Aerolab: tiendas online, chatbots con IA, rediseño de marca y más. Conoce los resultados.",
+    "keywords": "casos de éxito, proyectos, portafolio, resultados, clientes, Aerolab"
+  },
+  "hero": {
+    "badge": "Casos de éxito",
+    "title": "Proyectos que generan resultados",
+    "subtitle": "Cada proyecto es una historia de transformación. Aquí van algunos de los que más nos enorgullecen."
+  },
+  "service": "Servicio",
+  "result": "Resultado",
+  "cta": "¿Quieres resultados similares?",
+  "ctaButton": "Solicitar servicio",
+  "cases": [
+    {
+      "client": "Tienda Mariposa",
+      "industry": "E-commerce / Moda",
+      "service": "Tienda online + SEO + Email marketing",
+      "result": "+180% en ventas online",
+      "metric": "180%",
+      "metricLabel": "más ventas",
+      "description": "Migramos la tienda a una plataforma moderna con pagos integrados, optimizamos la velocidad de carga y lanzamos una estrategia de SEO y email marketing que duplicó el tráfico orgánico en 3 meses.",
+      "tags": ["Tienda online", "SEO", "Email marketing"]
+    },
+    {
+      "client": "Grupo Delta",
+      "industry": "Operaciones / Logística",
+      "service": "Chatbot con IA + Automatización de procesos",
+      "result": "-52% tiempo de respuesta al cliente",
+      "metric": "52%",
+      "metricLabel": "menos tiempo de respuesta",
+      "description": "Implementamos un asistente virtual que atiende el 80% de las consultas sin intervención humana. Disponible 24/7, el chatbot gestiona pedidos, responde preguntas frecuentes y escala casos complejos al equipo humano.",
+      "tags": ["Chatbot IA", "Automatización"]
+    },
+    {
+      "client": "Nimbus Software",
+      "industry": "Tecnología / SaaS",
+      "service": "Auditoría de seguridad web + Rebranding + Diseño UI/UX",
+      "result": "0 vulnerabilidades críticas + nueva identidad",
+      "metric": "100%",
+      "metricLabel": "seguridad garantizada",
+      "description": "Realizamos una auditoría completa que detectó y corrigió vulnerabilidades críticas. Paralelamente renovamos la identidad visual de la empresa con un nuevo logotipo, guía de marca y rediseño de la app web.",
+      "tags": ["Seguridad web", "Rebranding", "UI/UX"]
+    },
+    {
+      "client": "Estudio Arcos",
+      "industry": "Arquitectura / Diseño",
+      "service": "Sitio web + Fotografía de producto + SEO local",
+      "result": "+3x consultas mensuales",
+      "metric": "3x",
+      "metricLabel": "más consultas",
+      "description": "Diseñamos y desarrollamos un sitio web tipo portfolio con galería de proyectos, optimizado para SEO local. Combinado con una sesión fotográfica profesional, el estudio triplicó las consultas entrantes en 60 días.",
+      "tags": ["Desarrollo web", "Fotografía", "SEO"]
+    }
+  ]
+}
