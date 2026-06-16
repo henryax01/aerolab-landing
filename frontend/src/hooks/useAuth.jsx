@@ -6,6 +6,7 @@ import {
   setupTwoFactorRequest,
   enableTwoFactorRequest,
   disableTwoFactorRequest,
+  updateProfileRequest,
 } from '../utils/authData.jsx';
 import { getRoleLevel } from '../utils/roles.js';
 
@@ -136,6 +137,17 @@ export default function useAuth() {
     [token, setTwoFactorEnabled],
   );
 
+  const updateProfile = useCallback(
+    async ({ name, password }) => {
+      const res = await updateProfileRequest({ token, name, password });
+      setSession((current) =>
+        current ? { ...current, user: { ...current.user, ...res.user } } : current,
+      );
+      return res.user;
+    },
+    [token],
+  );
+
   const user = session?.user || null;
   const roleLevel = user ? getRoleLevel(user.role) : 0;
 
@@ -156,5 +168,6 @@ export default function useAuth() {
     setupTwoFactor,
     enableTwoFactor,
     disableTwoFactor,
+    updateProfile,
   };
 }

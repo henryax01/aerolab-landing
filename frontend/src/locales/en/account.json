@@ -47,13 +47,33 @@
     "role": "Role",
     "logout": "Log out"
   },
+  "quickActions": {
+    "newOrder": "New order",
+    "viewServices": "View services"
+  },
+  "profile": {
+    "title": "My profile",
+    "name": "Name",
+    "newPassword": "New password",
+    "newPasswordHint": "Leave blank to keep your current password",
+    "save": "Save changes",
+    "success": "Profile updated successfully.",
+    "noChanges": "Nothing to save."
+  },
+  "security": {
+    "title": "Security",
+    "subtitle": "Manage your password, 2FA and face recognition."
+  },
   "orders": {
     "title": "My orders",
     "empty": "You don't have any orders yet.",
+    "emptyTitle": "No orders yet",
+    "emptyCta": "Place my first order",
     "service": "Service",
     "quantity": "Quantity",
     "total": "Total",
     "status": "Status",
+    "tracking": "Tracking",
     "date": "Date",
     "filterByStatus": "Filter by status",
     "allStatuses": "All statuses"

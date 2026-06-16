@@ -315,3 +315,27 @@ async def reset_password(payload: ResetPasswordPayload):
         },
     )
     return {"success": True, "message": "Tu contraseña fue actualizada correctamente."}
+
+
+class UpdateProfilePayload(BaseModel):
+    name: str | None = None
+    password: str | None = None
+
+
+@router.patch("/users/me")
+async def update_profile(payload: UpdateProfilePayload, current_user: dict = Depends(verify_session)):
+    update: dict = {}
+    if payload.name and payload.name.strip():
+        update["name"] = payload.name.strip()
+    if payload.password:
+        update["password"] = pwd_context.hash(payload.password)
+    if not update:
+        raise HTTPException(status_code=400, detail="No se enviaron datos para actualizar.")
+
+    db_user = await users.find_one({"email": current_user["email"]})
+    if not db_user:
+        raise HTTPException(status_code=404, detail="Usuario no encontrado.")
+
+    await users.update_one({"email": current_user["email"]}, {"$set": update})
+    updated_user = await users.find_one({"email": current_user["email"]})
+    return {"success": True, "user": public_user(updated_user)}

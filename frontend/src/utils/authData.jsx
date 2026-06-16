@@ -39,3 +39,7 @@ export async function enableTwoFactorRequest({ token, code }) {
 export async function disableTwoFactorRequest({ token, code }) {
   return api({ method: 'POST', endpoint: '/2fa/disable', data: { code }, token });
 }
+
+export async function updateProfileRequest({ token, name, password }) {
+  return api({ method: 'PATCH', endpoint: '/users/me', data: { name, password }, token });
+}

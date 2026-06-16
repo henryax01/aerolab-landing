@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { FaCheckCircle, FaExclamationCircle, FaTimes, FaExternalLinkAlt } from 'react-icons/fa';
 import Pagination from './Pagination.jsx';
 
-const STATUSES = ['pending', 'confirmed', 'shipped', 'delivered', 'cancelled'];
+const STATUSES        = ['pending', 'confirmed', 'shipped', 'delivered', 'cancelled'];
 const FILTER_STATUSES = ['pending', 'confirmed', 'shipped', 'delivered'];
 
 const selectClass =
@@ -26,7 +27,7 @@ function exportToCsv(orders) {
     order.trackingNumber || '',
   ]);
   const csv = [header, ...rows]
-    .map((row) => row.map((value) => `"${String(value ?? '').replace(/"/g, '""')}"`).join(','))
+    .map((row) => row.map((v) => `"${String(v ?? '').replace(/"/g, '""')}"`).join(','))
     .join('\n');
 
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
@@ -38,56 +39,92 @@ function exportToCsv(orders) {
   URL.revokeObjectURL(url);
 }
 
+function Toast({ toast, onClose }) {
+  useEffect(() => {
+    if (!toast) return;
+    const id = setTimeout(onClose, 3500);
+    return () => clearTimeout(id);
+  }, [toast, onClose]);
+
+  if (!toast) return null;
+
+  const isSuccess = toast.type === 'success';
+  return (
+    <div
+      role="alert"
+      className={`fixed bottom-6 right-6 z-50 flex max-w-sm items-start gap-3 rounded-xl border px-4 py-3 shadow-lg transition-all ${
+        isSuccess
+          ? 'border-light-success/30 bg-light-success/10 text-light-success dark:border-dark-success/30 dark:bg-dark-success/10 dark:text-dark-success'
+          : 'border-light-error/30 bg-light-error/10 text-light-error dark:border-dark-error/30 dark:bg-dark-error/10 dark:text-dark-error'
+      }`}
+    >
+      {isSuccess
+        ? <FaCheckCircle aria-hidden="true" className="mt-0.5 shrink-0 text-base" />
+        : <FaExclamationCircle aria-hidden="true" className="mt-0.5 shrink-0 text-base" />
+      }
+      <p className="flex-1 text-sm font-medium">{toast.text}</p>
+      <button type="button" onClick={onClose} className="shrink-0 opacity-60 hover:opacity-100">
+        <FaTimes aria-hidden="true" className="text-xs" />
+      </button>
+    </div>
+  );
+}
+
+function TrackingCell({ value }) {
+  if (!value) return <span className="text-light-text-secondary dark:text-dark-text-secondary">—</span>;
+  const isUrl = value.startsWith('http://') || value.startsWith('https://');
+  if (isUrl) {
+    return (
+      <a href={value} target="_blank" rel="noopener noreferrer"
+        className="inline-flex items-center gap-1 font-medium text-light-accent underline-offset-2 hover:underline dark:text-dark-accent">
+        Ver <FaExternalLinkAlt aria-hidden="true" className="text-[10px]" />
+      </a>
+    );
+  }
+  return <span className="rounded-full bg-light-surface-secondary px-2 py-0.5 font-mono text-xs dark:bg-dark-surface-secondary">{value}</span>;
+}
+
 export default function AdminPanel({
-  orders,
-  loading,
-  loadOrders,
-  changeOrderStatus,
-  page,
-  totalPages,
-  total,
-  status,
-  q,
-  filterByStatus,
-  search,
-  goToPage,
+  orders, loading, loadOrders, changeOrderStatus,
+  page, totalPages, total, status, q,
+  filterByStatus, search, goToPage,
 }) {
   const { t } = useTranslation('account');
   const { t: tCommon } = useTranslation('common');
   const [drafts, setDrafts] = useState({});
-  const [feedback, setFeedback] = useState(null);
+  const [toast, setToast] = useState(null);
   const [searchInput, setSearchInput] = useState(q);
 
-  useEffect(() => {
-    loadOrders();
-  }, [loadOrders]);
+  useEffect(() => { loadOrders(); }, [loadOrders]);
 
   useEffect(() => {
-    const timeout = setTimeout(() => search(searchInput), 350);
-    return () => clearTimeout(timeout);
+    const id = setTimeout(() => search(searchInput), 350);
+    return () => clearTimeout(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchInput]);
+
+  const closeToast = useCallback(() => setToast(null), []);
 
   const getDraft = (order) =>
     drafts[order._id] || { status: order.status, trackingNumber: order.trackingNumber || '' };
 
-  const setDraft = (order, patch) => {
+  const setDraft = (order, patch) =>
     setDrafts((prev) => ({ ...prev, [order._id]: { ...getDraft(order), ...patch } }));
-  };
 
   const handleUpdate = async (order) => {
     const draft = getDraft(order);
-    setFeedback(null);
     try {
       await changeOrderStatus(order._id, draft.status, draft.trackingNumber);
-      setFeedback({ type: 'success', text: t('admin.updated') });
+      setToast({ type: 'success', text: t('admin.updated') });
     } catch {
-      setFeedback({ type: 'error', text: t('admin.updated') });
+      setToast({ type: 'error', text: t('admin.updated') });
     }
   };
 
   return (
     <div>
+      <Toast toast={toast} onClose={closeToast} />
+
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div>
           <h2 className="text-xl font-bold">{t('admin.title')}</h2>
@@ -109,16 +146,14 @@ export default function AdminPanel({
           className={searchInputClass}
           placeholder={t('admin.searchPlaceholder')}
           value={searchInput}
-          onChange={(event) => setSearchInput(event.target.value)}
+          onChange={(e) => setSearchInput(e.target.value)}
         />
         <label className="flex items-center gap-2 text-sm text-light-text-secondary dark:text-dark-text-secondary">
           {t('orders.filterByStatus')}
-          <select className={selectClass} value={status} onChange={(event) => filterByStatus(event.target.value)}>
+          <select className={selectClass} value={status} onChange={(e) => filterByStatus(e.target.value)}>
             <option value="">{t('orders.allStatuses')}</option>
-            {FILTER_STATUSES.map((value) => (
-              <option key={value} value={value}>
-                {tCommon(`status.${value}`, { defaultValue: value })}
-              </option>
+            {FILTER_STATUSES.map((s) => (
+              <option key={s} value={s}>{tCommon(`status.${s}`, { defaultValue: s })}</option>
             ))}
           </select>
         </label>
@@ -126,18 +161,6 @@ export default function AdminPanel({
           {t('admin.totalResults', { count: total })}
         </span>
       </div>
-
-      {feedback && (
-        <p
-          className={`mt-3 text-sm font-medium ${
-            feedback.type === 'success'
-              ? 'text-light-success dark:text-dark-success'
-              : 'text-light-error dark:text-dark-error'
-          }`}
-        >
-          {feedback.text}
-        </p>
-      )}
 
       {!loading && (
         <div className="mt-4 overflow-x-auto">
@@ -167,12 +190,10 @@ export default function AdminPanel({
                       <select
                         className={selectClass}
                         value={draft.status}
-                        onChange={(event) => setDraft(order, { status: event.target.value })}
+                        onChange={(e) => setDraft(order, { status: e.target.value })}
                       >
-                        {STATUSES.map((status) => (
-                          <option key={status} value={status}>
-                            {tCommon(`status.${status}`, { defaultValue: status })}
-                          </option>
+                        {STATUSES.map((s) => (
+                          <option key={s} value={s}>{tCommon(`status.${s}`, { defaultValue: s })}</option>
                         ))}
                       </select>
                     </td>
@@ -180,7 +201,7 @@ export default function AdminPanel({
                       <input
                         className={inputClass}
                         value={draft.trackingNumber}
-                        onChange={(event) => setDraft(order, { trackingNumber: event.target.value })}
+                        onChange={(e) => setDraft(order, { trackingNumber: e.target.value })}
                       />
                     </td>
                     <td className="py-2">

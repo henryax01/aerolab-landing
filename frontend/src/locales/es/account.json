@@ -47,13 +47,33 @@
     "role": "Rol",
     "logout": "Cerrar sesión"
   },
+  "quickActions": {
+    "newOrder": "Nuevo pedido",
+    "viewServices": "Ver servicios"
+  },
+  "profile": {
+    "title": "Mi perfil",
+    "name": "Nombre",
+    "newPassword": "Nueva contraseña",
+    "newPasswordHint": "Déjalo en blanco para no cambiarla",
+    "save": "Guardar cambios",
+    "success": "Perfil actualizado correctamente.",
+    "noChanges": "No hay cambios para guardar."
+  },
+  "security": {
+    "title": "Seguridad",
+    "subtitle": "Gestiona tu contraseña, 2FA y reconocimiento facial."
+  },
   "orders": {
     "title": "Mis pedidos",
-    "empty": "Todavía no tienes pedidos.",
+    "empty": "Todavía no tienes ningún pedido.",
+    "emptyTitle": "Sin pedidos por ahora",
+    "emptyCta": "Hacer mi primer pedido",
     "service": "Servicio",
     "quantity": "Cantidad",
     "total": "Total",
     "status": "Estado",
+    "tracking": "Seguimiento",
     "date": "Fecha",
     "filterByStatus": "Filtrar por estado",
     "allStatuses": "Todos los estados"
