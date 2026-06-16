@@ -7,6 +7,7 @@
   "hero": {
     "badge": "Ponte en contacto",
     "title": "Hablemos",
+    "words": ["Hablemos", "Creemos", "Avancemos"],
     "subtitle": "Estamos aquí para responder tus preguntas y ayudarte a empezar. Sin compromiso.",
     "callButton": "Llamar ahora",
     "emailButton": "Enviar correo",
@@ -18,8 +19,13 @@
     "email": "Correo electrónico",
     "hours": "Horario de atención",
     "hoursValue": "Lunes a viernes, 9:00 – 18:00",
+    "location": "Ubicación",
+    "locationValue": "Ciudad de México, México",
     "responseTime": "Respondemos en menos de 24h",
+    "availableNow": "Disponible ahora",
+    "unavailable": "Fuera de horario · Respondemos pronto",
     "faqLink": "¿Tienes dudas? Ver preguntas frecuentes →",
+    "openChat": "Abrir chat →",
     "social": "Síguenos"
   },
   "form": {
@@ -44,8 +50,31 @@
     },
     "message": "Mensaje",
     "messagePlaceholder": "Cuéntanos sobre tu proyecto, qué necesitas y cualquier detalle relevante...",
+    "attachment": "Adjuntar archivo (opcional)",
+    "attachmentHint": "PDF, PNG, JPG · máx. 5 MB",
     "submit": "Enviar mensaje",
-    "disclaimer": "Sin compromiso. Respondemos en menos de 24 horas."
+    "disclaimer": "Sin compromiso. Respondemos en menos de 24 horas.",
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "email": "Ingresa un correo electrónico válido"
+    }
+  },
+  "trust": {
+    "stats": [
+      { "value": "+150", "label": "Proyectos entregados" },
+      { "value": "98%",  "label": "Clientes satisfechos" },
+      { "value": "< 24h","label": "Tiempo de respuesta" },
+      { "value": "+8",   "label": "Años de experiencia" }
+    ]
+  },
+  "steps": {
+    "title": "¿Cómo es el proceso?",
+    "items": [
+      { "num": "01", "title": "Consulta",   "text": "Nos cuentas tu idea o necesidad sin compromiso." },
+      { "num": "02", "title": "Propuesta",  "text": "En menos de 24h te enviamos un plan y presupuesto." },
+      { "num": "03", "title": "Desarrollo", "text": "Nuestro equipo convierte tu idea en realidad." },
+      { "num": "04", "title": "Entrega",    "text": "Lanzamos juntos y te damos soporte continuo." }
+    ]
   },
   "messages": {
     "successTitle": "¡Mensaje enviado!",

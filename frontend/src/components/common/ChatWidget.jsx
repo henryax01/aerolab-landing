@@ -30,6 +30,13 @@ export default function ChatWidget() {
     return () => clearTimeout(t);
   }, []);
 
+  // 5 — Listen for programmatic open (e.g. from Contact page "Abrir chat" button)
+  useEffect(() => {
+    const handler = () => { setOpen(true); setBubble(false); };
+    window.addEventListener('openChat', handler);
+    return () => window.removeEventListener('openChat', handler);
+  }, []);
+
   useEffect(() => {
     if (open) bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, loading, open]);

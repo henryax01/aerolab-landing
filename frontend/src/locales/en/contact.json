@@ -7,6 +7,7 @@
   "hero": {
     "badge": "Get in touch",
     "title": "Let's talk",
+    "words": ["Let's talk", "Let's build", "Let's start"],
     "subtitle": "We're here to answer your questions and help you get started. No commitment required.",
     "callButton": "Call now",
     "emailButton": "Send email",
@@ -18,8 +19,13 @@
     "email": "Email address",
     "hours": "Office hours",
     "hoursValue": "Monday to Friday, 9:00 AM – 6:00 PM",
+    "location": "Location",
+    "locationValue": "Mexico City, Mexico",
     "responseTime": "We reply within 24 hours",
+    "availableNow": "Available now",
+    "unavailable": "Out of office · We'll reply soon",
     "faqLink": "Have questions? See FAQ →",
+    "openChat": "Open chat →",
     "social": "Follow us"
   },
   "form": {
@@ -44,8 +50,31 @@
     },
     "message": "Message",
     "messagePlaceholder": "Tell us about your project, what you need and any relevant details...",
+    "attachment": "Attach a file (optional)",
+    "attachmentHint": "PDF, PNG, JPG · max 5 MB",
     "submit": "Send message",
-    "disclaimer": "No commitment. We reply within 24 hours."
+    "disclaimer": "No commitment. We reply within 24 hours.",
+    "errors": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address"
+    }
+  },
+  "trust": {
+    "stats": [
+      { "value": "+150", "label": "Projects delivered" },
+      { "value": "98%",  "label": "Satisfied clients" },
+      { "value": "< 24h","label": "Response time" },
+      { "value": "+8",   "label": "Years of experience" }
+    ]
+  },
+  "steps": {
+    "title": "How does it work?",
+    "items": [
+      { "num": "01", "title": "Consultation", "text": "Tell us your idea or need with no commitment." },
+      { "num": "02", "title": "Proposal",     "text": "We send you a plan and quote within 24 hours." },
+      { "num": "03", "title": "Development",  "text": "Our team turns your idea into reality." },
+      { "num": "04", "title": "Delivery",     "text": "We launch together and provide ongoing support." }
+    ]
   },
   "messages": {
     "successTitle": "Message sent!",
